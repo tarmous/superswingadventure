@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Tiled2Unity generated xml data-->
+<!--Do not modify by hand-->
+<!--Last exported: 5/20/2019 8:44:16 AM-->
+<Tiled2Unity version="1.0.13.2">
+  <AssignMaterial mesh="1_1_Module0_mesh_0001" material="tileset_revamp_pear8" />
+  <Prefab name="1_1_Module0" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="2" numTilesWide="50" numTilesHigh="60" tileWidth="16" tileHeight="16" exportScale="0.5" mapWidthInPixels="800" mapHeightInPixels="960" backgroundColor="#808080">
+    <GameObject name="Solid" x="0" y="0" z="0">
+      <TileLayer offsetX="0" offsetY="0" />
+      <GameObject name="tileset_revamp_pear8" x="0" y="0" mesh="1_1_Module0_mesh_0001" sortingLayerName="" sortingOrder="0" opacity="1" />
+    </GameObject>
+    <GameObject name="Path" x="0" y="0" z="0">
+      <TileLayer offsetX="0" offsetY="0" />
+    </GameObject>
+    <GameObject name="Level" x="0" y="0" z="0">
+      <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
+      <GameObject name="RectangleObject" x="80" y="0" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <RectangleObjectComponent tmx-object-id="50" tmx-object-name="" tmx-object-type="" tmx-object-x="160" tmx-object-y="0" tmx-object-width="16" tmx-object-height="496" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="248" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="48" y="-152" rotation="0" layer="">
+        <Property name="playerStart" value="true" />
+        <RectangleObjectComponent tmx-object-id="51" tmx-object-name="" tmx-object-type="" tmx-object-x="96" tmx-object-y="304" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="24" y="-232" rotation="0" layer="">
+        <Property name="tutorialTrigger" value="0" />
+        <RectangleObjectComponent tmx-object-id="61" tmx-object-name="" tmx-object-type="" tmx-object-x="48" tmx-object-y="464" tmx-object-width="112" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="56" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="80" y="-248" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <RectangleObjectComponent tmx-object-id="1" tmx-object-name="" tmx-object-type="" tmx-object-x="160" tmx-object-y="496" tmx-object-width="624" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="312" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="392" y="-248" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="tileType" value="3" />
+        <RectangleObjectComponent tmx-object-id="3" tmx-object-name="" tmx-object-type="" tmx-object-x="784" tmx-object-y="496" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="128" y="-248" rotation="0" layer="">
+        <Property name="tutorialTextSpawnLocation" value="0" />
+        <Property name="tutorialTextSpawnType" value="TutorialThrowHook" />
+        <RectangleObjectComponent tmx-object-id="62" tmx-object-name="" tmx-object-type="" tmx-object-x="256" tmx-object-y="496" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="144" y="-248" rotation="0" layer="">
+        <Property name="tutorialTextSpawnLocation" value="1" />
+        <Property name="tutorialTextSpawnType" value="TutorialReleaseHook" />
+        <RectangleObjectComponent tmx-object-id="66" tmx-object-name="" tmx-object-type="" tmx-object-x="288" tmx-object-y="496" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="328" y="-256" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <RectangleObjectComponent tmx-object-id="35" tmx-object-name="" tmx-object-type="" tmx-object-x="656" tmx-object-y="512" tmx-object-width="16" tmx-object-height="96" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="48" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="120" y="-256" rotation="0" layer="">
+        <Property name="tutorialTrigger" value="1" />
+        <RectangleObjectComponent tmx-object-id="64" tmx-object-name="" tmx-object-type="" tmx-object-x="240" tmx-object-y="512" tmx-object-width="16" tmx-object-height="448" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="224" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="200" y="-256" rotation="0" layer="">
+        <Property name="tutorialTrigger" value="2" />
+        <RectangleObjectComponent tmx-object-id="65" tmx-object-name="" tmx-object-type="" tmx-object-x="400" tmx-object-y="512" tmx-object-width="16" tmx-object-height="448" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="224" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="328" y="-276" rotation="0" layer="">
+        <Property name="tutorialTextSpawnLocation" value="2" />
+        <Property name="tutorialTextSpawnType" value="TutorialThrowHook" />
+        <RectangleObjectComponent tmx-object-id="63" tmx-object-name="" tmx-object-type="" tmx-object-x="656" tmx-object-y="552" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+    </GameObject>
+    <GameObject name="Solid" x="0" y="0" z="0">
+      <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
+      <GameObject name="RectangleObject" x="80" y="0" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <RectangleObjectComponent tmx-object-id="58" tmx-object-name="" tmx-object-type="" tmx-object-x="160" tmx-object-y="0" tmx-object-width="16" tmx-object-height="496" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="248" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="80" y="-248" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <RectangleObjectComponent tmx-object-id="52" tmx-object-name="" tmx-object-type="" tmx-object-x="160" tmx-object-y="496" tmx-object-width="640" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="320" height="8" />
+      </GameObject>
+    </GameObject>
+  </Prefab>
+  <ImportMesh filename="1_1_Module0_mesh_0001.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJzFfMV9Nb2R1bGUwX21lc2hfMDAwMS5vYmonDQoNCiMgVmVydGljZXMgKENvdW50ID0gMzA4KQ0KdiAtODAgLTggMA0KdiAtODggLTggMA0KdiAtODggMCAwDQp2IC04MCAwIDANCnYgLTgwIC0xNiAwDQp2IC04OCAtMTYgMA0KdiAtODggLTggMA0KdiAtODAgLTggMA0KdiAtODAgLTI0IDANCnYgLTg4IC0yNCAwDQp2IC04OCAtMTYgMA0KdiAtODAgLTE2IDANCnYgLTgwIC0zMiAwDQp2IC04OCAtMzIgMA0KdiAtODggLTI0IDANCnYgLTgwIC0yNCAwDQp2IC04MCAtNDAgMA0KdiAtODggLTQwIDANCnYgLTg4IC0zMiAwDQp2IC04MCAtMzIgMA0KdiAtODAgLTQ4IDANCnYgLTg4IC00OCAwDQp2IC04OCAtNDAgMA0KdiAtODAgLTQwIDANCnYgLTgwIC01NiAwDQp2IC04OCAtNTYgMA0KdiAtODggLTQ4IDANCnYgLTgwIC00OCAwDQp2IC04MCAtNjQgMA0KdiAtODggLTY0IDANCnYgLTg4IC01NiAwDQp2IC04MCAtNTYgMA0KdiAtODAgLTcyIDANCnYgLTg4IC03MiAwDQp2IC04OCAtNjQgMA0KdiAtODAgLTY0IDANCnYgLTgwIC04MCAwDQp2IC04OCAtODAgMA0KdiAtODggLTcyIDANCnYgLTgwIC03MiAwDQp2IC04MCAtODggMA0KdiAtODggLTg4IDANCnYgLTg4IC04MCAwDQp2IC04MCAtODAgMA0KdiAtODAgLTk2IDANCnYgLTg4IC05NiAwDQp2IC04OCAtODggMA0KdiAtODAgLTg4IDANCnYgLTgwIC0xMDQgMA0KdiAtODggLTEwNCAwDQp2IC04OCAtOTYgMA0KdiAtODAgLTk2IDANCnYgLTgwIC0xMTIgMA0KdiAtODggLTExMiAwDQp2IC04OCAtMTA0IDANCnYgLTgwIC0xMDQgMA0KdiAtODAgLTEyMCAwDQp2IC04OCAtMTIwIDANCnYgLTg4IC0xMTIgMA0KdiAtODAgLTExMiAwDQp2IC04MCAtMTI4IDANCnYgLTg4IC0xMjggMA0KdiAtODggLTEyMCAwDQp2IC04MCAtMTIwIDANCnYgLTgwIC0xMzYgMA0KdiAtODggLTEzNiAwDQp2IC04OCAtMTI4IDANCnYgLTgwIC0xMjggMA0KdiAtODAgLTE0NCAwDQp2IC04OCAtMTQ0IDANCnYgLTg4IC0xMzYgMA0KdiAtODAgLTEzNiAwDQp2IC04MCAtMTUyIDANCnYgLTg4IC0xNTIgMA0KdiAtODggLTE0NCAwDQp2IC04MCAtMTQ0IDANCnYgLTgwIC0xNjAgMA0KdiAtODggLTE2MCAwDQp2IC04OCAtMTUyIDANCnYgLTgwIC0xNTIgMA0KdiAtODAgLTE2OCAwDQp2IC04OCAtMTY4IDANCnYgLTg4IC0xNjAgMA0KdiAtODAgLTE2MCAwDQp2IC04MCAtMTc2IDANCnYgLTg4IC0xNzYgMA0KdiAtODggLTE2OCAwDQp2IC04MCAtMTY4IDANCnYgLTgwIC0xODQgMA0KdiAtODggLTE4NCAwDQp2IC04OCAtMTc2IDANCnYgLTgwIC0xNzYgMA0KdiAtODAgLTE5MiAwDQp2IC04OCAtMTkyIDANCnYgLTg4IC0xODQgMA0KdiAtODAgLTE4NCAwDQp2IC04MCAtMjAwIDANCnYgLTg4IC0yMDAgMA0KdiAtODggLTE5MiAwDQp2IC04MCAtMTkyIDANCnYgLTgwIC0yMDggMA0KdiAtODggLTIwOCAwDQp2IC04OCAtMjAwIDANCnYgLTgwIC0yMDAgMA0KdiAtODAgLTIxNiAwDQp2IC04OCAtMjE2IDANCnYgLTg4IC0yMDggMA0KdiAtODAgLTIwOCAwDQp2IC04MCAtMjI0IDANCnYgLTg4IC0yMjQgMA0KdiAtODggLTIxNiAwDQp2IC04MCAtMjE2IDANCnYgLTgwIC0yMzIgMA0KdiAtODggLTIzMiAwDQp2IC04OCAtMjI0IDANCnYgLTgwIC0yMjQgMA0KdiAtODAgLTI0MCAwDQp2IC04OCAtMjQwIDANCnYgLTg4IC0yMzIgMA0KdiAtODAgLTIzMiAwDQp2IC04MCAtMjQ4IDANCnYgLTg4IC0yNDggMA0KdiAtODggLTI0MCAwDQp2IC04MCAtMjQwIDANCnYgLTgwIC0yNTYgMA0KdiAtODggLTI1NiAwDQp2IC04OCAtMjQ4IDANCnYgLTgwIC0yNDggMA0KdiAtODggLTI1NiAwDQp2IC05NiAtMjU2IDANCnYgLTk2IC0yNDggMA0KdiAtODggLTI0OCAwDQp2IC05NiAtMjU2IDANCnYgLTEwNCAtMjU2IDANCnYgLTEwNCAtMjQ4IDANCnYgLTk2IC0yNDggMA0KdiAtMTA0IC0yNTYgMA0KdiAtMTEyIC0yNTYgMA0KdiAtMTEyIC0yNDggMA0KdiAtMTA0IC0yNDggMA0KdiAtMTEyIC0yNTYgMA0KdiAtMTIwIC0yNTYgMA0KdiAtMTIwIC0yNDggMA0KdiAtMTEyIC0yNDggMA0KdiAtMTIwIC0yNTYgMA0KdiAtMTI4IC0yNTYgMA0KdiAtMTI4IC0yNDggMA0KdiAtMTIwIC0yNDggMA0KdiAtMTI4IC0yNTYgMA0KdiAtMTM2IC0yNTYgMA0KdiAtMTM2IC0yNDggMA0KdiAtMTI4IC0yNDggMA0KdiAtMTM2IC0yNTYgMA0KdiAtMTQ0IC0yNTYgMA0KdiAtMTQ0IC0yNDggMA0KdiAtMTM2IC0yNDggMA0KdiAtMTQ0IC0yNTYgMA0KdiAtMTUyIC0yNTYgMA0KdiAtMTUyIC0yNDggMA0KdiAtMTQ0IC0yNDggMA0KdiAtMTUyIC0yNTYgMA0KdiAtMTYwIC0yNTYgMA0KdiAtMTYwIC0yNDggMA0KdiAtMTUyIC0yNDggMA0KdiAtMTYwIC0yNTYgMA0KdiAtMTY4IC0yNTYgMA0KdiAtMTY4IC0yNDggMA0KdiAtMTYwIC0yNDggMA0KdiAtMTY4IC0yNTYgMA0KdiAtMTc2IC0yNTYgMA0KdiAtMTc2IC0yNDggMA0KdiAtMTY4IC0yNDggMA0KdiAtMTc2IC0yNTYgMA0KdiAtMTg0IC0yNTYgMA0KdiAtMTg0IC0yNDggMA0KdiAtMTc2IC0yNDggMA0KdiAtMTg0IC0yNTYgMA0KdiAtMTkyIC0yNTYgMA0KdiAtMTkyIC0yNDggMA0KdiAtMTg0IC0yNDggMA0KdiAtMTkyIC0yNTYgMA0KdiAtMjAwIC0yNTYgMA0KdiAtMjAwIC0yNDggMA0KdiAtMTkyIC0yNDggMA0KdiAtMjAwIC0yNTYgMA0KdiAtMjA4IC0yNTYgMA0KdiAtMjA4IC0yNDggMA0KdiAtMjAwIC0yNDggMA0KdiAtMjA4IC0yNTYgMA0KdiAtMjE2IC0yNTYgMA0KdiAtMjE2IC0yNDggMA0KdiAtMjA4IC0yNDggMA0KdiAtMjE2IC0yNTYgMA0KdiAtMjI0IC0yNTYgMA0KdiAtMjI0IC0yNDggMA0KdiAtMjE2IC0yNDggMA0KdiAtMjI0IC0yNTYgMA0KdiAtMjMyIC0yNTYgMA0KdiAtMjMyIC0yNDggMA0KdiAtMjI0IC0yNDggMA0KdiAtMjMyIC0yNTYgMA0KdiAtMjQwIC0yNTYgMA0KdiAtMjQwIC0yNDggMA0KdiAtMjMyIC0yNDggMA0KdiAtMjQwIC0yNTYgMA0KdiAtMjQ4IC0yNTYgMA0KdiAtMjQ4IC0yNDggMA0KdiAtMjQwIC0yNDggMA0KdiAtMjQ4IC0yNTYgMA0KdiAtMjU2IC0yNTYgMA0KdiAtMjU2IC0yNDggMA0KdiAtMjQ4IC0yNDggMA0KdiAtMjU2IC0yNTYgMA0KdiAtMjY0IC0yNTYgMA0KdiAtMjY0IC0yNDggMA0KdiAtMjU2IC0yNDggMA0KdiAtMjY0IC0yNTYgMA0KdiAtMjcyIC0yNTYgMA0KdiAtMjcyIC0yNDggMA0KdiAtMjY0IC0yNDggMA0KdiAtMjcyIC0yNTYgMA0KdiAtMjgwIC0yNTYgMA0KdiAtMjgwIC0yNDggMA0KdiAtMjcyIC0yNDggMA0KdiAtMjgwIC0yNTYgMA0KdiAtMjg4IC0yNTYgMA0KdiAtMjg4IC0yNDggMA0KdiAtMjgwIC0yNDggMA0KdiAtMjg4IC0yNTYgMA0KdiAtMjk2IC0yNTYgMA0KdiAtMjk2IC0yNDggMA0KdiAtMjg4IC0yNDggMA0KdiAtMjk2IC0yNTYgMA0KdiAtMzA0IC0yNTYgMA0KdiAtMzA0IC0yNDggMA0KdiAtMjk2IC0yNDggMA0KdiAtMzA0IC0yNTYgMA0KdiAtMzEyIC0yNTYgMA0KdiAtMzEyIC0yNDggMA0KdiAtMzA0IC0yNDggMA0KdiAtMzEyIC0yNTYgMA0KdiAtMzIwIC0yNTYgMA0KdiAtMzIwIC0yNDggMA0KdiAtMzEyIC0yNDggMA0KdiAtMzIwIC0yNTYgMA0KdiAtMzI4IC0yNTYgMA0KdiAtMzI4IC0yNDggMA0KdiAtMzIwIC0yNDggMA0KdiAtMzI4IC0yNTYgMA0KdiAtMzM2IC0yNTYgMA0KdiAtMzM2IC0yNDggMA0KdiAtMzI4IC0yNDggMA0KdiAtMzM2IC0yNTYgMA0KdiAtMzQ0IC0yNTYgMA0KdiAtMzQ0IC0yNDggMA0KdiAtMzM2IC0yNDggMA0KdiAtMzQ0IC0yNTYgMA0KdiAtMzUyIC0yNTYgMA0KdiAtMzUyIC0yNDggMA0KdiAtMzQ0IC0yNDggMA0KdiAtMzUyIC0yNTYgMA0KdiAtMzYwIC0yNTYgMA0KdiAtMzYwIC0yNDggMA0KdiAtMzUyIC0yNDggMA0KdiAtMzYwIC0yNTYgMA0KdiAtMzY4IC0yNTYgMA0KdiAtMzY4IC0yNDggMA0KdiAtMzYwIC0yNDggMA0KdiAtMzY4IC0yNTYgMA0KdiAtMzc2IC0yNTYgMA0KdiAtMzc2IC0yNDggMA0KdiAtMzY4IC0yNDggMA0KdiAtMzc2IC0yNTYgMA0KdiAtMzg0IC0yNTYgMA0KdiAtMzg0IC0yNDggMA0KdiAtMzc2IC0yNDggMA0KdiAtMzg0IC0yNTYgMA0KdiAtMzkyIC0yNTYgMA0KdiAtMzkyIC0yNDggMA0KdiAtMzg0IC0yNDggMA0KdiAtMzkyIC0yNTYgMA0KdiAtNDAwIC0yNTYgMA0KdiAtNDAwIC0yNDggMA0KdiAtMzkyIC0yNDggMA0KdiAtMzI4IC0yNjQgMA0KdiAtMzM2IC0yNjQgMA0KdiAtMzM2IC0yNTYgMA0KdiAtMzI4IC0yNTYgMA0KdiAtMzI4IC0yNzIgMA0KdiAtMzM2IC0yNzIgMA0KdiAtMzM2IC0yNjQgMA0KdiAtMzI4IC0yNjQgMA0KdiAtMzI4IC0yODAgMA0KdiAtMzM2IC0yODAgMA0KdiAtMzM2IC0yNzIgMA0KdiAtMzI4IC0yNzIgMA0KdiAtMzI4IC0yODggMA0KdiAtMzM2IC0yODggMA0KdiAtMzM2IC0yODAgMA0KdiAtMzI4IC0yODAgMA0KdiAtMzI4IC0yOTYgMA0KdiAtMzM2IC0yOTYgMA0KdiAtMzM2IC0yODggMA0KdiAtMzI4IC0yODggMA0KdiAtMzI4IC0zMDQgMA0KdiAtMzM2IC0zMDQgMA0KdiAtMzM2IC0yOTYgMA0KdiAtMzI4IC0yOTYgMA0KDQojIFRleHR1cmUgY29vcmlkaW5hdGVzIChDb3VudCA9IDgpDQp2dCAwIDAuNzUNCnZ0IDAuMTI1IDAuNzUNCnZ0IDAuMTI1IDAuODc1DQp2dCAwIDAuODc1DQp2dCAwLjEyNSAwLjYyNQ0KdnQgMC4yNSAwLjYyNQ0KdnQgMC4yNSAwLjc1DQp2dCAwLjI1IDAuODc1DQoNCiMgTm9ybWFsDQp2biAwIDAgLTENCg0KIyBNZXNoIGRlc2NyaXB0aW9uDQpnIDFfMV9Nb2R1bGUwX21lc2hfMDAwMQ0KDQojIEZhY2VzDQpmIDEvMS8xIDIvMi8xIDMvMy8xIDQvNC8xCmYgNS8xLzEgNi8yLzEgNy8zLzEgOC80LzEKZiA5LzEvMSAxMC8yLzEgMTEvMy8xIDEyLzQvMQpmIDEzLzEvMSAxNC8yLzEgMTUvMy8xIDE2LzQvMQpmIDE3LzEvMSAxOC8yLzEgMTkvMy8xIDIwLzQvMQpmIDIxLzEvMSAyMi8yLzEgMjMvMy8xIDI0LzQvMQpmIDI1LzEvMSAyNi8yLzEgMjcvMy8xIDI4LzQvMQpmIDI5LzEvMSAzMC8yLzEgMzEvMy8xIDMyLzQvMQpmIDMzLzEvMSAzNC8yLzEgMzUvMy8xIDM2LzQvMQpmIDM3LzEvMSAzOC8yLzEgMzkvMy8xIDQwLzQvMQpmIDQxLzEvMSA0Mi8yLzEgNDMvMy8xIDQ0LzQvMQpmIDQ1LzEvMSA0Ni8yLzEgNDcvMy8xIDQ4LzQvMQpmIDQ5LzEvMSA1MC8yLzEgNTEvMy8xIDUyLzQvMQpmIDUzLzEvMSA1NC8yLzEgNTUvMy8xIDU2LzQvMQpmIDU3LzEvMSA1OC8yLzEgNTkvMy8xIDYwLzQvMQpmIDYxLzEvMSA2Mi8yLzEgNjMvMy8xIDY0LzQvMQpmIDY1LzEvMSA2Ni8yLzEgNjcvMy8xIDY4LzQvMQpmIDY5LzEvMSA3MC8yLzEgNzEvMy8xIDcyLzQvMQpmIDczLzEvMSA3NC8yLzEgNzUvMy8xIDc2LzQvMQpmIDc3LzEvMSA3OC8yLzEgNzkvMy8xIDgwLzQvMQpmIDgxLzEvMSA4Mi8yLzEgODMvMy8xIDg0LzQvMQpmIDg1LzEvMSA4Ni8yLzEgODcvMy8xIDg4LzQvMQpmIDg5LzEvMSA5MC8yLzEgOTEvMy8xIDkyLzQvMQpmIDkzLzEvMSA5NC8yLzEgOTUvMy8xIDk2LzQvMQpmIDk3LzEvMSA5OC8yLzEgOTkvMy8xIDEwMC80LzEKZiAxMDEvMS8xIDEwMi8yLzEgMTAzLzMvMSAxMDQvNC8xCmYgMTA1LzEvMSAxMDYvMi8xIDEwNy8zLzEgMTA4LzQvMQpmIDEwOS8xLzEgMTEwLzIvMSAxMTEvMy8xIDExMi80LzEKZiAxMTMvMS8xIDExNC8yLzEgMTE1LzMvMSAxMTYvNC8xCmYgMTE3LzEvMSAxMTgvMi8xIDExOS8zLzEgMTIwLzQvMQpmIDEyMS8xLzEgMTIyLzIvMSAxMjMvMy8xIDEyNC80LzEKZiAxMjUvNS8xIDEyNi82LzEgMTI3LzcvMSAxMjgvMi8xCmYgMTI5LzUvMSAxMzAvNi8xIDEzMS83LzEgMTMyLzIvMQpmIDEzMy81LzEgMTM0LzYvMSAxMzUvNy8xIDEzNi8yLzEKZiAxMzcvNS8xIDEzOC82LzEgMTM5LzcvMSAxNDAvMi8xCmYgMTQxLzUvMSAxNDIvNi8xIDE0My83LzEgMTQ0LzIvMQpmIDE0NS81LzEgMTQ2LzYvMSAxNDcvNy8xIDE0OC8yLzEKZiAxNDkvNS8xIDE1MC82LzEgMTUxLzcvMSAxNTIvMi8xCmYgMTUzLzUvMSAxNTQvNi8xIDE1NS83LzEgMTU2LzIvMQpmIDE1Ny81LzEgMTU4LzYvMSAxNTkvNy8xIDE2MC8yLzEKZiAxNjEvNS8xIDE2Mi82LzEgMTYzLzcvMSAxNjQvMi8xCmYgMTY1LzUvMSAxNjYvNi8xIDE2Ny83LzEgMTY4LzIvMQpmIDE2OS81LzEgMTcwLzYvMSAxNzEvNy8xIDE3Mi8yLzEKZiAxNzMvNS8xIDE3NC82LzEgMTc1LzcvMSAxNzYvMi8xCmYgMTc3LzUvMSAxNzgvNi8xIDE3OS83LzEgMTgwLzIvMQpmIDE4MS81LzEgMTgyLzYvMSAxODMvNy8xIDE4NC8yLzEKZiAxODUvNS8xIDE4Ni82LzEgMTg3LzcvMSAxODgvMi8xCmYgMTg5LzUvMSAxOTAvNi8xIDE5MS83LzEgMTkyLzIvMQpmIDE5My81LzEgMTk0LzYvMSAxOTUvNy8xIDE5Ni8yLzEKZiAxOTcvNS8xIDE5OC82LzEgMTk5LzcvMSAyMDAvMi8xCmYgMjAxLzUvMSAyMDIvNi8xIDIwMy83LzEgMjA0LzIvMQpmIDIwNS81LzEgMjA2LzYvMSAyMDcvNy8xIDIwOC8yLzEKZiAyMDkvNS8xIDIxMC82LzEgMjExLzcvMSAyMTIvMi8xCmYgMjEzLzUvMSAyMTQvNi8xIDIxNS83LzEgMjE2LzIvMQpmIDIxNy81LzEgMjE4LzYvMSAyMTkvNy8xIDIyMC8yLzEKZiAyMjEvNS8xIDIyMi82LzEgMjIzLzcvMSAyMjQvMi8xCmYgMjI1LzUvMSAyMjYvNi8xIDIyNy83LzEgMjI4LzIvMQpmIDIyOS81LzEgMjMwLzYvMSAyMzEvNy8xIDIzMi8yLzEKZiAyMzMvNS8xIDIzNC82LzEgMjM1LzcvMSAyMzYvMi8xCmYgMjM3LzUvMSAyMzgvNi8xIDIzOS83LzEgMjQwLzIvMQpmIDI0MS81LzEgMjQyLzYvMSAyNDMvNy8xIDI0NC8yLzEKZiAyNDUvNS8xIDI0Ni82LzEgMjQ3LzcvMSAyNDgvMi8xCmYgMjQ5LzIvMSAyNTAvNy8xIDI1MS84LzEgMjUyLzMvMQpmIDI1My81LzEgMjU0LzYvMSAyNTUvNy8xIDI1Ni8yLzEKZiAyNTcvNS8xIDI1OC82LzEgMjU5LzcvMSAyNjAvMi8xCmYgMjYxLzUvMSAyNjIvNi8xIDI2My83LzEgMjY0LzIvMQpmIDI2NS81LzEgMjY2LzYvMSAyNjcvNy8xIDI2OC8yLzEKZiAyNjkvNS8xIDI3MC82LzEgMjcxLzcvMSAyNzIvMi8xCmYgMjczLzUvMSAyNzQvNi8xIDI3NS83LzEgMjc2LzIvMQpmIDI3Ny81LzEgMjc4LzYvMSAyNzkvNy8xIDI4MC8yLzEKZiAyODEvNS8xIDI4Mi82LzEgMjgzLzcvMSAyODQvMi8xCmYgMjg1LzEvMSAyODYvMi8xIDI4Ny8zLzEgMjg4LzQvMQpmIDI4OS8xLzEgMjkwLzIvMSAyOTEvMy8xIDI5Mi80LzEKZiAyOTMvMS8xIDI5NC8yLzEgMjk1LzMvMSAyOTYvNC8xCmYgMjk3LzEvMSAyOTgvMi8xIDI5OS8zLzEgMzAwLzQvMQpmIDMwMS8xLzEgMzAyLzIvMSAzMDMvMy8xIDMwNC80LzEKZiAzMDUvNS8xIDMwNi82LzEgMzA3LzcvMSAzMDgvMi8xCg0K</ImportMesh>
+  <ImportTexture filename="tileset_revamp_pear8.png">iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAD3UlEQVR42u2dO1LDQBAFNyYnJuQGzrgSxf0Tk1AExjZa7Xze7LSrJuXJ6i6jlVT7xsfn17X7jKSPQv5AgBwIKvkIkABBKR8BgiGo5SNAIATFfAQIgqCajwABEJTzx/v75dp9PCE8+9sK+QjgCOEI/Ox8BHCCMAM/Mx8BHCCcgZ+VjwDGEFbgZ+QjgCEEC/jR+QhgBMESfmQ+AhhA8IAflY8AixA84UfkI4AThCr5COAAoVI+AhhDqJaPAIYQKuYjgBGEqvkIYAChcj4CNB8EQABOAgIwCMAgAIMADAIwCMAgAIMADAIwCMAgAIMADAIwCMAgAIMADAIwCMAgALODAK8vb9fOgwDNBciUQCEfAZIgqOQjQAIEpfz2O4VGQ8iW8DZvsB3sGFEQ/pz8n09qPgLEQHgEPz0fAfwh/Ac/NR8BfCEchZ+WjwB+EGbhp+QjgA+Es/DD89vfCnWAsAo/NB8BbCFYwQ/LRwA7CNbwQ/IRwAaCF3z3fARYh+AN3zW/+wOgVQhR8N3yEcAOQlT1q2k+AthAiC5/NstHgHUIWfXvJvkK261aHX+V6niVj0Rz6CqImd20EeFOfbzi1utWv2CIcKA9XFGAGRCrGR1EkC6PXgVhnbWTCIe+WwUBnoHwzqwowtR3qiTAPRDR2coinPouSs0bZ0BkZSuJsNIrKPUwqGI5Y6YIFoWSkk8DKxU0Zohg2SQq/Ti4QkljpAgeFbIl3gdQLmqMEIHu4Ccw1C9UV0SIKK0u+UaQUmGjhwiRbeWlXwlTKG20FCGjpp49ggREyAA/LYBbf73oxVGkCJnH7/IwxeutXEXwkSJIbBNn3l+/CXhPEeT2CTS9Ct0MvKUI0htFmvXXbwpe6fa22yrAZBmyOXilu5qSy8Au4JVuZskJ0Ak8m0ULvQPAFBMAYE0FAFRTAQDUVADABPcFZO5XD3iRwois/eoBL9QYkrFfPRCKXAOwVuciEPisAi7AZxl4AT73AS4y8LmQLP4+ACuK5ncCPVq4ANtcAERoJMCRzS4BvbkAR3c9BfjmAiACAiACAiDCzAX0UDgIbwEQ4fHKaSgdjLcA3UW4u11+9Rs5nvUrO4OXEYD7CDngf4smEGC/X4SplhQE2Odfw6l6HASof42w1ItU/eKm830Ek0Ks6hc3EQKoiWDahNb92X+l5aNLBV73Z/4V7iO41tVWX85kCuAtQkhPcfXljIIA1iKEFlRXX8cqCbAqQkozefV1rKIAsyKkVtJLP6gIOP6IipeMYuupg1ODHyVwdPO3FPjbg5J4Nh30C5Z2sv8RYWQfTBb8qH9hMif95txnHsM3wEBeSGnuvM8AAAAASUVORK5CYII=</ImportTexture>
+</Tiled2Unity>

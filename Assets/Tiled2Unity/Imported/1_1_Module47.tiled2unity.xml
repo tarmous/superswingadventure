@@ -1,0 +1,932 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Tiled2Unity generated xml data-->
+<!--Do not modify by hand-->
+<!--Last exported: 12/26/2018 4:54:19 PM-->
+<Tiled2Unity version="1.0.13.2">
+  <AssignMaterial mesh="1_1_Module47_mesh_0001" material="Yoyo Tileset True Scale" />
+  <AssignMaterial mesh="1_1_Module47_mesh_0002" material="Yoyo Tileset True Scale" />
+  <Prefab name="1_1_Module47" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="2" numTilesWide="61" numTilesHigh="30" tileWidth="16" tileHeight="16" exportScale="0.5" mapWidthInPixels="976" mapHeightInPixels="480" backgroundColor="#808080">
+    <GameObject name="Solid" x="0" y="0" z="0">
+      <TileLayer offsetX="0" offsetY="0" />
+      <GameObject name="Yoyo Tileset True Scale" x="0" y="0" mesh="1_1_Module47_mesh_0001" sortingLayerName="" sortingOrder="0" opacity="1" />
+    </GameObject>
+    <GameObject name="Path" x="0" y="0" z="0">
+      <TileLayer offsetX="0" offsetY="0" />
+      <GameObject name="Yoyo Tileset True Scale" x="0" y="0" mesh="1_1_Module47_mesh_0002" sortingLayerName="" sortingOrder="1" opacity="1" />
+    </GameObject>
+    <GameObject name="Level" x="0" y="0" z="0">
+      <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
+      <GameObject name="RectangleObject" x="8" y="0" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <RectangleObjectComponent tmx-object-id="1" tmx-object-name="" tmx-object-type="" tmx-object-x="16" tmx-object-y="0" tmx-object-width="944" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="472" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="0" y="0" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="tileType" value="2" />
+        <RectangleObjectComponent tmx-object-id="2" tmx-object-name="" tmx-object-type="" tmx-object-x="0" tmx-object-y="0" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="480" y="0" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="tileType" value="3" />
+        <RectangleObjectComponent tmx-object-id="3" tmx-object-name="" tmx-object-type="" tmx-object-x="960" tmx-object-y="0" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="104" y="-8" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="transparent" value="true" />
+        <RectangleObjectComponent tmx-object-id="174" tmx-object-name="" tmx-object-type="" tmx-object-x="208" tmx-object-y="16" tmx-object-width="560" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="280" height="8" />
+      </GameObject>
+      <GameObject name="PolygonObject" x="104" y="-8" rotation="180" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="transparent" value="true" />
+        <PolygonObjectComponent tmx-object-id="175" tmx-object-name="" tmx-object-type="" tmx-object-x="208" tmx-object-y="16" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="180" />
+        <PolygonCollider2D>
+          <Path>0.0078125,7.9922 8.00505,7.98665 0,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="RectangleObject" x="40" y="-8" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="transparent" value="true" />
+        <RectangleObjectComponent tmx-object-id="325" tmx-object-name="" tmx-object-type="" tmx-object-x="80" tmx-object-y="16" tmx-object-width="16" tmx-object-height="192" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="96" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="96" y="-16" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="transparent" value="true" />
+        <RectangleObjectComponent tmx-object-id="173" tmx-object-name="" tmx-object-type="" tmx-object-x="192" tmx-object-y="32" tmx-object-width="592" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="296" height="8" />
+      </GameObject>
+      <GameObject name="PolygonObject" x="96" y="-16" rotation="180" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="transparent" value="true" />
+        <PolygonObjectComponent tmx-object-id="176" tmx-object-name="" tmx-object-type="" tmx-object-x="192" tmx-object-y="32" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="180" />
+        <PolygonCollider2D>
+          <Path>0.0078125,7.9922 8.00505,7.98665 0,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="392" y="-16" rotation="270" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="transparent" value="true" />
+        <PolygonObjectComponent tmx-object-id="178" tmx-object-name="" tmx-object-type="" tmx-object-x="784" tmx-object-y="32" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="270" />
+        <PolygonCollider2D>
+          <Path>0.0078125,7.9922 8.00505,7.98665 0,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="RectangleObject" x="88" y="-24" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="transparent" value="true" />
+        <RectangleObjectComponent tmx-object-id="172" tmx-object-name="" tmx-object-type="" tmx-object-x="176" tmx-object-y="48" tmx-object-width="624" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="312" height="8" />
+      </GameObject>
+      <GameObject name="PolygonObject" x="88" y="-24" rotation="180" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="transparent" value="true" />
+        <PolygonObjectComponent tmx-object-id="177" tmx-object-name="" tmx-object-type="" tmx-object-x="176" tmx-object-y="48" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="180" />
+        <PolygonCollider2D>
+          <Path>0.0078125,7.9922 8.00505,7.98665 0,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="400" y="-24" rotation="270" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="transparent" value="true" />
+        <PolygonObjectComponent tmx-object-id="179" tmx-object-name="" tmx-object-type="" tmx-object-x="800" tmx-object-y="48" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="270" />
+        <PolygonCollider2D>
+          <Path>0.0078125,7.9922 8.00505,7.98665 0,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="RectangleObject" x="80" y="-32" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="transparent" value="true" />
+        <RectangleObjectComponent tmx-object-id="158" tmx-object-name="" tmx-object-type="" tmx-object-x="160" tmx-object-y="64" tmx-object-width="656" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="328" height="8" />
+      </GameObject>
+      <GameObject name="PolygonObject" x="408" y="-32" rotation="270" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="transparent" value="true" />
+        <PolygonObjectComponent tmx-object-id="180" tmx-object-name="" tmx-object-type="" tmx-object-x="816" tmx-object-y="64" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="270" />
+        <PolygonCollider2D>
+          <Path>0.0078125,7.9922 8.00505,7.98665 0,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="RectangleObject" x="176" y="-48" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="transparent" value="true" />
+        <RectangleObjectComponent tmx-object-id="497" tmx-object-name="" tmx-object-type="" tmx-object-x="352" tmx-object-y="96" tmx-object-width="48" tmx-object-height="48" tmx-object-rotation="0" />
+        <BoxCollider2D width="24" height="24" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="288" y="-48" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="transparent" value="true" />
+        <RectangleObjectComponent tmx-object-id="498" tmx-object-name="" tmx-object-type="" tmx-object-x="576" tmx-object-y="96" tmx-object-width="48" tmx-object-height="48" tmx-object-rotation="0" />
+        <BoxCollider2D width="24" height="24" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="232" y="-64" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="331" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="128" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="248" y="-64" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="332" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="128" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="352" y="-64" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="337" tmx-object-name="" tmx-object-type="" tmx-object-x="704" tmx-object-y="128" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="368" y="-64" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="338" tmx-object-name="" tmx-object-type="" tmx-object-x="736" tmx-object-y="128" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="112" y="-64" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="439" tmx-object-name="" tmx-object-type="" tmx-object-x="224" tmx-object-y="128" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="128" y="-64" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="440" tmx-object-name="" tmx-object-type="" tmx-object-x="256" tmx-object-y="128" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="376" y="-72" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="182" tmx-object-name="" tmx-object-type="" tmx-object-x="752" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="360" y="-72" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="206" tmx-object-name="" tmx-object-type="" tmx-object-x="720" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="344" y="-72" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="207" tmx-object-name="" tmx-object-type="" tmx-object-x="688" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="352" y="-72" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="210" tmx-object-name="" tmx-object-type="" tmx-object-x="704" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="368" y="-72" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="212" tmx-object-name="" tmx-object-type="" tmx-object-x="736" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="224" y="-72" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="318" tmx-object-name="" tmx-object-type="" tmx-object-x="448" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="240" y="-72" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="320" tmx-object-name="" tmx-object-type="" tmx-object-x="480" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="256" y="-72" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="321" tmx-object-name="" tmx-object-type="" tmx-object-x="512" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="232" y="-72" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="322" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="248" y="-72" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="323" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="112" y="-72" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="395" tmx-object-name="" tmx-object-type="" tmx-object-x="224" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="104" y="-72" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="397" tmx-object-name="" tmx-object-type="" tmx-object-x="208" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="120" y="-72" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="399" tmx-object-name="" tmx-object-type="" tmx-object-x="240" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="136" y="-72" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="402" tmx-object-name="" tmx-object-type="" tmx-object-x="272" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="128" y="-72" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="422" tmx-object-name="" tmx-object-type="" tmx-object-x="256" tmx-object-y="144" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="216" y="-80" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="197" tmx-object-name="" tmx-object-type="" tmx-object-x="432" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="232" y="-80" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="199" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="248" y="-80" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="201" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="264" y="-80" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="203" tmx-object-name="" tmx-object-type="" tmx-object-x="528" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="336" y="-80" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="209" tmx-object-name="" tmx-object-type="" tmx-object-x="672" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="352" y="-80" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="211" tmx-object-name="" tmx-object-type="" tmx-object-x="704" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="368" y="-80" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="213" tmx-object-name="" tmx-object-type="" tmx-object-x="736" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="384" y="-80" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="239" tmx-object-name="" tmx-object-type="" tmx-object-x="768" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="96" y="-80" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="390" tmx-object-name="" tmx-object-type="" tmx-object-x="192" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="112" y="-80" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="393" tmx-object-name="" tmx-object-type="" tmx-object-x="224" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="144" y="-80" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="398" tmx-object-name="" tmx-object-type="" tmx-object-x="288" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="128" y="-80" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="401" tmx-object-name="" tmx-object-type="" tmx-object-x="256" tmx-object-y="160" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="216" y="-88" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="195" tmx-object-name="" tmx-object-type="" tmx-object-x="432" tmx-object-y="176" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="264" y="-88" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="202" tmx-object-name="" tmx-object-type="" tmx-object-x="528" tmx-object-y="176" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="368" y="-88" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="205" tmx-object-name="" tmx-object-type="" tmx-object-x="736" tmx-object-y="176" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="336" y="-88" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="208" tmx-object-name="" tmx-object-type="" tmx-object-x="672" tmx-object-y="176" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="352" y="-88" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="244" tmx-object-name="" tmx-object-type="" tmx-object-x="704" tmx-object-y="176" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="384" y="-88" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="249" tmx-object-name="" tmx-object-type="" tmx-object-x="768" tmx-object-y="176" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="232" y="-88" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="313" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="176" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="248" y="-88" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="319" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="176" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="128" y="-88" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="400" tmx-object-name="" tmx-object-type="" tmx-object-x="256" tmx-object-y="176" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="96" y="-88" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="404" tmx-object-name="" tmx-object-type="" tmx-object-x="192" tmx-object-y="176" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="112" y="-88" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="407" tmx-object-name="" tmx-object-type="" tmx-object-x="224" tmx-object-y="176" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="144" y="-88" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="420" tmx-object-name="" tmx-object-type="" tmx-object-x="288" tmx-object-y="176" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="216" y="-96" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="240" tmx-object-name="" tmx-object-type="" tmx-object-x="432" tmx-object-y="192" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="232" y="-96" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="241" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="192" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="248" y="-96" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="242" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="192" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="336" y="-96" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="246" tmx-object-name="" tmx-object-type="" tmx-object-x="672" tmx-object-y="192" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="352" y="-96" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="247" tmx-object-name="" tmx-object-type="" tmx-object-x="704" tmx-object-y="192" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="368" y="-96" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="248" tmx-object-name="" tmx-object-type="" tmx-object-x="736" tmx-object-y="192" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="128" y="-96" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="394" tmx-object-name="" tmx-object-type="" tmx-object-x="256" tmx-object-y="192" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="112" y="-96" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="403" tmx-object-name="" tmx-object-type="" tmx-object-x="224" tmx-object-y="192" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="96" y="-96" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="406" tmx-object-name="" tmx-object-type="" tmx-object-x="192" tmx-object-y="192" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="216" y="-104" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="238" tmx-object-name="" tmx-object-type="" tmx-object-x="432" tmx-object-y="208" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="368" y="-104" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="243" tmx-object-name="" tmx-object-type="" tmx-object-x="736" tmx-object-y="208" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="352" y="-104" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="256" tmx-object-name="" tmx-object-type="" tmx-object-x="704" tmx-object-y="208" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="336" y="-104" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="258" tmx-object-name="" tmx-object-type="" tmx-object-x="672" tmx-object-y="208" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="232" y="-104" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="314" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="208" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="248" y="-104" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="317" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="208" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="96" y="-104" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="408" tmx-object-name="" tmx-object-type="" tmx-object-x="192" tmx-object-y="208" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="128" y="-104" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="409" tmx-object-name="" tmx-object-type="" tmx-object-x="256" tmx-object-y="208" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="112" y="-104" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="426" tmx-object-name="" tmx-object-type="" tmx-object-x="224" tmx-object-y="208" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="344" y="-112" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="245" tmx-object-name="" tmx-object-type="" tmx-object-x="688" tmx-object-y="224" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="224" y="-112" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="252" tmx-object-name="" tmx-object-type="" tmx-object-x="448" tmx-object-y="224" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="232" y="-112" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="253" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="224" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="248" y="-112" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="254" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="224" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="352" y="-112" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="259" tmx-object-name="" tmx-object-type="" tmx-object-x="704" tmx-object-y="224" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="368" y="-112" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="260" tmx-object-name="" tmx-object-type="" tmx-object-x="736" tmx-object-y="224" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="104" y="-112" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="392" tmx-object-name="" tmx-object-type="" tmx-object-x="208" tmx-object-y="224" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="128" y="-112" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="396" tmx-object-name="" tmx-object-type="" tmx-object-x="256" tmx-object-y="224" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="112" y="-112" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="416" tmx-object-name="" tmx-object-type="" tmx-object-x="224" tmx-object-y="224" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="240" y="-120" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="251" tmx-object-name="" tmx-object-type="" tmx-object-x="480" tmx-object-y="240" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="360" y="-120" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="257" tmx-object-name="" tmx-object-type="" tmx-object-x="720" tmx-object-y="240" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="368" y="-120" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="268" tmx-object-name="" tmx-object-type="" tmx-object-x="736" tmx-object-y="240" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="352" y="-120" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="269" tmx-object-name="" tmx-object-type="" tmx-object-x="704" tmx-object-y="240" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="232" y="-120" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="312" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="240" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="248" y="-120" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="316" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="240" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="40" y="-120" rotation="0" layer="">
+        <Property name="magnetGate" value="true" />
+        <RectangleObjectComponent tmx-object-id="324" tmx-object-name="" tmx-object-type="" tmx-object-x="80" tmx-object-y="240" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="112" y="-120" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="405" tmx-object-name="" tmx-object-type="" tmx-object-x="224" tmx-object-y="240" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="120" y="-120" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="417" tmx-object-name="" tmx-object-type="" tmx-object-x="240" tmx-object-y="240" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="128" y="-120" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="423" tmx-object-name="" tmx-object-type="" tmx-object-x="256" tmx-object-y="240" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="376" y="-128" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="261" tmx-object-name="" tmx-object-type="" tmx-object-x="752" tmx-object-y="256" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="256" y="-128" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="264" tmx-object-name="" tmx-object-type="" tmx-object-x="512" tmx-object-y="256" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="232" y="-128" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="265" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="256" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="248" y="-128" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="266" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="256" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="352" y="-128" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="271" tmx-object-name="" tmx-object-type="" tmx-object-x="704" tmx-object-y="256" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="368" y="-128" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="272" tmx-object-name="" tmx-object-type="" tmx-object-x="736" tmx-object-y="256" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="112" y="-128" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="391" tmx-object-name="" tmx-object-type="" tmx-object-x="224" tmx-object-y="256" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="128" y="-128" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="427" tmx-object-name="" tmx-object-type="" tmx-object-x="256" tmx-object-y="256" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="136" y="-128" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="430" tmx-object-name="" tmx-object-type="" tmx-object-x="272" tmx-object-y="256" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="264" y="-136" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="204" tmx-object-name="" tmx-object-type="" tmx-object-x="528" tmx-object-y="272" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="352" y="-136" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="270" tmx-object-name="" tmx-object-type="" tmx-object-x="704" tmx-object-y="272" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="384" y="-136" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="273" tmx-object-name="" tmx-object-type="" tmx-object-x="768" tmx-object-y="272" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="368" y="-136" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="284" tmx-object-name="" tmx-object-type="" tmx-object-x="736" tmx-object-y="272" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="232" y="-136" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="310" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="272" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="248" y="-136" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="315" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="272" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="128" y="-136" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="424" tmx-object-name="" tmx-object-type="" tmx-object-x="256" tmx-object-y="272" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="144" y="-136" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="428" tmx-object-name="" tmx-object-type="" tmx-object-x="288" tmx-object-y="272" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="112" y="-136" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="435" tmx-object-name="" tmx-object-type="" tmx-object-x="224" tmx-object-y="272" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="384" y="-144" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="274" tmx-object-name="" tmx-object-type="" tmx-object-x="768" tmx-object-y="288" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="232" y="-144" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="280" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="288" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="248" y="-144" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="281" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="288" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="264" y="-144" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="282" tmx-object-name="" tmx-object-type="" tmx-object-x="528" tmx-object-y="288" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="352" y="-144" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="286" tmx-object-name="" tmx-object-type="" tmx-object-x="704" tmx-object-y="288" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="368" y="-144" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="287" tmx-object-name="" tmx-object-type="" tmx-object-x="736" tmx-object-y="288" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="40" y="-144" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="transparent" value="true" />
+        <RectangleObjectComponent tmx-object-id="326" tmx-object-name="" tmx-object-type="" tmx-object-x="80" tmx-object-y="288" tmx-object-width="16" tmx-object-height="192" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="96" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="128" y="-144" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="411" tmx-object-name="" tmx-object-type="" tmx-object-x="256" tmx-object-y="288" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="112" y="-144" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="429" tmx-object-name="" tmx-object-type="" tmx-object-x="224" tmx-object-y="288" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="144" y="-144" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="434" tmx-object-name="" tmx-object-type="" tmx-object-x="288" tmx-object-y="288" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="384" y="-152" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="184" tmx-object-name="" tmx-object-type="" tmx-object-x="768" tmx-object-y="304" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="264" y="-152" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="255" tmx-object-name="" tmx-object-type="" tmx-object-x="528" tmx-object-y="304" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="336" y="-152" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="285" tmx-object-name="" tmx-object-type="" tmx-object-x="672" tmx-object-y="304" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="216" y="-152" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="288" tmx-object-name="" tmx-object-type="" tmx-object-x="432" tmx-object-y="304" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="368" y="-152" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="293" tmx-object-name="" tmx-object-type="" tmx-object-x="736" tmx-object-y="304" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="352" y="-152" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="294" tmx-object-name="" tmx-object-type="" tmx-object-x="704" tmx-object-y="304" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="232" y="-152" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="309" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="304" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="248" y="-152" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="311" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="304" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="96" y="-152" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="410" tmx-object-name="" tmx-object-type="" tmx-object-x="192" tmx-object-y="304" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="144" y="-152" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="421" tmx-object-name="" tmx-object-type="" tmx-object-x="288" tmx-object-y="304" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="128" y="-152" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="425" tmx-object-name="" tmx-object-type="" tmx-object-x="256" tmx-object-y="304" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="112" y="-152" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="432" tmx-object-name="" tmx-object-type="" tmx-object-x="224" tmx-object-y="304" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="384" y="-160" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="275" tmx-object-name="" tmx-object-type="" tmx-object-x="768" tmx-object-y="320" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="248" y="-160" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="292" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="320" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="216" y="-160" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="300" tmx-object-name="" tmx-object-type="" tmx-object-x="432" tmx-object-y="320" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="232" y="-160" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="301" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="320" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="264" y="-160" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="302" tmx-object-name="" tmx-object-type="" tmx-object-x="528" tmx-object-y="320" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="336" y="-160" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="306" tmx-object-name="" tmx-object-type="" tmx-object-x="672" tmx-object-y="320" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="352" y="-160" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="307" tmx-object-name="" tmx-object-type="" tmx-object-x="704" tmx-object-y="320" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="368" y="-160" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="308" tmx-object-name="" tmx-object-type="" tmx-object-x="736" tmx-object-y="320" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="96" y="-160" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="412" tmx-object-name="" tmx-object-type="" tmx-object-x="192" tmx-object-y="320" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="112" y="-160" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="413" tmx-object-name="" tmx-object-type="" tmx-object-x="224" tmx-object-y="320" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="128" y="-160" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="419" tmx-object-name="" tmx-object-type="" tmx-object-x="256" tmx-object-y="320" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="144" y="-160" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="431" tmx-object-name="" tmx-object-type="" tmx-object-x="288" tmx-object-y="320" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="256" y="-168" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="267" tmx-object-name="" tmx-object-type="" tmx-object-x="512" tmx-object-y="336" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="248" y="-168" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="283" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="336" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="224" y="-168" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="289" tmx-object-name="" tmx-object-type="" tmx-object-x="448" tmx-object-y="336" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="232" y="-168" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="290" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="336" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="240" y="-168" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="291" tmx-object-name="" tmx-object-type="" tmx-object-x="480" tmx-object-y="336" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="352" y="-168" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="295" tmx-object-name="" tmx-object-type="" tmx-object-x="704" tmx-object-y="336" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="368" y="-168" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="296" tmx-object-name="" tmx-object-type="" tmx-object-x="736" tmx-object-y="336" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="344" y="-168" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="303" tmx-object-name="" tmx-object-type="" tmx-object-x="688" tmx-object-y="336" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="360" y="-168" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="304" tmx-object-name="" tmx-object-type="" tmx-object-x="720" tmx-object-y="336" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="376" y="-168" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="305" tmx-object-name="" tmx-object-type="" tmx-object-x="752" tmx-object-y="336" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="104" y="-168" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="414" tmx-object-name="" tmx-object-type="" tmx-object-x="208" tmx-object-y="336" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="112" y="-168" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="415" tmx-object-name="" tmx-object-type="" tmx-object-x="224" tmx-object-y="336" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="128" y="-168" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="418" tmx-object-name="" tmx-object-type="" tmx-object-x="256" tmx-object-y="336" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="120" y="-168" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="433" tmx-object-name="" tmx-object-type="" tmx-object-x="240" tmx-object-y="336" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="136" y="-168" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="436" tmx-object-name="" tmx-object-type="" tmx-object-x="272" tmx-object-y="336" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="232" y="-176" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="333" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="352" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="248" y="-176" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="334" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="352" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="352" y="-176" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="335" tmx-object-name="" tmx-object-type="" tmx-object-x="704" tmx-object-y="352" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="368" y="-176" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="336" tmx-object-name="" tmx-object-type="" tmx-object-x="736" tmx-object-y="352" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="112" y="-176" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="437" tmx-object-name="" tmx-object-type="" tmx-object-x="224" tmx-object-y="352" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="128" y="-176" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="438" tmx-object-name="" tmx-object-type="" tmx-object-x="256" tmx-object-y="352" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="288" y="-176" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="transparent" value="true" />
+        <RectangleObjectComponent tmx-object-id="499" tmx-object-name="" tmx-object-type="" tmx-object-x="576" tmx-object-y="352" tmx-object-width="48" tmx-object-height="48" tmx-object-rotation="0" />
+        <BoxCollider2D width="24" height="24" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="176" y="-176" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="transparent" value="true" />
+        <RectangleObjectComponent tmx-object-id="500" tmx-object-name="" tmx-object-type="" tmx-object-x="352" tmx-object-y="352" tmx-object-width="48" tmx-object-height="48" tmx-object-rotation="0" />
+        <BoxCollider2D width="24" height="24" />
+      </GameObject>
+    </GameObject>
+    <GameObject name="Solid" x="0" y="0" z="0">
+      <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
+      <GameObject name="RectangleObject" x="0" y="0" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <RectangleObjectComponent tmx-object-id="84" tmx-object-name="" tmx-object-type="" tmx-object-x="0" tmx-object-y="0" tmx-object-width="976" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="488" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="80" y="-232" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <RectangleObjectComponent tmx-object-id="171" tmx-object-name="" tmx-object-type="" tmx-object-x="160" tmx-object-y="464" tmx-object-width="656" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="328" height="8" />
+      </GameObject>
+    </GameObject>
+  </Prefab>
+  <ImportMesh filename="1_1_Module47_mesh_0001.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJzFfMV9Nb2R1bGU0N19tZXNoXzAwMDEub2JqJw0KDQojIFZlcnRpY2VzIChDb3VudCA9IDI0NCkNCnYgMCAtOCAwDQp2IC04IC04IDANCnYgLTggMCAwDQp2IDAgMCAwDQp2IC04IC04IDANCnYgLTE2IC04IDANCnYgLTE2IDAgMA0KdiAtOCAwIDANCnYgLTE2IC04IDANCnYgLTI0IC04IDANCnYgLTI0IDAgMA0KdiAtMTYgMCAwDQp2IC0yNCAtOCAwDQp2IC0zMiAtOCAwDQp2IC0zMiAwIDANCnYgLTI0IDAgMA0KdiAtMzIgLTggMA0KdiAtNDAgLTggMA0KdiAtNDAgMCAwDQp2IC0zMiAwIDANCnYgLTQwIC04IDANCnYgLTQ4IC04IDANCnYgLTQ4IDAgMA0KdiAtNDAgMCAwDQp2IC00OCAtOCAwDQp2IC01NiAtOCAwDQp2IC01NiAwIDANCnYgLTQ4IDAgMA0KdiAtNTYgLTggMA0KdiAtNjQgLTggMA0KdiAtNjQgMCAwDQp2IC01NiAwIDANCnYgLTY0IC04IDANCnYgLTcyIC04IDANCnYgLTcyIDAgMA0KdiAtNjQgMCAwDQp2IC03MiAtOCAwDQp2IC04MCAtOCAwDQp2IC04MCAwIDANCnYgLTcyIDAgMA0KdiAtODAgLTggMA0KdiAtODggLTggMA0KdiAtODggMCAwDQp2IC04MCAwIDANCnYgLTg4IC04IDANCnYgLTk2IC04IDANCnYgLTk2IDAgMA0KdiAtODggMCAwDQp2IC05NiAtOCAwDQp2IC0xMDQgLTggMA0KdiAtMTA0IDAgMA0KdiAtOTYgMCAwDQp2IC0xMDQgLTggMA0KdiAtMTEyIC04IDANCnYgLTExMiAwIDANCnYgLTEwNCAwIDANCnYgLTExMiAtOCAwDQp2IC0xMjAgLTggMA0KdiAtMTIwIDAgMA0KdiAtMTEyIDAgMA0KdiAtMTIwIC04IDANCnYgLTEyOCAtOCAwDQp2IC0xMjggMCAwDQp2IC0xMjAgMCAwDQp2IC0xMjggLTggMA0KdiAtMTM2IC04IDANCnYgLTEzNiAwIDANCnYgLTEyOCAwIDANCnYgLTEzNiAtOCAwDQp2IC0xNDQgLTggMA0KdiAtMTQ0IDAgMA0KdiAtMTM2IDAgMA0KdiAtMTQ0IC04IDANCnYgLTE1MiAtOCAwDQp2IC0xNTIgMCAwDQp2IC0xNDQgMCAwDQp2IC0xNTIgLTggMA0KdiAtMTYwIC04IDANCnYgLTE2MCAwIDANCnYgLTE1MiAwIDANCnYgLTE2MCAtOCAwDQp2IC0xNjggLTggMA0KdiAtMTY4IDAgMA0KdiAtMTYwIDAgMA0KdiAtMTY4IC04IDANCnYgLTE3NiAtOCAwDQp2IC0xNzYgMCAwDQp2IC0xNjggMCAwDQp2IC0xNzYgLTggMA0KdiAtMTg0IC04IDANCnYgLTE4NCAwIDANCnYgLTE3NiAwIDANCnYgLTE4NCAtOCAwDQp2IC0xOTIgLTggMA0KdiAtMTkyIDAgMA0KdiAtMTg0IDAgMA0KdiAtMTkyIC04IDANCnYgLTIwMCAtOCAwDQp2IC0yMDAgMCAwDQp2IC0xOTIgMCAwDQp2IC0yMDAgLTggMA0KdiAtMjA4IC04IDANCnYgLTIwOCAwIDANCnYgLTIwMCAwIDANCnYgLTIwOCAtOCAwDQp2IC0yMTYgLTggMA0KdiAtMjE2IDAgMA0KdiAtMjA4IDAgMA0KdiAtMjE2IC04IDANCnYgLTIyNCAtOCAwDQp2IC0yMjQgMCAwDQp2IC0yMTYgMCAwDQp2IC0yMjQgLTggMA0KdiAtMjMyIC04IDANCnYgLTIzMiAwIDANCnYgLTIyNCAwIDANCnYgLTIzMiAtOCAwDQp2IC0yNDAgLTggMA0KdiAtMjQwIDAgMA0KdiAtMjMyIDAgMA0KdiAtMjQwIC04IDANCnYgLTI0OCAtOCAwDQp2IC0yNDggMCAwDQp2IC0yNDAgMCAwDQp2IC0yNDggLTggMA0KdiAtMjU2IC04IDANCnYgLTI1NiAwIDANCnYgLTI0OCAwIDANCnYgLTI1NiAtOCAwDQp2IC0yNjQgLTggMA0KdiAtMjY0IDAgMA0KdiAtMjU2IDAgMA0KdiAtMjY0IC04IDANCnYgLTI3MiAtOCAwDQp2IC0yNzIgMCAwDQp2IC0yNjQgMCAwDQp2IC0yNzIgLTggMA0KdiAtMjgwIC04IDANCnYgLTI4MCAwIDANCnYgLTI3MiAwIDANCnYgLTI4MCAtOCAwDQp2IC0yODggLTggMA0KdiAtMjg4IDAgMA0KdiAtMjgwIDAgMA0KdiAtMjg4IC04IDANCnYgLTI5NiAtOCAwDQp2IC0yOTYgMCAwDQp2IC0yODggMCAwDQp2IC0yOTYgLTggMA0KdiAtMzA0IC04IDANCnYgLTMwNCAwIDANCnYgLTI5NiAwIDANCnYgLTMwNCAtOCAwDQp2IC0zMTIgLTggMA0KdiAtMzEyIDAgMA0KdiAtMzA0IDAgMA0KdiAtMzEyIC04IDANCnYgLTMyMCAtOCAwDQp2IC0zMjAgMCAwDQp2IC0zMTIgMCAwDQp2IC0zMjAgLTggMA0KdiAtMzI4IC04IDANCnYgLTMyOCAwIDANCnYgLTMyMCAwIDANCnYgLTMyOCAtOCAwDQp2IC0zMzYgLTggMA0KdiAtMzM2IDAgMA0KdiAtMzI4IDAgMA0KdiAtMzM2IC04IDANCnYgLTM0NCAtOCAwDQp2IC0zNDQgMCAwDQp2IC0zMzYgMCAwDQp2IC0zNDQgLTggMA0KdiAtMzUyIC04IDANCnYgLTM1MiAwIDANCnYgLTM0NCAwIDANCnYgLTM1MiAtOCAwDQp2IC0zNjAgLTggMA0KdiAtMzYwIDAgMA0KdiAtMzUyIDAgMA0KdiAtMzYwIC04IDANCnYgLTM2OCAtOCAwDQp2IC0zNjggMCAwDQp2IC0zNjAgMCAwDQp2IC0zNjggLTggMA0KdiAtMzc2IC04IDANCnYgLTM3NiAwIDANCnYgLTM2OCAwIDANCnYgLTM3NiAtOCAwDQp2IC0zODQgLTggMA0KdiAtMzg0IDAgMA0KdiAtMzc2IDAgMA0KdiAtMzg0IC04IDANCnYgLTM5MiAtOCAwDQp2IC0zOTIgMCAwDQp2IC0zODQgMCAwDQp2IC0zOTIgLTggMA0KdiAtNDAwIC04IDANCnYgLTQwMCAwIDANCnYgLTM5MiAwIDANCnYgLTQwMCAtOCAwDQp2IC00MDggLTggMA0KdiAtNDA4IDAgMA0KdiAtNDAwIDAgMA0KdiAtNDA4IC04IDANCnYgLTQxNiAtOCAwDQp2IC00MTYgMCAwDQp2IC00MDggMCAwDQp2IC00MTYgLTggMA0KdiAtNDI0IC04IDANCnYgLTQyNCAwIDANCnYgLTQxNiAwIDANCnYgLTQyNCAtOCAwDQp2IC00MzIgLTggMA0KdiAtNDMyIDAgMA0KdiAtNDI0IDAgMA0KdiAtNDMyIC04IDANCnYgLTQ0MCAtOCAwDQp2IC00NDAgMCAwDQp2IC00MzIgMCAwDQp2IC00NDAgLTggMA0KdiAtNDQ4IC04IDANCnYgLTQ0OCAwIDANCnYgLTQ0MCAwIDANCnYgLTQ0OCAtOCAwDQp2IC00NTYgLTggMA0KdiAtNDU2IDAgMA0KdiAtNDQ4IDAgMA0KdiAtNDU2IC04IDANCnYgLTQ2NCAtOCAwDQp2IC00NjQgMCAwDQp2IC00NTYgMCAwDQp2IC00NjQgLTggMA0KdiAtNDcyIC04IDANCnYgLTQ3MiAwIDANCnYgLTQ2NCAwIDANCnYgLTQ3MiAtOCAwDQp2IC00ODAgLTggMA0KdiAtNDgwIDAgMA0KdiAtNDcyIDAgMA0KdiAtNDgwIC04IDANCnYgLTQ4OCAtOCAwDQp2IC00ODggMCAwDQp2IC00ODAgMCAwDQoNCiMgVGV4dHVyZSBjb29yaWRpbmF0ZXMgKENvdW50ID0gNCkNCnZ0IDAuMzMzMzMzMyAwLjY2NjY2NjYNCnZ0IDAuNjY2NjY2NyAwLjY2NjY2NjYNCnZ0IDAuNjY2NjY2NyAxDQp2dCAwLjMzMzMzMzMgMQ0KDQojIE5vcm1hbA0Kdm4gMCAwIC0xDQoNCiMgTWVzaCBkZXNjcmlwdGlvbg0KZyAxXzFfTW9kdWxlNDdfbWVzaF8wMDAxDQoNCiMgRmFjZXMNCmYgMS8xLzEgMi8yLzEgMy8zLzEgNC80LzEKZiA1LzEvMSA2LzIvMSA3LzMvMSA4LzQvMQpmIDkvMS8xIDEwLzIvMSAxMS8zLzEgMTIvNC8xCmYgMTMvMS8xIDE0LzIvMSAxNS8zLzEgMTYvNC8xCmYgMTcvMS8xIDE4LzIvMSAxOS8zLzEgMjAvNC8xCmYgMjEvMS8xIDIyLzIvMSAyMy8zLzEgMjQvNC8xCmYgMjUvMS8xIDI2LzIvMSAyNy8zLzEgMjgvNC8xCmYgMjkvMS8xIDMwLzIvMSAzMS8zLzEgMzIvNC8xCmYgMzMvMS8xIDM0LzIvMSAzNS8zLzEgMzYvNC8xCmYgMzcvMS8xIDM4LzIvMSAzOS8zLzEgNDAvNC8xCmYgNDEvMS8xIDQyLzIvMSA0My8zLzEgNDQvNC8xCmYgNDUvMS8xIDQ2LzIvMSA0Ny8zLzEgNDgvNC8xCmYgNDkvMS8xIDUwLzIvMSA1MS8zLzEgNTIvNC8xCmYgNTMvMS8xIDU0LzIvMSA1NS8zLzEgNTYvNC8xCmYgNTcvMS8xIDU4LzIvMSA1OS8zLzEgNjAvNC8xCmYgNjEvMS8xIDYyLzIvMSA2My8zLzEgNjQvNC8xCmYgNjUvMS8xIDY2LzIvMSA2Ny8zLzEgNjgvNC8xCmYgNjkvMS8xIDcwLzIvMSA3MS8zLzEgNzIvNC8xCmYgNzMvMS8xIDc0LzIvMSA3NS8zLzEgNzYvNC8xCmYgNzcvMS8xIDc4LzIvMSA3OS8zLzEgODAvNC8xCmYgODEvMS8xIDgyLzIvMSA4My8zLzEgODQvNC8xCmYgODUvMS8xIDg2LzIvMSA4Ny8zLzEgODgvNC8xCmYgODkvMS8xIDkwLzIvMSA5MS8zLzEgOTIvNC8xCmYgOTMvMS8xIDk0LzIvMSA5NS8zLzEgOTYvNC8xCmYgOTcvMS8xIDk4LzIvMSA5OS8zLzEgMTAwLzQvMQpmIDEwMS8xLzEgMTAyLzIvMSAxMDMvMy8xIDEwNC80LzEKZiAxMDUvMS8xIDEwNi8yLzEgMTA3LzMvMSAxMDgvNC8xCmYgMTA5LzEvMSAxMTAvMi8xIDExMS8zLzEgMTEyLzQvMQpmIDExMy8xLzEgMTE0LzIvMSAxMTUvMy8xIDExNi80LzEKZiAxMTcvMS8xIDExOC8yLzEgMTE5LzMvMSAxMjAvNC8xCmYgMTIxLzEvMSAxMjIvMi8xIDEyMy8zLzEgMTI0LzQvMQpmIDEyNS8xLzEgMTI2LzIvMSAxMjcvMy8xIDEyOC80LzEKZiAxMjkvMS8xIDEzMC8yLzEgMTMxLzMvMSAxMzIvNC8xCmYgMTMzLzEvMSAxMzQvMi8xIDEzNS8zLzEgMTM2LzQvMQpmIDEzNy8xLzEgMTM4LzIvMSAxMzkvMy8xIDE0MC80LzEKZiAxNDEvMS8xIDE0Mi8yLzEgMTQzLzMvMSAxNDQvNC8xCmYgMTQ1LzEvMSAxNDYvMi8xIDE0Ny8zLzEgMTQ4LzQvMQpmIDE0OS8xLzEgMTUwLzIvMSAxNTEvMy8xIDE1Mi80LzEKZiAxNTMvMS8xIDE1NC8yLzEgMTU1LzMvMSAxNTYvNC8xCmYgMTU3LzEvMSAxNTgvMi8xIDE1OS8zLzEgMTYwLzQvMQpmIDE2MS8xLzEgMTYyLzIvMSAxNjMvMy8xIDE2NC80LzEKZiAxNjUvMS8xIDE2Ni8yLzEgMTY3LzMvMSAxNjgvNC8xCmYgMTY5LzEvMSAxNzAvMi8xIDE3MS8zLzEgMTcyLzQvMQpmIDE3My8xLzEgMTc0LzIvMSAxNzUvMy8xIDE3Ni80LzEKZiAxNzcvMS8xIDE3OC8yLzEgMTc5LzMvMSAxODAvNC8xCmYgMTgxLzEvMSAxODIvMi8xIDE4My8zLzEgMTg0LzQvMQpmIDE4NS8xLzEgMTg2LzIvMSAxODcvMy8xIDE4OC80LzEKZiAxODkvMS8xIDE5MC8yLzEgMTkxLzMvMSAxOTIvNC8xCmYgMTkzLzEvMSAxOTQvMi8xIDE5NS8zLzEgMTk2LzQvMQpmIDE5Ny8xLzEgMTk4LzIvMSAxOTkvMy8xIDIwMC80LzEKZiAyMDEvMS8xIDIwMi8yLzEgMjAzLzMvMSAyMDQvNC8xCmYgMjA1LzEvMSAyMDYvMi8xIDIwNy8zLzEgMjA4LzQvMQpmIDIwOS8xLzEgMjEwLzIvMSAyMTEvMy8xIDIxMi80LzEKZiAyMTMvMS8xIDIxNC8yLzEgMjE1LzMvMSAyMTYvNC8xCmYgMjE3LzEvMSAyMTgvMi8xIDIxOS8zLzEgMjIwLzQvMQpmIDIyMS8xLzEgMjIyLzIvMSAyMjMvMy8xIDIyNC80LzEKZiAyMjUvMS8xIDIyNi8yLzEgMjI3LzMvMSAyMjgvNC8xCmYgMjI5LzEvMSAyMzAvMi8xIDIzMS8zLzEgMjMyLzQvMQpmIDIzMy8xLzEgMjM0LzIvMSAyMzUvMy8xIDIzNi80LzEKZiAyMzcvMS8xIDIzOC8yLzEgMjM5LzMvMSAyNDAvNC8xCmYgMjQxLzEvMSAyNDIvMi8xIDI0My8zLzEgMjQ0LzQvMQoNCg==</ImportMesh>
+  <ImportMesh filename="1_1_Module47_mesh_0002.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJzFfMV9Nb2R1bGU0N19tZXNoXzAwMDIub2JqJw0KDQojIFZlcnRpY2VzIChDb3VudCA9IDc3NikNCnYgLTQwIC0xNiAwDQp2IC00OCAtMTYgMA0KdiAtNDggLTggMA0KdiAtNDAgLTggMA0KdiAtOTYgLTE2IDANCnYgLTEwNCAtMTYgMA0KdiAtMTA0IC04IDANCnYgLTk2IC04IDANCnYgLTEwNCAtMTYgMA0KdiAtMTEyIC0xNiAwDQp2IC0xMTIgLTggMA0KdiAtMTA0IC04IDANCnYgLTExMiAtMTYgMA0KdiAtMTIwIC0xNiAwDQp2IC0xMjAgLTggMA0KdiAtMTEyIC04IDANCnYgLTEyOCAtMTYgMA0KdiAtMTM2IC0xNiAwDQp2IC0xMzYgLTggMA0KdiAtMTI4IC04IDANCnYgLTEzNiAtMTYgMA0KdiAtMTQ0IC0xNiAwDQp2IC0xNDQgLTggMA0KdiAtMTM2IC04IDANCnYgLTE0NCAtMTYgMA0KdiAtMTUyIC0xNiAwDQp2IC0xNTIgLTggMA0KdiAtMTQ0IC04IDANCnYgLTIyNCAtMTYgMA0KdiAtMjMyIC0xNiAwDQp2IC0yMzIgLTggMA0KdiAtMjI0IC04IDANCnYgLTIzMiAtMTYgMA0KdiAtMjQwIC0xNiAwDQp2IC0yNDAgLTggMA0KdiAtMjMyIC04IDANCnYgLTI0OCAtMTYgMA0KdiAtMjU2IC0xNiAwDQp2IC0yNTYgLTggMA0KdiAtMjQ4IC04IDANCnYgLTI1NiAtMTYgMA0KdiAtMjY0IC0xNiAwDQp2IC0yNjQgLTggMA0KdiAtMjU2IC04IDANCnYgLTMzNiAtMTYgMA0KdiAtMzQ0IC0xNiAwDQp2IC0zNDQgLTggMA0KdiAtMzM2IC04IDANCnYgLTM0NCAtMTYgMA0KdiAtMzUyIC0xNiAwDQp2IC0zNTIgLTggMA0KdiAtMzQ0IC04IDANCnYgLTM1MiAtMTYgMA0KdiAtMzYwIC0xNiAwDQp2IC0zNjAgLTggMA0KdiAtMzUyIC04IDANCnYgLTM2OCAtMTYgMA0KdiAtMzc2IC0xNiAwDQp2IC0zNzYgLTggMA0KdiAtMzY4IC04IDANCnYgLTM3NiAtMTYgMA0KdiAtMzg0IC0xNiAwDQp2IC0zODQgLTggMA0KdiAtMzc2IC04IDANCnYgLTM4NCAtMTYgMA0KdiAtMzkyIC0xNiAwDQp2IC0zOTIgLTggMA0KdiAtMzg0IC04IDANCnYgLTQwIC0yNCAwDQp2IC00OCAtMjQgMA0KdiAtNDggLTE2IDANCnYgLTQwIC0xNiAwDQp2IC04OCAtMjQgMA0KdiAtOTYgLTI0IDANCnYgLTk2IC0xNiAwDQp2IC04OCAtMTYgMA0KdiAtOTYgLTI0IDANCnYgLTEwNCAtMjQgMA0KdiAtMTA0IC0xNiAwDQp2IC05NiAtMTYgMA0KdiAtMTA0IC0yNCAwDQp2IC0xMTIgLTI0IDANCnYgLTExMiAtMTYgMA0KdiAtMTA0IC0xNiAwDQp2IC0xMzYgLTI0IDANCnYgLTE0NCAtMjQgMA0KdiAtMTQ0IC0xNiAwDQp2IC0xMzYgLTE2IDANCnYgLTE0NCAtMjQgMA0KdiAtMTUyIC0yNCAwDQp2IC0xNTIgLTE2IDANCnYgLTE0NCAtMTYgMA0KdiAtMTUyIC0yNCAwDQp2IC0xNjAgLTI0IDANCnYgLTE2MCAtMTYgMA0KdiAtMTUyIC0xNiAwDQp2IC0yMTYgLTI0IDANCnYgLTIyNCAtMjQgMA0KdiAtMjI0IC0xNiAwDQp2IC0yMTYgLTE2IDANCnYgLTIyNCAtMjQgMA0KdiAtMjMyIC0yNCAwDQp2IC0yMzIgLTE2IDANCnYgLTIyNCAtMTYgMA0KdiAtMjMyIC0yNCAwDQp2IC0yNDAgLTI0IDANCnYgLTI0MCAtMTYgMA0KdiAtMjMyIC0xNiAwDQp2IC0yNDggLTI0IDANCnYgLTI1NiAtMjQgMA0KdiAtMjU2IC0xNiAwDQp2IC0yNDggLTE2IDANCnYgLTI1NiAtMjQgMA0KdiAtMjY0IC0yNCAwDQp2IC0yNjQgLTE2IDANCnYgLTI1NiAtMTYgMA0KdiAtMjY0IC0yNCAwDQp2IC0yNzIgLTI0IDANCnYgLTI3MiAtMTYgMA0KdiAtMjY0IC0xNiAwDQp2IC0zMjggLTI0IDANCnYgLTMzNiAtMjQgMA0KdiAtMzM2IC0xNiAwDQp2IC0zMjggLTE2IDANCnYgLTMzNiAtMjQgMA0KdiAtMzQ0IC0yNCAwDQp2IC0zNDQgLTE2IDANCnYgLTMzNiAtMTYgMA0KdiAtMzQ0IC0yNCAwDQp2IC0zNTIgLTI0IDANCnYgLTM1MiAtMTYgMA0KdiAtMzQ0IC0xNiAwDQp2IC0zNzYgLTI0IDANCnYgLTM4NCAtMjQgMA0KdiAtMzg0IC0xNiAwDQp2IC0zNzYgLTE2IDANCnYgLTM4NCAtMjQgMA0KdiAtMzkyIC0yNCAwDQp2IC0zOTIgLTE2IDANCnYgLTM4NCAtMTYgMA0KdiAtMzkyIC0yNCAwDQp2IC00MDAgLTI0IDANCnYgLTQwMCAtMTYgMA0KdiAtMzkyIC0xNiAwDQp2IC00MCAtMzIgMA0KdiAtNDggLTMyIDANCnYgLTQ4IC0yNCAwDQp2IC00MCAtMjQgMA0KdiAtODAgLTMyIDANCnYgLTg4IC0zMiAwDQp2IC04OCAtMjQgMA0KdiAtODAgLTI0IDANCnYgLTg4IC0zMiAwDQp2IC05NiAtMzIgMA0KdiAtOTYgLTI0IDANCnYgLTg4IC0yNCAwDQp2IC05NiAtMzIgMA0KdiAtMTA0IC0zMiAwDQp2IC0xMDQgLTI0IDANCnYgLTk2IC0yNCAwDQp2IC0xNDQgLTMyIDANCnYgLTE1MiAtMzIgMA0KdiAtMTUyIC0yNCAwDQp2IC0xNDQgLTI0IDANCnYgLTE1MiAtMzIgMA0KdiAtMTYwIC0zMiAwDQp2IC0xNjAgLTI0IDANCnYgLTE1MiAtMjQgMA0KdiAtMTYwIC0zMiAwDQp2IC0xNjggLTMyIDANCnYgLTE2OCAtMjQgMA0KdiAtMTYwIC0yNCAwDQp2IC0yMDggLTMyIDANCnYgLTIxNiAtMzIgMA0KdiAtMjE2IC0yNCAwDQp2IC0yMDggLTI0IDANCnYgLTIxNiAtMzIgMA0KdiAtMjI0IC0zMiAwDQp2IC0yMjQgLTI0IDANCnYgLTIxNiAtMjQgMA0KdiAtMjMyIC0zMiAwDQp2IC0yNDAgLTMyIDANCnYgLTI0MCAtMjQgMA0KdiAtMjMyIC0yNCAwDQp2IC0yNDggLTMyIDANCnYgLTI1NiAtMzIgMA0KdiAtMjU2IC0yNCAwDQp2IC0yNDggLTI0IDANCnYgLTI2NCAtMzIgMA0KdiAtMjcyIC0zMiAwDQp2IC0yNzIgLTI0IDANCnYgLTI2NCAtMjQgMA0KdiAtMjcyIC0zMiAwDQp2IC0yODAgLTMyIDANCnYgLTI4MCAtMjQgMA0KdiAtMjcyIC0yNCAwDQp2IC0zMjAgLTMyIDANCnYgLTMyOCAtMzIgMA0KdiAtMzI4IC0yNCAwDQp2IC0zMjAgLTI0IDANCnYgLTMyOCAtMzIgMA0KdiAtMzM2IC0zMiAwDQp2IC0zMzYgLTI0IDANCnYgLTMyOCAtMjQgMA0KdiAtMzM2IC0zMiAwDQp2IC0zNDQgLTMyIDANCnYgLTM0NCAtMjQgMA0KdiAtMzM2IC0yNCAwDQp2IC0zODQgLTMyIDANCnYgLTM5MiAtMzIgMA0KdiAtMzkyIC0yNCAwDQp2IC0zODQgLTI0IDANCnYgLTM5MiAtMzIgMA0KdiAtNDAwIC0zMiAwDQp2IC00MDAgLTI0IDANCnYgLTM5MiAtMjQgMA0KdiAtNDAwIC0zMiAwDQp2IC00MDggLTMyIDANCnYgLTQwOCAtMjQgMA0KdiAtNDAwIC0yNCAwDQp2IC00MCAtNDAgMA0KdiAtNDggLTQwIDANCnYgLTQ4IC0zMiAwDQp2IC00MCAtMzIgMA0KdiAtODAgLTQwIDANCnYgLTg4IC00MCAwDQp2IC04OCAtMzIgMA0KdiAtODAgLTMyIDANCnYgLTg4IC00MCAwDQp2IC05NiAtNDAgMA0KdiAtOTYgLTMyIDANCnYgLTg4IC0zMiAwDQp2IC05NiAtNDAgMA0KdiAtMTA0IC00MCAwDQp2IC0xMDQgLTMyIDANCnYgLTk2IC0zMiAwDQp2IC0xMDQgLTQwIDANCnYgLTExMiAtNDAgMA0KdiAtMTEyIC0zMiAwDQp2IC0xMDQgLTMyIDANCnYgLTExMiAtNDAgMA0KdiAtMTIwIC00MCAwDQp2IC0xMjAgLTMyIDANCnYgLTExMiAtMzIgMA0KdiAtMTIwIC00MCAwDQp2IC0xMjggLTQwIDANCnYgLTEyOCAtMzIgMA0KdiAtMTIwIC0zMiAwDQp2IC0xMjggLTQwIDANCnYgLTEzNiAtNDAgMA0KdiAtMTM2IC0zMiAwDQp2IC0xMjggLTMyIDANCnYgLTEzNiAtNDAgMA0KdiAtMTQ0IC00MCAwDQp2IC0xNDQgLTMyIDANCnYgLTEzNiAtMzIgMA0KdiAtMTQ0IC00MCAwDQp2IC0xNTIgLTQwIDANCnYgLTE1MiAtMzIgMA0KdiAtMTQ0IC0zMiAwDQp2IC0xNTIgLTQwIDANCnYgLTE2MCAtNDAgMA0KdiAtMTYwIC0zMiAwDQp2IC0xNTIgLTMyIDANCnYgLTE2MCAtNDAgMA0KdiAtMTY4IC00MCAwDQp2IC0xNjggLTMyIDANCnYgLTE2MCAtMzIgMA0KdiAtMTY4IC00MCAwDQp2IC0xNzYgLTQwIDANCnYgLTE3NiAtMzIgMA0KdiAtMTY4IC0zMiAwDQp2IC0xNzYgLTQwIDANCnYgLTE4NCAtNDAgMA0KdiAtMTg0IC0zMiAwDQp2IC0xNzYgLTMyIDANCnYgLTE4NCAtNDAgMA0KdiAtMTkyIC00MCAwDQp2IC0xOTIgLTMyIDANCnYgLTE4NCAtMzIgMA0KdiAtMTkyIC00MCAwDQp2IC0yMDAgLTQwIDANCnYgLTIwMCAtMzIgMA0KdiAtMTkyIC0zMiAwDQp2IC0yMDAgLTQwIDANCnYgLTIwOCAtNDAgMA0KdiAtMjA4IC0zMiAwDQp2IC0yMDAgLTMyIDANCnYgLTIwOCAtNDAgMA0KdiAtMjE2IC00MCAwDQp2IC0yMTYgLTMyIDANCnYgLTIwOCAtMzIgMA0KdiAtMjE2IC00MCAwDQp2IC0yMjQgLTQwIDANCnYgLTIyNCAtMzIgMA0KdiAtMjE2IC0zMiAwDQp2IC0yMjQgLTQwIDANCnYgLTIzMiAtNDAgMA0KdiAtMjMyIC0zMiAwDQp2IC0yMjQgLTMyIDANCnYgLTIzMiAtNDAgMA0KdiAtMjQwIC00MCAwDQp2IC0yNDAgLTMyIDANCnYgLTIzMiAtMzIgMA0KdiAtMjQwIC00MCAwDQp2IC0yNDggLTQwIDANCnYgLTI0OCAtMzIgMA0KdiAtMjQwIC0zMiAwDQp2IC0yNDggLTQwIDANCnYgLTI1NiAtNDAgMA0KdiAtMjU2IC0zMiAwDQp2IC0yNDggLTMyIDANCnYgLTI1NiAtNDAgMA0KdiAtMjY0IC00MCAwDQp2IC0yNjQgLTMyIDANCnYgLTI1NiAtMzIgMA0KdiAtMjY0IC00MCAwDQp2IC0yNzIgLTQwIDANCnYgLTI3MiAtMzIgMA0KdiAtMjY0IC0zMiAwDQp2IC0yNzIgLTQwIDANCnYgLTI4MCAtNDAgMA0KdiAtMjgwIC0zMiAwDQp2IC0yNzIgLTMyIDANCnYgLTI4MCAtNDAgMA0KdiAtMjg4IC00MCAwDQp2IC0yODggLTMyIDANCnYgLTI4MCAtMzIgMA0KdiAtMjg4IC00MCAwDQp2IC0yOTYgLTQwIDANCnYgLTI5NiAtMzIgMA0KdiAtMjg4IC0zMiAwDQp2IC0yOTYgLTQwIDANCnYgLTMwNCAtNDAgMA0KdiAtMzA0IC0zMiAwDQp2IC0yOTYgLTMyIDANCnYgLTMwNCAtNDAgMA0KdiAtMzEyIC00MCAwDQp2IC0zMTIgLTMyIDANCnYgLTMwNCAtMzIgMA0KdiAtMzEyIC00MCAwDQp2IC0zMjAgLTQwIDANCnYgLTMyMCAtMzIgMA0KdiAtMzEyIC0zMiAwDQp2IC0zMjAgLTQwIDANCnYgLTMyOCAtNDAgMA0KdiAtMzI4IC0zMiAwDQp2IC0zMjAgLTMyIDANCnYgLTMyOCAtNDAgMA0KdiAtMzM2IC00MCAwDQp2IC0zMzYgLTMyIDANCnYgLTMyOCAtMzIgMA0KdiAtMzM2IC00MCAwDQp2IC0zNDQgLTQwIDANCnYgLTM0NCAtMzIgMA0KdiAtMzM2IC0zMiAwDQp2IC0zNDQgLTQwIDANCnYgLTM1MiAtNDAgMA0KdiAtMzUyIC0zMiAwDQp2IC0zNDQgLTMyIDANCnYgLTM1MiAtNDAgMA0KdiAtMzYwIC00MCAwDQp2IC0zNjAgLTMyIDANCnYgLTM1MiAtMzIgMA0KdiAtMzYwIC00MCAwDQp2IC0zNjggLTQwIDANCnYgLTM2OCAtMzIgMA0KdiAtMzYwIC0zMiAwDQp2IC0zNjggLTQwIDANCnYgLTM3NiAtNDAgMA0KdiAtMzc2IC0zMiAwDQp2IC0zNjggLTMyIDANCnYgLTM3NiAtNDAgMA0KdiAtMzg0IC00MCAwDQp2IC0zODQgLTMyIDANCnYgLTM3NiAtMzIgMA0KdiAtMzg0IC00MCAwDQp2IC0zOTIgLTQwIDANCnYgLTM5MiAtMzIgMA0KdiAtMzg0IC0zMiAwDQp2IC0zOTIgLTQwIDANCnYgLTQwMCAtNDAgMA0KdiAtNDAwIC0zMiAwDQp2IC0zOTIgLTMyIDANCnYgLTQwMCAtNDAgMA0KdiAtNDA4IC00MCAwDQp2IC00MDggLTMyIDANCnYgLTQwMCAtMzIgMA0KdiAtNDAgLTQ4IDANCnYgLTQ4IC00OCAwDQp2IC00OCAtNDAgMA0KdiAtNDAgLTQwIDANCnYgLTQwIC01NiAwDQp2IC00OCAtNTYgMA0KdiAtNDggLTQ4IDANCnYgLTQwIC00OCAwDQp2IC0xNzYgLTU2IDANCnYgLTE4NCAtNTYgMA0KdiAtMTg0IC00OCAwDQp2IC0xNzYgLTQ4IDANCnYgLTE4NCAtNTYgMA0KdiAtMTkyIC01NiAwDQp2IC0xOTIgLTQ4IDANCnYgLTE4NCAtNDggMA0KdiAtMTkyIC01NiAwDQp2IC0yMDAgLTU2IDANCnYgLTIwMCAtNDggMA0KdiAtMTkyIC00OCAwDQp2IC0yODggLTU2IDANCnYgLTI5NiAtNTYgMA0KdiAtMjk2IC00OCAwDQp2IC0yODggLTQ4IDANCnYgLTI5NiAtNTYgMA0KdiAtMzA0IC01NiAwDQp2IC0zMDQgLTQ4IDANCnYgLTI5NiAtNDggMA0KdiAtMzA0IC01NiAwDQp2IC0zMTIgLTU2IDANCnYgLTMxMiAtNDggMA0KdiAtMzA0IC00OCAwDQp2IC00MCAtNjQgMA0KdiAtNDggLTY0IDANCnYgLTQ4IC01NiAwDQp2IC00MCAtNTYgMA0KdiAtMTc2IC02NCAwDQp2IC0xODQgLTY0IDANCnYgLTE4NCAtNTYgMA0KdiAtMTc2IC01NiAwDQp2IC0xODQgLTY0IDANCnYgLTE5MiAtNjQgMA0KdiAtMTkyIC01NiAwDQp2IC0xODQgLTU2IDANCnYgLTE5MiAtNjQgMA0KdiAtMjAwIC02NCAwDQp2IC0yMDAgLTU2IDANCnYgLTE5MiAtNTYgMA0KdiAtMjg4IC02NCAwDQp2IC0yOTYgLTY0IDANCnYgLTI5NiAtNTYgMA0KdiAtMjg4IC01NiAwDQp2IC0yOTYgLTY0IDANCnYgLTMwNCAtNjQgMA0KdiAtMzA0IC01NiAwDQp2IC0yOTYgLTU2IDANCnYgLTMwNCAtNjQgMA0KdiAtMzEyIC02NCAwDQp2IC0zMTIgLTU2IDANCnYgLTMwNCAtNTYgMA0KdiAtNDAgLTcyIDANCnYgLTQ4IC03MiAwDQp2IC00OCAtNjQgMA0KdiAtNDAgLTY0IDANCnYgLTE3NiAtNzIgMA0KdiAtMTg0IC03MiAwDQp2IC0xODQgLTY0IDANCnYgLTE3NiAtNjQgMA0KdiAtMTg0IC03MiAwDQp2IC0xOTIgLTcyIDANCnYgLTE5MiAtNjQgMA0KdiAtMTg0IC02NCAwDQp2IC0xOTIgLTcyIDANCnYgLTIwMCAtNzIgMA0KdiAtMjAwIC02NCAwDQp2IC0xOTIgLTY0IDANCnYgLTI4OCAtNzIgMA0KdiAtMjk2IC03MiAwDQp2IC0yOTYgLTY0IDANCnYgLTI4OCAtNjQgMA0KdiAtMjk2IC03MiAwDQp2IC0zMDQgLTcyIDANCnYgLTMwNCAtNjQgMA0KdiAtMjk2IC02NCAwDQp2IC0zMDQgLTcyIDANCnYgLTMxMiAtNzIgMA0KdiAtMzEyIC02NCAwDQp2IC0zMDQgLTY0IDANCnYgLTQwIC04MCAwDQp2IC00OCAtODAgMA0KdiAtNDggLTcyIDANCnYgLTQwIC03MiAwDQp2IC00MCAtODggMA0KdiAtNDggLTg4IDANCnYgLTQ4IC04MCAwDQp2IC00MCAtODAgMA0KdiAtNDAgLTk2IDANCnYgLTQ4IC05NiAwDQp2IC00OCAtODggMA0KdiAtNDAgLTg4IDANCnYgLTQwIC0xMDQgMA0KdiAtNDggLTEwNCAwDQp2IC00OCAtOTYgMA0KdiAtNDAgLTk2IDANCnYgLTQwIC0xNTIgMA0KdiAtNDggLTE1MiAwDQp2IC00OCAtMTQ0IDANCnYgLTQwIC0xNDQgMA0KdiAtNDAgLTE2MCAwDQp2IC00OCAtMTYwIDANCnYgLTQ4IC0xNTIgMA0KdiAtNDAgLTE1MiAwDQp2IC00MCAtMTY4IDANCnYgLTQ4IC0xNjggMA0KdiAtNDggLTE2MCAwDQp2IC00MCAtMTYwIDANCnYgLTQwIC0xNzYgMA0KdiAtNDggLTE3NiAwDQp2IC00OCAtMTY4IDANCnYgLTQwIC0xNjggMA0KdiAtNDAgLTE4NCAwDQp2IC00OCAtMTg0IDANCnYgLTQ4IC0xNzYgMA0KdiAtNDAgLTE3NiAwDQp2IC0xNzYgLTE4NCAwDQp2IC0xODQgLTE4NCAwDQp2IC0xODQgLTE3NiAwDQp2IC0xNzYgLTE3NiAwDQp2IC0xODQgLTE4NCAwDQp2IC0xOTIgLTE4NCAwDQp2IC0xOTIgLTE3NiAwDQp2IC0xODQgLTE3NiAwDQp2IC0xOTIgLTE4NCAwDQp2IC0yMDAgLTE4NCAwDQp2IC0yMDAgLTE3NiAwDQp2IC0xOTIgLTE3NiAwDQp2IC0yODggLTE4NCAwDQp2IC0yOTYgLTE4NCAwDQp2IC0yOTYgLTE3NiAwDQp2IC0yODggLTE3NiAwDQp2IC0yOTYgLTE4NCAwDQp2IC0zMDQgLTE4NCAwDQp2IC0zMDQgLTE3NiAwDQp2IC0yOTYgLTE3NiAwDQp2IC0zMDQgLTE4NCAwDQp2IC0zMTIgLTE4NCAwDQp2IC0zMTIgLTE3NiAwDQp2IC0zMDQgLTE3NiAwDQp2IC00MCAtMTkyIDANCnYgLTQ4IC0xOTIgMA0KdiAtNDggLTE4NCAwDQp2IC00MCAtMTg0IDANCnYgLTE3NiAtMTkyIDANCnYgLTE4NCAtMTkyIDANCnYgLTE4NCAtMTg0IDANCnYgLTE3NiAtMTg0IDANCnYgLTE4NCAtMTkyIDANCnYgLTE5MiAtMTkyIDANCnYgLTE5MiAtMTg0IDANCnYgLTE4NCAtMTg0IDANCnYgLTE5MiAtMTkyIDANCnYgLTIwMCAtMTkyIDANCnYgLTIwMCAtMTg0IDANCnYgLTE5MiAtMTg0IDANCnYgLTI4OCAtMTkyIDANCnYgLTI5NiAtMTkyIDANCnYgLTI5NiAtMTg0IDANCnYgLTI4OCAtMTg0IDANCnYgLTI5NiAtMTkyIDANCnYgLTMwNCAtMTkyIDANCnYgLTMwNCAtMTg0IDANCnYgLTI5NiAtMTg0IDANCnYgLTMwNCAtMTkyIDANCnYgLTMxMiAtMTkyIDANCnYgLTMxMiAtMTg0IDANCnYgLTMwNCAtMTg0IDANCnYgLTQwIC0yMDAgMA0KdiAtNDggLTIwMCAwDQp2IC00OCAtMTkyIDANCnYgLTQwIC0xOTIgMA0KdiAtMTc2IC0yMDAgMA0KdiAtMTg0IC0yMDAgMA0KdiAtMTg0IC0xOTIgMA0KdiAtMTc2IC0xOTIgMA0KdiAtMTg0IC0yMDAgMA0KdiAtMTkyIC0yMDAgMA0KdiAtMTkyIC0xOTIgMA0KdiAtMTg0IC0xOTIgMA0KdiAtMTkyIC0yMDAgMA0KdiAtMjAwIC0yMDAgMA0KdiAtMjAwIC0xOTIgMA0KdiAtMTkyIC0xOTIgMA0KdiAtMjg4IC0yMDAgMA0KdiAtMjk2IC0yMDAgMA0KdiAtMjk2IC0xOTIgMA0KdiAtMjg4IC0xOTIgMA0KdiAtMjk2IC0yMDAgMA0KdiAtMzA0IC0yMDAgMA0KdiAtMzA0IC0xOTIgMA0KdiAtMjk2IC0xOTIgMA0KdiAtMzA0IC0yMDAgMA0KdiAtMzEyIC0yMDAgMA0KdiAtMzEyIC0xOTIgMA0KdiAtMzA0IC0xOTIgMA0KdiAtNDAgLTIwOCAwDQp2IC00OCAtMjA4IDANCnYgLTQ4IC0yMDAgMA0KdiAtNDAgLTIwMCAwDQp2IC00MCAtMjE2IDANCnYgLTQ4IC0yMTYgMA0KdiAtNDggLTIwOCAwDQp2IC00MCAtMjA4IDANCnYgLTQwIC0yMjQgMA0KdiAtNDggLTIyNCAwDQp2IC00OCAtMjE2IDANCnYgLTQwIC0yMTYgMA0KdiAtNDAgLTIzMiAwDQp2IC00OCAtMjMyIDANCnYgLTQ4IC0yMjQgMA0KdiAtNDAgLTIyNCAwDQp2IC00MCAtMjQwIDANCnYgLTQ4IC0yNDAgMA0KdiAtNDggLTIzMiAwDQp2IC00MCAtMjMyIDANCnYgLTgwIC0yNDAgMA0KdiAtODggLTI0MCAwDQp2IC04OCAtMjMyIDANCnYgLTgwIC0yMzIgMA0KdiAtODggLTI0MCAwDQp2IC05NiAtMjQwIDANCnYgLTk2IC0yMzIgMA0KdiAtODggLTIzMiAwDQp2IC05NiAtMjQwIDANCnYgLTEwNCAtMjQwIDANCnYgLTEwNCAtMjMyIDANCnYgLTk2IC0yMzIgMA0KdiAtMTA0IC0yNDAgMA0KdiAtMTEyIC0yNDAgMA0KdiAtMTEyIC0yMzIgMA0KdiAtMTA0IC0yMzIgMA0KdiAtMTEyIC0yNDAgMA0KdiAtMTIwIC0yNDAgMA0KdiAtMTIwIC0yMzIgMA0KdiAtMTEyIC0yMzIgMA0KdiAtMTIwIC0yNDAgMA0KdiAtMTI4IC0yNDAgMA0KdiAtMTI4IC0yMzIgMA0KdiAtMTIwIC0yMzIgMA0KdiAtMTI4IC0yNDAgMA0KdiAtMTM2IC0yNDAgMA0KdiAtMTM2IC0yMzIgMA0KdiAtMTI4IC0yMzIgMA0KdiAtMTM2IC0yNDAgMA0KdiAtMTQ0IC0yNDAgMA0KdiAtMTQ0IC0yMzIgMA0KdiAtMTM2IC0yMzIgMA0KdiAtMTQ0IC0yNDAgMA0KdiAtMTUyIC0yNDAgMA0KdiAtMTUyIC0yMzIgMA0KdiAtMTQ0IC0yMzIgMA0KdiAtMTUyIC0yNDAgMA0KdiAtMTYwIC0yNDAgMA0KdiAtMTYwIC0yMzIgMA0KdiAtMTUyIC0yMzIgMA0KdiAtMTYwIC0yNDAgMA0KdiAtMTY4IC0yNDAgMA0KdiAtMTY4IC0yMzIgMA0KdiAtMTYwIC0yMzIgMA0KdiAtMTY4IC0yNDAgMA0KdiAtMTc2IC0yNDAgMA0KdiAtMTc2IC0yMzIgMA0KdiAtMTY4IC0yMzIgMA0KdiAtMTc2IC0yNDAgMA0KdiAtMTg0IC0yNDAgMA0KdiAtMTg0IC0yMzIgMA0KdiAtMTc2IC0yMzIgMA0KdiAtMTg0IC0yNDAgMA0KdiAtMTkyIC0yNDAgMA0KdiAtMTkyIC0yMzIgMA0KdiAtMTg0IC0yMzIgMA0KdiAtMTkyIC0yNDAgMA0KdiAtMjAwIC0yNDAgMA0KdiAtMjAwIC0yMzIgMA0KdiAtMTkyIC0yMzIgMA0KdiAtMjAwIC0yNDAgMA0KdiAtMjA4IC0yNDAgMA0KdiAtMjA4IC0yMzIgMA0KdiAtMjAwIC0yMzIgMA0KdiAtMjA4IC0yNDAgMA0KdiAtMjE2IC0yNDAgMA0KdiAtMjE2IC0yMzIgMA0KdiAtMjA4IC0yMzIgMA0KdiAtMjE2IC0yNDAgMA0KdiAtMjI0IC0yNDAgMA0KdiAtMjI0IC0yMzIgMA0KdiAtMjE2IC0yMzIgMA0KdiAtMjI0IC0yNDAgMA0KdiAtMjMyIC0yNDAgMA0KdiAtMjMyIC0yMzIgMA0KdiAtMjI0IC0yMzIgMA0KdiAtMjMyIC0yNDAgMA0KdiAtMjQwIC0yNDAgMA0KdiAtMjQwIC0yMzIgMA0KdiAtMjMyIC0yMzIgMA0KdiAtMjQwIC0yNDAgMA0KdiAtMjQ4IC0yNDAgMA0KdiAtMjQ4IC0yMzIgMA0KdiAtMjQwIC0yMzIgMA0KdiAtMjQ4IC0yNDAgMA0KdiAtMjU2IC0yNDAgMA0KdiAtMjU2IC0yMzIgMA0KdiAtMjQ4IC0yMzIgMA0KdiAtMjU2IC0yNDAgMA0KdiAtMjY0IC0yNDAgMA0KdiAtMjY0IC0yMzIgMA0KdiAtMjU2IC0yMzIgMA0KdiAtMjY0IC0yNDAgMA0KdiAtMjcyIC0yNDAgMA0KdiAtMjcyIC0yMzIgMA0KdiAtMjY0IC0yMzIgMA0KdiAtMjcyIC0yNDAgMA0KdiAtMjgwIC0yNDAgMA0KdiAtMjgwIC0yMzIgMA0KdiAtMjcyIC0yMzIgMA0KdiAtMjgwIC0yNDAgMA0KdiAtMjg4IC0yNDAgMA0KdiAtMjg4IC0yMzIgMA0KdiAtMjgwIC0yMzIgMA0KdiAtMjg4IC0yNDAgMA0KdiAtMjk2IC0yNDAgMA0KdiAtMjk2IC0yMzIgMA0KdiAtMjg4IC0yMzIgMA0KdiAtMjk2IC0yNDAgMA0KdiAtMzA0IC0yNDAgMA0KdiAtMzA0IC0yMzIgMA0KdiAtMjk2IC0yMzIgMA0KdiAtMzA0IC0yNDAgMA0KdiAtMzEyIC0yNDAgMA0KdiAtMzEyIC0yMzIgMA0KdiAtMzA0IC0yMzIgMA0KdiAtMzEyIC0yNDAgMA0KdiAtMzIwIC0yNDAgMA0KdiAtMzIwIC0yMzIgMA0KdiAtMzEyIC0yMzIgMA0KdiAtMzIwIC0yNDAgMA0KdiAtMzI4IC0yNDAgMA0KdiAtMzI4IC0yMzIgMA0KdiAtMzIwIC0yMzIgMA0KdiAtMzI4IC0yNDAgMA0KdiAtMzM2IC0yNDAgMA0KdiAtMzM2IC0yMzIgMA0KdiAtMzI4IC0yMzIgMA0KdiAtMzM2IC0yNDAgMA0KdiAtMzQ0IC0yNDAgMA0KdiAtMzQ0IC0yMzIgMA0KdiAtMzM2IC0yMzIgMA0KdiAtMzQ0IC0yNDAgMA0KdiAtMzUyIC0yNDAgMA0KdiAtMzUyIC0yMzIgMA0KdiAtMzQ0IC0yMzIgMA0KdiAtMzUyIC0yNDAgMA0KdiAtMzYwIC0yNDAgMA0KdiAtMzYwIC0yMzIgMA0KdiAtMzUyIC0yMzIgMA0KdiAtMzYwIC0yNDAgMA0KdiAtMzY4IC0yNDAgMA0KdiAtMzY4IC0yMzIgMA0KdiAtMzYwIC0yMzIgMA0KdiAtMzY4IC0yNDAgMA0KdiAtMzc2IC0yNDAgMA0KdiAtMzc2IC0yMzIgMA0KdiAtMzY4IC0yMzIgMA0KdiAtMzc2IC0yNDAgMA0KdiAtMzg0IC0yNDAgMA0KdiAtMzg0IC0yMzIgMA0KdiAtMzc2IC0yMzIgMA0KdiAtMzg0IC0yNDAgMA0KdiAtMzkyIC0yNDAgMA0KdiAtMzkyIC0yMzIgMA0KdiAtMzg0IC0yMzIgMA0KdiAtMzkyIC0yNDAgMA0KdiAtNDAwIC0yNDAgMA0KdiAtNDAwIC0yMzIgMA0KdiAtMzkyIC0yMzIgMA0KdiAtNDAwIC0yNDAgMA0KdiAtNDA4IC0yNDAgMA0KdiAtNDA4IC0yMzIgMA0KdiAtNDAwIC0yMzIgMA0KDQojIFRleHR1cmUgY29vcmlkaW5hdGVzIChDb3VudCA9IDE2KQ0KdnQgMC4zMzMzMzMzIDAuNjY2NjY2Ng0KdnQgMC42NjY2NjY3IDAuNjY2NjY2Ng0KdnQgMC42NjY2NjY3IDENCnZ0IDAuMzMzMzMzMyAxDQp2dCAwIDAuNjY2NjY2Ng0KdnQgMCAxDQp2dCAwLjY2NjY2NjcgMA0KdnQgMSAwDQp2dCAxIDAuMzMzMzMzMw0KdnQgMC42NjY2NjY3IDAuMzMzMzMzMw0KdnQgMCAwDQp2dCAwLjMzMzMzMzMgMA0KdnQgMC4zMzMzMzMzIDAuMzMzMzMzMw0KdnQgMCAwLjMzMzMzMzMNCnZ0IDEgMC42NjY2NjY2DQp2dCAxIDENCg0KIyBOb3JtYWwNCnZuIDAgMCAtMQ0KDQojIE1lc2ggZGVzY3JpcHRpb24NCmcgMV8xX01vZHVsZTQ3X21lc2hfMDAwMg0KDQojIEZhY2VzDQpmIDEvMS8xIDIvMi8xIDMvMy8xIDQvNC8xCmYgNS81LzEgNi8xLzEgNy80LzEgOC82LzEKZiA5LzEvMSAxMC8yLzEgMTEvMy8xIDEyLzQvMQpmIDEzLzcvMSAxNC84LzEgMTUvOS8xIDE2LzEwLzEKZiAxNy8xMS8xIDE4LzEyLzEgMTkvMTMvMSAyMC8xNC8xCmYgMjEvMTMvMSAyMi8xMC8xIDIzLzIvMSAyNC8xLzEKZiAyNS8yLzEgMjYvMTUvMSAyNy8xNi8xIDI4LzMvMQpmIDI5LzUvMSAzMC8xLzEgMzEvNC8xIDMyLzYvMQpmIDMzLzEzLzEgMzQvMTAvMSAzNS8yLzEgMzYvMS8xCmYgMzcvMTMvMSAzOC8xMC8xIDM5LzIvMSA0MC8xLzEKZiA0MS8yLzEgNDIvMTUvMSA0My8xNi8xIDQ0LzMvMQpmIDQ1LzUvMSA0Ni8xLzEgNDcvNC8xIDQ4LzYvMQpmIDQ5LzEzLzEgNTAvMTAvMSA1MS8yLzEgNTIvMS8xCmYgNTMvNy8xIDU0LzgvMSA1NS85LzEgNTYvMTAvMQpmIDU3LzExLzEgNTgvMTIvMSA1OS8xMy8xIDYwLzE0LzEKZiA2MS8xLzEgNjIvMi8xIDYzLzMvMSA2NC80LzEKZiA2NS8yLzEgNjYvMTUvMSA2Ny8xNi8xIDY4LzMvMQpmIDY5LzEvMSA3MC8yLzEgNzEvMy8xIDcyLzQvMQpmIDczLzUvMSA3NC8xLzEgNzUvNC8xIDc2LzYvMQpmIDc3LzEvMSA3OC8yLzEgNzkvMy8xIDgwLzQvMQpmIDgxLzcvMSA4Mi84LzEgODMvOS8xIDg0LzEwLzEKZiA4NS8xMS8xIDg2LzEyLzEgODcvMTMvMSA4OC8xNC8xCmYgODkvMTMvMSA5MC8xMC8xIDkxLzIvMSA5Mi8xLzEKZiA5My8yLzEgOTQvMTUvMSA5NS8xNi8xIDk2LzMvMQpmIDk3LzUvMSA5OC8xLzEgOTkvNC8xIDEwMC82LzEKZiAxMDEvMTMvMSAxMDIvMTAvMSAxMDMvMi8xIDEwNC8xLzEKZiAxMDUvMTMvMSAxMDYvMTAvMSAxMDcvMi8xIDEwOC8xLzEKZiAxMDkvMTMvMSAxMTAvMTAvMSAxMTEvMi8xIDExMi8xLzEKZiAxMTMvMTMvMSAxMTQvMTAvMSAxMTUvMi8xIDExNi8xLzEKZiAxMTcvMi8xIDExOC8xNS8xIDExOS8xNi8xIDEyMC8zLzEKZiAxMjEvNS8xIDEyMi8xLzEgMTIzLzQvMSAxMjQvNi8xCmYgMTI1LzEzLzEgMTI2LzEwLzEgMTI3LzIvMSAxMjgvMS8xCmYgMTI5LzcvMSAxMzAvOC8xIDEzMS85LzEgMTMyLzEwLzEKZiAxMzMvMTEvMSAxMzQvMTIvMSAxMzUvMTMvMSAxMzYvMTQvMQpmIDEzNy8xLzEgMTM4LzIvMSAxMzkvMy8xIDE0MC80LzEKZiAxNDEvMi8xIDE0Mi8xNS8xIDE0My8xNi8xIDE0NC8zLzEKZiAxNDUvMS8xIDE0Ni8yLzEgMTQ3LzMvMSAxNDgvNC8xCmYgMTQ5LzUvMSAxNTAvMS8xIDE1MS80LzEgMTUyLzYvMQpmIDE1My8xLzEgMTU0LzIvMSAxNTUvMy8xIDE1Ni80LzEKZiAxNTcvNy8xIDE1OC84LzEgMTU5LzkvMSAxNjAvMTAvMQpmIDE2MS8xMS8xIDE2Mi8xMi8xIDE2My8xMy8xIDE2NC8xNC8xCmYgMTY1LzEzLzEgMTY2LzEwLzEgMTY3LzIvMSAxNjgvMS8xCmYgMTY5LzIvMSAxNzAvMTUvMSAxNzEvMTYvMSAxNzIvMy8xCmYgMTczLzUvMSAxNzQvMS8xIDE3NS80LzEgMTc2LzYvMQpmIDE3Ny8xMy8xIDE3OC8xMC8xIDE3OS8yLzEgMTgwLzEvMQpmIDE4MS8xMy8xIDE4Mi8xMC8xIDE4My8yLzEgMTg0LzEvMQpmIDE4NS8xMy8xIDE4Ni8xMC8xIDE4Ny8yLzEgMTg4LzEvMQpmIDE4OS8xMy8xIDE5MC8xMC8xIDE5MS8yLzEgMTkyLzEvMQpmIDE5My8yLzEgMTk0LzE1LzEgMTk1LzE2LzEgMTk2LzMvMQpmIDE5Ny81LzEgMTk4LzEvMSAxOTkvNC8xIDIwMC82LzEKZiAyMDEvMTMvMSAyMDIvMTAvMSAyMDMvMi8xIDIwNC8xLzEKZiAyMDUvNy8xIDIwNi84LzEgMjA3LzkvMSAyMDgvMTAvMQpmIDIwOS8xMS8xIDIxMC8xMi8xIDIxMS8xMy8xIDIxMi8xNC8xCmYgMjEzLzEvMSAyMTQvMi8xIDIxNS8zLzEgMjE2LzQvMQpmIDIxNy8yLzEgMjE4LzE1LzEgMjE5LzE2LzEgMjIwLzMvMQpmIDIyMS8xLzEgMjIyLzIvMSAyMjMvMy8xIDIyNC80LzEKZiAyMjUvMS8xIDIyNi8yLzEgMjI3LzMvMSAyMjgvNC8xCmYgMjI5LzEvMSAyMzAvMi8xIDIzMS8zLzEgMjMyLzQvMQpmIDIzMy8xLzEgMjM0LzIvMSAyMzUvMy8xIDIzNi80LzEKZiAyMzcvMS8xIDIzOC8yLzEgMjM5LzMvMSAyNDAvNC8xCmYgMjQxLzEvMSAyNDIvMi8xIDI0My8zLzEgMjQ0LzQvMQpmIDI0NS8xLzEgMjQ2LzIvMSAyNDcvMy8xIDI0OC80LzEKZiAyNDkvMS8xIDI1MC8yLzEgMjUxLzMvMSAyNTIvNC8xCmYgMjUzLzEvMSAyNTQvMi8xIDI1NS8zLzEgMjU2LzQvMQpmIDI1Ny8xLzEgMjU4LzIvMSAyNTkvMy8xIDI2MC80LzEKZiAyNjEvMS8xIDI2Mi8yLzEgMjYzLzMvMSAyNjQvNC8xCmYgMjY1LzEvMSAyNjYvMi8xIDI2Ny8zLzEgMjY4LzQvMQpmIDI2OS8xLzEgMjcwLzIvMSAyNzEvMy8xIDI3Mi80LzEKZiAyNzMvMS8xIDI3NC8yLzEgMjc1LzMvMSAyNzYvNC8xCmYgMjc3LzEvMSAyNzgvMi8xIDI3OS8zLzEgMjgwLzQvMQpmIDI4MS8xLzEgMjgyLzIvMSAyODMvMy8xIDI4NC80LzEKZiAyODUvMS8xIDI4Ni8yLzEgMjg3LzMvMSAyODgvNC8xCmYgMjg5LzEvMSAyOTAvMi8xIDI5MS8zLzEgMjkyLzQvMQpmIDI5My8xLzEgMjk0LzIvMSAyOTUvMy8xIDI5Ni80LzEKZiAyOTcvMS8xIDI5OC8yLzEgMjk5LzMvMSAzMDAvNC8xCmYgMzAxLzEvMSAzMDIvMi8xIDMwMy8zLzEgMzA0LzQvMQpmIDMwNS8xLzEgMzA2LzIvMSAzMDcvMy8xIDMwOC80LzEKZiAzMDkvMS8xIDMxMC8yLzEgMzExLzMvMSAzMTIvNC8xCmYgMzEzLzEvMSAzMTQvMi8xIDMxNS8zLzEgMzE2LzQvMQpmIDMxNy8xLzEgMzE4LzIvMSAzMTkvMy8xIDMyMC80LzEKZiAzMjEvMS8xIDMyMi8yLzEgMzIzLzMvMSAzMjQvNC8xCmYgMzI1LzEvMSAzMjYvMi8xIDMyNy8zLzEgMzI4LzQvMQpmIDMyOS8xLzEgMzMwLzIvMSAzMzEvMy8xIDMzMi80LzEKZiAzMzMvMS8xIDMzNC8yLzEgMzM1LzMvMSAzMzYvNC8xCmYgMzM3LzEvMSAzMzgvMi8xIDMzOS8zLzEgMzQwLzQvMQpmIDM0MS8xLzEgMzQyLzIvMSAzNDMvMy8xIDM0NC80LzEKZiAzNDUvMS8xIDM0Ni8yLzEgMzQ3LzMvMSAzNDgvNC8xCmYgMzQ5LzEvMSAzNTAvMi8xIDM1MS8zLzEgMzUyLzQvMQpmIDM1My8xLzEgMzU0LzIvMSAzNTUvMy8xIDM1Ni80LzEKZiAzNTcvMS8xIDM1OC8yLzEgMzU5LzMvMSAzNjAvNC8xCmYgMzYxLzEvMSAzNjIvMi8xIDM2My8zLzEgMzY0LzQvMQpmIDM2NS8xLzEgMzY2LzIvMSAzNjcvMy8xIDM2OC80LzEKZiAzNjkvMS8xIDM3MC8yLzEgMzcxLzMvMSAzNzIvNC8xCmYgMzczLzEvMSAzNzQvMi8xIDM3NS8zLzEgMzc2LzQvMQpmIDM3Ny8xLzEgMzc4LzIvMSAzNzkvMy8xIDM4MC80LzEKZiAzODEvMS8xIDM4Mi8yLzEgMzgzLzMvMSAzODQvNC8xCmYgMzg1LzEvMSAzODYvMi8xIDM4Ny8zLzEgMzg4LzQvMQpmIDM4OS8xLzEgMzkwLzIvMSAzOTEvMy8xIDM5Mi80LzEKZiAzOTMvMS8xIDM5NC8yLzEgMzk1LzMvMSAzOTYvNC8xCmYgMzk3LzEzLzEgMzk4LzEwLzEgMzk5LzIvMSA0MDAvMS8xCmYgNDAxLzEzLzEgNDAyLzEwLzEgNDAzLzIvMSA0MDQvMS8xCmYgNDA1LzEzLzEgNDA2LzEwLzEgNDA3LzIvMSA0MDgvMS8xCmYgNDA5LzEzLzEgNDEwLzEwLzEgNDExLzIvMSA0MTIvMS8xCmYgNDEzLzEzLzEgNDE0LzEwLzEgNDE1LzIvMSA0MTYvMS8xCmYgNDE3LzEzLzEgNDE4LzEwLzEgNDE5LzIvMSA0MjAvMS8xCmYgNDIxLzEvMSA0MjIvMi8xIDQyMy8zLzEgNDI0LzQvMQpmIDQyNS8xMy8xIDQyNi8xMC8xIDQyNy8yLzEgNDI4LzEvMQpmIDQyOS8xMy8xIDQzMC8xMC8xIDQzMS8yLzEgNDMyLzEvMQpmIDQzMy8xMy8xIDQzNC8xMC8xIDQzNS8yLzEgNDM2LzEvMQpmIDQzNy8xMy8xIDQzOC8xMC8xIDQzOS8yLzEgNDQwLzEvMQpmIDQ0MS8xMy8xIDQ0Mi8xMC8xIDQ0My8yLzEgNDQ0LzEvMQpmIDQ0NS8xMy8xIDQ0Ni8xMC8xIDQ0Ny8yLzEgNDQ4LzEvMQpmIDQ0OS8xLzEgNDUwLzIvMSA0NTEvMy8xIDQ1Mi80LzEKZiA0NTMvMTMvMSA0NTQvMTAvMSA0NTUvMi8xIDQ1Ni8xLzEKZiA0NTcvMTMvMSA0NTgvMTAvMSA0NTkvMi8xIDQ2MC8xLzEKZiA0NjEvMTMvMSA0NjIvMTAvMSA0NjMvMi8xIDQ2NC8xLzEKZiA0NjUvMTMvMSA0NjYvMTAvMSA0NjcvMi8xIDQ2OC8xLzEKZiA0NjkvMTMvMSA0NzAvMTAvMSA0NzEvMi8xIDQ3Mi8xLzEKZiA0NzMvMTMvMSA0NzQvMTAvMSA0NzUvMi8xIDQ3Ni8xLzEKZiA0NzcvMS8xIDQ3OC8yLzEgNDc5LzMvMSA0ODAvNC8xCmYgNDgxLzEvMSA0ODIvMi8xIDQ4My8zLzEgNDg0LzQvMQpmIDQ4NS8xLzEgNDg2LzIvMSA0ODcvMy8xIDQ4OC80LzEKZiA0ODkvMS8xIDQ5MC8yLzEgNDkxLzMvMSA0OTIvNC8xCmYgNDkzLzEvMSA0OTQvMi8xIDQ5NS8zLzEgNDk2LzQvMQpmIDQ5Ny8xLzEgNDk4LzIvMSA0OTkvMy8xIDUwMC80LzEKZiA1MDEvMS8xIDUwMi8yLzEgNTAzLzMvMSA1MDQvNC8xCmYgNTA1LzEvMSA1MDYvMi8xIDUwNy8zLzEgNTA4LzQvMQpmIDUwOS8xLzEgNTEwLzIvMSA1MTEvMy8xIDUxMi80LzEKZiA1MTMvMTMvMSA1MTQvMTAvMSA1MTUvMi8xIDUxNi8xLzEKZiA1MTcvMTMvMSA1MTgvMTAvMSA1MTkvMi8xIDUyMC8xLzEKZiA1MjEvMTMvMSA1MjIvMTAvMSA1MjMvMi8xIDUyNC8xLzEKZiA1MjUvMTMvMSA1MjYvMTAvMSA1MjcvMi8xIDUyOC8xLzEKZiA1MjkvMTMvMSA1MzAvMTAvMSA1MzEvMi8xIDUzMi8xLzEKZiA1MzMvMTMvMSA1MzQvMTAvMSA1MzUvMi8xIDUzNi8xLzEKZiA1MzcvMS8xIDUzOC8yLzEgNTM5LzMvMSA1NDAvNC8xCmYgNTQxLzEzLzEgNTQyLzEwLzEgNTQzLzIvMSA1NDQvMS8xCmYgNTQ1LzEzLzEgNTQ2LzEwLzEgNTQ3LzIvMSA1NDgvMS8xCmYgNTQ5LzEzLzEgNTUwLzEwLzEgNTUxLzIvMSA1NTIvMS8xCmYgNTUzLzEzLzEgNTU0LzEwLzEgNTU1LzIvMSA1NTYvMS8xCmYgNTU3LzEzLzEgNTU4LzEwLzEgNTU5LzIvMSA1NjAvMS8xCmYgNTYxLzEzLzEgNTYyLzEwLzEgNTYzLzIvMSA1NjQvMS8xCmYgNTY1LzEvMSA1NjYvMi8xIDU2Ny8zLzEgNTY4LzQvMQpmIDU2OS8xMy8xIDU3MC8xMC8xIDU3MS8yLzEgNTcyLzEvMQpmIDU3My8xMy8xIDU3NC8xMC8xIDU3NS8yLzEgNTc2LzEvMQpmIDU3Ny8xMy8xIDU3OC8xMC8xIDU3OS8yLzEgNTgwLzEvMQpmIDU4MS8xMy8xIDU4Mi8xMC8xIDU4My8yLzEgNTg0LzEvMQpmIDU4NS8xMy8xIDU4Ni8xMC8xIDU4Ny8yLzEgNTg4LzEvMQpmIDU4OS8xMy8xIDU5MC8xMC8xIDU5MS8yLzEgNTkyLzEvMQpmIDU5My8xLzEgNTk0LzIvMSA1OTUvMy8xIDU5Ni80LzEKZiA1OTcvMS8xIDU5OC8yLzEgNTk5LzMvMSA2MDAvNC8xCmYgNjAxLzEvMSA2MDIvMi8xIDYwMy8zLzEgNjA0LzQvMQpmIDYwNS8xLzEgNjA2LzIvMSA2MDcvMy8xIDYwOC80LzEKZiA2MDkvMS8xIDYxMC8yLzEgNjExLzMvMSA2MTIvNC8xCmYgNjEzLzEvMSA2MTQvMi8xIDYxNS8zLzEgNjE2LzQvMQpmIDYxNy8xLzEgNjE4LzIvMSA2MTkvMy8xIDYyMC80LzEKZiA2MjEvMS8xIDYyMi8yLzEgNjIzLzMvMSA2MjQvNC8xCmYgNjI1LzEvMSA2MjYvMi8xIDYyNy8zLzEgNjI4LzQvMQpmIDYyOS8xLzEgNjMwLzIvMSA2MzEvMy8xIDYzMi80LzEKZiA2MzMvMS8xIDYzNC8yLzEgNjM1LzMvMSA2MzYvNC8xCmYgNjM3LzEvMSA2MzgvMi8xIDYzOS8zLzEgNjQwLzQvMQpmIDY0MS8xLzEgNjQyLzIvMSA2NDMvMy8xIDY0NC80LzEKZiA2NDUvMS8xIDY0Ni8yLzEgNjQ3LzMvMSA2NDgvNC8xCmYgNjQ5LzEvMSA2NTAvMi8xIDY1MS8zLzEgNjUyLzQvMQpmIDY1My8xLzEgNjU0LzIvMSA2NTUvMy8xIDY1Ni80LzEKZiA2NTcvMS8xIDY1OC8yLzEgNjU5LzMvMSA2NjAvNC8xCmYgNjYxLzEvMSA2NjIvMi8xIDY2My8zLzEgNjY0LzQvMQpmIDY2NS8xLzEgNjY2LzIvMSA2NjcvMy8xIDY2OC80LzEKZiA2NjkvMS8xIDY3MC8yLzEgNjcxLzMvMSA2NzIvNC8xCmYgNjczLzEvMSA2NzQvMi8xIDY3NS8zLzEgNjc2LzQvMQpmIDY3Ny8xLzEgNjc4LzIvMSA2NzkvMy8xIDY4MC80LzEKZiA2ODEvMS8xIDY4Mi8yLzEgNjgzLzMvMSA2ODQvNC8xCmYgNjg1LzEvMSA2ODYvMi8xIDY4Ny8zLzEgNjg4LzQvMQpmIDY4OS8xLzEgNjkwLzIvMSA2OTEvMy8xIDY5Mi80LzEKZiA2OTMvMS8xIDY5NC8yLzEgNjk1LzMvMSA2OTYvNC8xCmYgNjk3LzEvMSA2OTgvMi8xIDY5OS8zLzEgNzAwLzQvMQpmIDcwMS8xLzEgNzAyLzIvMSA3MDMvMy8xIDcwNC80LzEKZiA3MDUvMS8xIDcwNi8yLzEgNzA3LzMvMSA3MDgvNC8xCmYgNzA5LzEvMSA3MTAvMi8xIDcxMS8zLzEgNzEyLzQvMQpmIDcxMy8xLzEgNzE0LzIvMSA3MTUvMy8xIDcxNi80LzEKZiA3MTcvMS8xIDcxOC8yLzEgNzE5LzMvMSA3MjAvNC8xCmYgNzIxLzEvMSA3MjIvMi8xIDcyMy8zLzEgNzI0LzQvMQpmIDcyNS8xLzEgNzI2LzIvMSA3MjcvMy8xIDcyOC80LzEKZiA3MjkvMS8xIDczMC8yLzEgNzMxLzMvMSA3MzIvNC8xCmYgNzMzLzEvMSA3MzQvMi8xIDczNS8zLzEgNzM2LzQvMQpmIDczNy8xLzEgNzM4LzIvMSA3MzkvMy8xIDc0MC80LzEKZiA3NDEvMS8xIDc0Mi8yLzEgNzQzLzMvMSA3NDQvNC8xCmYgNzQ1LzEvMSA3NDYvMi8xIDc0Ny8zLzEgNzQ4LzQvMQpmIDc0OS8xLzEgNzUwLzIvMSA3NTEvMy8xIDc1Mi80LzEKZiA3NTMvMS8xIDc1NC8yLzEgNzU1LzMvMSA3NTYvNC8xCmYgNzU3LzEvMSA3NTgvMi8xIDc1OS8zLzEgNzYwLzQvMQpmIDc2MS8xLzEgNzYyLzIvMSA3NjMvMy8xIDc2NC80LzEKZiA3NjUvMS8xIDc2Ni8yLzEgNzY3LzMvMSA3NjgvNC8xCmYgNzY5LzEvMSA3NzAvMi8xIDc3MS8zLzEgNzcyLzQvMQpmIDc3My8xLzEgNzc0LzIvMSA3NzUvMy8xIDc3Ni80LzEKDQo=</ImportMesh>
+  <ImportTexture filename="Yoyo Tileset True Scale.png">iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAA4JGlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4KPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMwNjcgNzkuMTU3NzQ3LCAyMDE1LzAzLzMwLTIzOjQwOjQyICAgICAgICAiPgogICA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogICAgICA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIgogICAgICAgICAgICB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIKICAgICAgICAgICAgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIgogICAgICAgICAgICB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIKICAgICAgICAgICAgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIKICAgICAgICAgICAgeG1sbnM6dGlmZj0iaHR0cDovL25zLmFkb2JlLmNvbS90aWZmLzEuMC8iCiAgICAgICAgICAgIHhtbG5zOmV4aWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vZXhpZi8xLjAvIj4KICAgICAgICAgPHhtcDpDcmVhdG9yVG9vbD5BZG9iZSBQaG90b3Nob3AgQ0MgMjAxNSAoV2luZG93cyk8L3htcDpDcmVhdG9yVG9vbD4KICAgICAgICAgPHhtcDpDcmVhdGVEYXRlPjIwMTgtMDktMjdUMTQ6MDM6MTgrMDM6MDA8L3htcDpDcmVhdGVEYXRlPgogICAgICAgICA8eG1wOk1vZGlmeURhdGU+MjAxOC0wOS0yN1QxNDowNDo1MyswMzowMDwveG1wOk1vZGlmeURhdGU+CiAgICAgICAgIDx4bXA6TWV0YWRhdGFEYXRlPjIwMTgtMDktMjdUMTQ6MDQ6NTMrMDM6MDA8L3htcDpNZXRhZGF0YURhdGU+CiAgICAgICAgIDxkYzpmb3JtYXQ+aW1hZ2UvcG5nPC9kYzpmb3JtYXQ+CiAgICAgICAgIDxwaG90b3Nob3A6Q29sb3JNb2RlPjM8L3Bob3Rvc2hvcDpDb2xvck1vZGU+CiAgICAgICAgIDx4bXBNTTpJbnN0YW5jZUlEPnhtcC5paWQ6Y2FiYjgwM2QtNzZjZi1kMzQ3LWJjOGUtMGU3ZWYxZDY0MWYxPC94bXBNTTpJbnN0YW5jZUlEPgogICAgICAgICA8eG1wTU06RG9jdW1lbnRJRD54bXAuZGlkOmNhYmI4MDNkLTc2Y2YtZDM0Ny1iYzhlLTBlN2VmMWQ2NDFmMTwveG1wTU06RG9jdW1lbnRJRD4KICAgICAgICAgPHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD54bXAuZGlkOmNhYmI4MDNkLTc2Y2YtZDM0Ny1iYzhlLTBlN2VmMWQ2NDFmMTwveG1wTU06T3JpZ2luYWxEb2N1bWVudElEPgogICAgICAgICA8eG1wTU06SGlzdG9yeT4KICAgICAgICAgICAgPHJkZjpTZXE+CiAgICAgICAgICAgICAgIDxyZGY6bGkgcmRmOnBhcnNlVHlwZT0iUmVzb3VyY2UiPgogICAgICAgICAgICAgICAgICA8c3RFdnQ6YWN0aW9uPmNyZWF0ZWQ8L3N0RXZ0OmFjdGlvbj4KICAgICAgICAgICAgICAgICAgPHN0RXZ0Omluc3RhbmNlSUQ+eG1wLmlpZDpjYWJiODAzZC03NmNmLWQzNDctYmM4ZS0wZTdlZjFkNjQxZjE8L3N0RXZ0Omluc3RhbmNlSUQ+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDp3aGVuPjIwMTgtMDktMjdUMTQ6MDM6MTgrMDM6MDA8L3N0RXZ0OndoZW4+CiAgICAgICAgICAgICAgICAgIDxzdEV2dDpzb2Z0d2FyZUFnZW50PkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE1IChXaW5kb3dzKTwvc3RFdnQ6c29mdHdhcmVBZ2VudD4KICAgICAgICAgICAgICAgPC9yZGY6bGk+CiAgICAgICAgICAgIDwvcmRmOlNlcT4KICAgICAgICAgPC94bXBNTTpIaXN0b3J5PgogICAgICAgICA8dGlmZjpPcmllbnRhdGlvbj4xPC90aWZmOk9yaWVudGF0aW9uPgogICAgICAgICA8dGlmZjpYUmVzb2x1dGlvbj43MjAwMDAvMTAwMDA8L3RpZmY6WFJlc29sdXRpb24+CiAgICAgICAgIDx0aWZmOllSZXNvbHV0aW9uPjcyMDAwMC8xMDAwMDwvdGlmZjpZUmVzb2x1dGlvbj4KICAgICAgICAgPHRpZmY6UmVzb2x1dGlvblVuaXQ+MjwvdGlmZjpSZXNvbHV0aW9uVW5pdD4KICAgICAgICAgPGV4aWY6Q29sb3JTcGFjZT42NTUzNTwvZXhpZjpDb2xvclNwYWNlPgogICAgICAgICA8ZXhpZjpQaXhlbFhEaW1lbnNpb24+NDg8L2V4aWY6UGl4ZWxYRGltZW5zaW9uPgogICAgICAgICA8ZXhpZjpQaXhlbFlEaW1lbnNpb24+NDg8L2V4aWY6UGl4ZWxZRGltZW5zaW9uPgogICAgICA8L3JkZjpEZXNjcmlwdGlvbj4KICAgPC9yZGY6UkRGPgo8L3g6eG1wbWV0YT4KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAKPD94cGFja2V0IGVuZD0idyI/PqOKxHcAAAAgY0hSTQAAeiUAAICDAAD5/wAAgOkAAHUwAADqYAAAOpgAABdvkl/FRgAAAR9JREFUeNrs2ssNgzAQBNAhU4SvNGCJkkJloQVqcRduIrkhIX7+ELwrre9I825oZzpUPO/9B8AbdW8KIYylH7NxeAAYnHN9jHF+DHBj+GoEBYSvQlBI+GIEBYUvQlBY+GwEBYbPQlBo+GQEBYdPQlB4+EsEFYQ/RVBJ+EMEFYXfRVBZ+A2iUxh+9Sveee+/UPxeUP4MYAADGMAABjCAAQxggLaASXH+iTHG2TnXAxi0hQ8hjAQAhYil1VmuEooQq0pqdRdSgNj0aZvLnGDEbhm4exsViDhsMg+v04IQpzXsaT8gAHHZIV82NA0RSQV4UkfWAJHc3ie3lA8isqYHWT3xA4js3UR2U/9HRNHoo2gr8QdE8WKleK1yI6JqbvMbAPO4yFX21r59AAAAAElFTkSuQmCC</ImportTexture>
+</Tiled2Unity>

@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 44687df2ef82e0246ad8e8228d0b269b, type: 3}
+  m_Name: DefaultSkin
+  m_EditorClassIdentifier: 
+  tileset: {fileID: 2800000, guid: 150f50abb2b9190468620c51495efdb7, type: 3}
+  bc:
+  - backgroundAssetPrefab: {fileID: 1513620465721686, guid: db0679cba4123244995461bfb1537d9a,
+      type: 2}
+    backroundAssetVelocity: 0
+  - backgroundAssetPrefab: {fileID: 1152610853168198, guid: 875169ab489d05543bda83fb9c117f60,
+      type: 2}
+    backroundAssetVelocity: 1.5
+  - backgroundAssetPrefab: {fileID: 1297321183363862, guid: 9b7759307e3837a44b7f6bfaf21b412a,
+      type: 2}
+    backroundAssetVelocity: 1.7
+  - backgroundAssetPrefab: {fileID: 1722997521436076, guid: 0619f8952f0ba674494ae58a08ca345f,
+      type: 2}
+    backroundAssetVelocity: 1.3
+  - backgroundAssetPrefab: {fileID: 1579009773588458, guid: 3f73b985bfee9a0489263fea9cb4c59d,
+      type: 2}
+    backroundAssetVelocity: 0.9
+  - backgroundAssetPrefab: {fileID: 1351233111615356, guid: 5c785b82ffb2491439065642fa2610ee,
+      type: 2}
+    backroundAssetVelocity: 0.4
+  - backgroundAssetPrefab: {fileID: 1211894055524722, guid: a7b1ec29586af174c96ea41fef96ee18,
+      type: 2}
+    backroundAssetVelocity: 0.5
+  - backgroundAssetPrefab: {fileID: 1138031183978784, guid: c7eb3d48d1da00941940fcf3877642be,
+      type: 2}
+    backroundAssetVelocity: 0.5
+  - backgroundAssetPrefab: {fileID: 1627936259897260, guid: 62fee4682d636aa4e80c1977b6830ac4,
+      type: 2}
+    backroundAssetVelocity: 0.5
+  - backgroundAssetPrefab: {fileID: 1921479866795636, guid: d459f4bf56ae6774d9d589366be90e51,
+      type: 2}
+    backroundAssetVelocity: 0.5
+  - backgroundAssetPrefab: {fileID: 1606952416471792, guid: 93c0367a29566104ba8a6a3cfe217ced,
+      type: 2}
+    backroundAssetVelocity: 0.5
+  - backgroundAssetPrefab: {fileID: 1152610853168198, guid: 04c71b8516569074bb0c3ed0f8d7c4fe,
+      type: 2}
+    backroundAssetVelocity: 2
+  - backgroundAssetPrefab: {fileID: 1152610853168198, guid: ba905e5ff57c0ce47a969425df74c739,
+      type: 2}
+    backroundAssetVelocity: 4
+  - backgroundAssetPrefab: {fileID: 1152610853168198, guid: d074adbecfb6a974d9dc960f15d178d1,
+      type: 2}
+    backroundAssetVelocity: 8
+  - backgroundAssetPrefab: {fileID: 1152610853168198, guid: c48dd1a3acce68e4bbb995e83881e4a7,
+      type: 2}
+    backroundAssetVelocity: 6
+  - backgroundAssetPrefab: {fileID: 1152610853168198, guid: 838dea9ff16dcbe469376592979c9495,
+      type: 2}
+    backroundAssetVelocity: 10.5
+  - backgroundAssetPrefab: {fileID: 1152610853168198, guid: 61f6ae891c6456845be0a0132fad51a6,
+      type: 2}
+    backroundAssetVelocity: 10.5
+  - backgroundAssetPrefab: {fileID: 1152610853168198, guid: 55aaedd67ffcc5e4ea25210b54e367ff,
+      type: 2}
+    backroundAssetVelocity: 10.5
+  - backgroundAssetPrefab: {fileID: 1152610853168198, guid: 9ede82aeb5b083040b6e1c07ee7fb0d2,
+      type: 2}
+    backroundAssetVelocity: 1.75
+  - backgroundAssetPrefab: {fileID: 1152610853168198, guid: a796c73882c67bb4fa8392319794a34b,
+      type: 2}
+    backroundAssetVelocity: 0

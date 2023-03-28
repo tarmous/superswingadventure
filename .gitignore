@@ -1,0 +1,8 @@
+/*
+/*/
+
+!.gitignore
+!README.MD
+!superswing.keystore
+!/Assets/
+!/ProjectSettings/

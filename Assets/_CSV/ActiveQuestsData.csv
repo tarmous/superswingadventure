@@ -1,0 +1,4 @@
+Quest Type, Quest Reward, Number Of Components, Quest Component Type 1, Quest Component Value 1, Quest Component Progress 1, Quest Component Type 2, Quest Component Value 2, Quest Component Progress 2
+instance, 10, 1, distance, 500, 0
+instance, 10, 1, coin, 10, 0
+collective, 10, 2, coin, 50, 0, distance, 1500, 0

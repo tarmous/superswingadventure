@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: f6323d56872b92540a9a263587370e38
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - death_fogPrefab: {fileID: 1152610853168198, guid: 12cceac19852b4849a675bbd37cc2bcf,
+      type: 2}
+  - foregroundPrefab: {fileID: 1297321183363862, guid: 9b7759307e3837a44b7f6bfaf21b412a,
+      type: 2}
+  - front_hillsPrefab: {fileID: 1722997521436076, guid: 0619f8952f0ba674494ae58a08ca345f,
+      type: 2}
+  - mid_hillsPrefab: {fileID: 1579009773588458, guid: 3f73b985bfee9a0489263fea9cb4c59d,
+      type: 2}
+  - back_hillsPrefab: {fileID: 1351233111615356, guid: 5c785b82ffb2491439065642fa2610ee,
+      type: 2}
+  - skyPrefab: {fileID: 1513620465721686, guid: db0679cba4123244995461bfb1537d9a,
+      type: 2}
+  - sky_object_1Prefab: {fileID: 1211894055524722, guid: a7b1ec29586af174c96ea41fef96ee18,
+      type: 2}
+  - sky_object_2Prefab: {fileID: 1138031183978784, guid: c7eb3d48d1da00941940fcf3877642be,
+      type: 2}
+  - sky_object_3Prefab: {fileID: 1627936259897260, guid: 62fee4682d636aa4e80c1977b6830ac4,
+      type: 2}
+  - sky_object_4Prefab: {fileID: 1921479866795636, guid: d459f4bf56ae6774d9d589366be90e51,
+      type: 2}
+  - sky_object_5Prefab: {fileID: 1606952416471792, guid: 93c0367a29566104ba8a6a3cfe217ced,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

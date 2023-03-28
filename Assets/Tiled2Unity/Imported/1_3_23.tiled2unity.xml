@@ -1,0 +1,801 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--Tiled2Unity generated xml data-->
+<!--Do not modify by hand-->
+<!--Last exported: 5/20/2019 8:38:27 AM-->
+<Tiled2Unity version="1.0.13.2">
+  <AssignMaterial mesh="1_3_23_mesh_0001" material="tileset_revamp_pear8" />
+  <AssignMaterial mesh="1_3_23_mesh_0002" material="tileset_revamp_pear8" />
+  <Prefab name="1_3_23" orientation="Orthogonal" staggerAxis="Y" staggerIndex="Odd" hexSideLength="0" numLayers="2" numTilesWide="61" numTilesHigh="61" tileWidth="16" tileHeight="16" exportScale="0.5" mapWidthInPixels="976" mapHeightInPixels="976" backgroundColor="#808080">
+    <GameObject name="Path" x="0" y="0" z="0">
+      <TileLayer offsetX="0" offsetY="0" />
+      <GameObject name="tileset_revamp_pear8" x="0" y="0" mesh="1_3_23_mesh_0001" sortingLayerName="" sortingOrder="0" opacity="1" />
+    </GameObject>
+    <GameObject name="Level" x="0" y="0" z="0">
+      <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
+      <GameObject name="PolygonObject" x="248" y="-160" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="272" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="320" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="232" y="-168" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="273" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="336" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="248" y="-168" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="275" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="336" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="232" y="-176" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="274" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="352" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="176" y="-192" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="264" tmx-object-name="" tmx-object-type="" tmx-object-x="352" tmx-object-y="384" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="328" y="-192" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="276" tmx-object-name="" tmx-object-type="" tmx-object-x="656" tmx-object-y="384" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="RectangleObject" x="235.6665" y="-192.8335" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="200" tmx-object-name="" tmx-object-type="" tmx-object-x="471.333" tmx-object-y="385.667" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="PolygonObject" x="160" y="-200" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="265" tmx-object-name="" tmx-object-type="" tmx-object-x="320" tmx-object-y="400" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="176" y="-200" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="267" tmx-object-name="" tmx-object-type="" tmx-object-x="352" tmx-object-y="400" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="312" y="-200" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="277" tmx-object-name="" tmx-object-type="" tmx-object-x="624" tmx-object-y="400" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="328" y="-200" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="279" tmx-object-name="" tmx-object-type="" tmx-object-x="656" tmx-object-y="400" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="160" y="-208" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="266" tmx-object-name="" tmx-object-type="" tmx-object-x="320" tmx-object-y="416" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="312" y="-208" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="278" tmx-object-name="" tmx-object-type="" tmx-object-x="624" tmx-object-y="416" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="RectangleObject" x="0" y="-216" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="tileType" value="2" />
+        <RectangleObjectComponent tmx-object-id="2" tmx-object-name="" tmx-object-type="" tmx-object-x="0" tmx-object-y="432" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="480" y="-216" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <Property name="tileType" value="3" />
+        <RectangleObjectComponent tmx-object-id="3" tmx-object-name="" tmx-object-type="" tmx-object-x="960" tmx-object-y="432" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="PolygonObject" x="88" y="-216" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="223" tmx-object-name="" tmx-object-type="" tmx-object-x="176" tmx-object-y="432" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <PolygonCollider2D>
+          <Path>0,-8 -16,0 -16,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="424" y="-216" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="250" tmx-object-name="" tmx-object-type="" tmx-object-x="848" tmx-object-y="432" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <PolygonCollider2D>
+          <Path>0,-8 -16,0 -16,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="96" y="-224" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="211" tmx-object-name="" tmx-object-type="" tmx-object-x="192" tmx-object-y="448" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="RectangleObject" x="56" y="-224" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <RectangleObjectComponent tmx-object-id="222" tmx-object-name="" tmx-object-type="" tmx-object-x="112" tmx-object-y="448" tmx-object-width="64" tmx-object-height="32" tmx-object-rotation="0" />
+        <BoxCollider2D width="32" height="16" />
+      </GameObject>
+      <GameObject name="PolygonObject" x="56" y="-224" rotation="180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="227" tmx-object-name="" tmx-object-type="" tmx-object-x="112" tmx-object-y="448" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="180" />
+        <PolygonCollider2D>
+          <Path>0,0 -16,-8 -16,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="432" y="-224" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="247" tmx-object-name="" tmx-object-type="" tmx-object-x="864" tmx-object-y="448" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="RectangleObject" x="392" y="-224" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <RectangleObjectComponent tmx-object-id="249" tmx-object-name="" tmx-object-type="" tmx-object-x="784" tmx-object-y="448" tmx-object-width="64" tmx-object-height="32" tmx-object-rotation="0" />
+        <BoxCollider2D width="32" height="16" />
+      </GameObject>
+      <GameObject name="PolygonObject" x="392" y="-224" rotation="180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="254" tmx-object-name="" tmx-object-type="" tmx-object-x="784" tmx-object-y="448" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="180" />
+        <PolygonCollider2D>
+          <Path>0,0 -16,-8 -16,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="96" y="-232" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="212" tmx-object-name="" tmx-object-type="" tmx-object-x="192" tmx-object-y="464" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="48" y="-232" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="225" tmx-object-name="" tmx-object-type="" tmx-object-x="96" tmx-object-y="464" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="432" y="-232" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="248" tmx-object-name="" tmx-object-type="" tmx-object-x="864" tmx-object-y="464" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="384" y="-232" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="252" tmx-object-name="" tmx-object-type="" tmx-object-x="768" tmx-object-y="464" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="RectangleObject" x="235.6665" y="-232.8335" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="201" tmx-object-name="" tmx-object-type="" tmx-object-x="471.333" tmx-object-y="465.667" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="PolygonObject" x="88" y="-240" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="224" tmx-object-name="" tmx-object-type="" tmx-object-x="176" tmx-object-y="480" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <PolygonCollider2D>
+          <Path>0,0 -16,-8 -16,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="48" y="-240" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="226" tmx-object-name="" tmx-object-type="" tmx-object-x="96" tmx-object-y="480" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="424" y="-240" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="251" tmx-object-name="" tmx-object-type="" tmx-object-x="848" tmx-object-y="480" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <PolygonCollider2D>
+          <Path>0,0 -16,-8 -16,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="384" y="-240" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="253" tmx-object-name="" tmx-object-type="" tmx-object-x="768" tmx-object-y="480" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="56" y="-248" rotation="180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="228" tmx-object-name="" tmx-object-type="" tmx-object-x="112" tmx-object-y="496" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -16,0 -16,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="392" y="-248" rotation="180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="255" tmx-object-name="" tmx-object-type="" tmx-object-x="784" tmx-object-y="496" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -16,0 -16,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="256" y="-256" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="221" tmx-object-name="" tmx-object-type="" tmx-object-x="512" tmx-object-y="512" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <PolygonCollider2D>
+          <Path>0,-16 -16,0 -16,-16</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="136" y="-264" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="256" tmx-object-name="" tmx-object-type="" tmx-object-x="272" tmx-object-y="528" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="344" y="-264" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="280" tmx-object-name="" tmx-object-type="" tmx-object-x="688" tmx-object-y="528" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="RectangleObject" x="224" y="-272" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <RectangleObjectComponent tmx-object-id="213" tmx-object-name="" tmx-object-type="" tmx-object-x="448" tmx-object-y="544" tmx-object-width="64" tmx-object-height="32" tmx-object-rotation="0" />
+        <BoxCollider2D width="32" height="16" />
+      </GameObject>
+      <GameObject name="PolygonObject" x="224" y="-272" rotation="180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="217" tmx-object-name="" tmx-object-type="" tmx-object-x="448" tmx-object-y="544" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="180" />
+        <PolygonCollider2D>
+          <Path>0,0 -16,-16 -16,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="264" y="-272" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="220" tmx-object-name="" tmx-object-type="" tmx-object-x="528" tmx-object-y="544" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="120" y="-272" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="257" tmx-object-name="" tmx-object-type="" tmx-object-x="240" tmx-object-y="544" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="136" y="-272" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="259" tmx-object-name="" tmx-object-type="" tmx-object-x="272" tmx-object-y="544" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="328" y="-272" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="281" tmx-object-name="" tmx-object-type="" tmx-object-x="656" tmx-object-y="544" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="344" y="-272" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="283" tmx-object-name="" tmx-object-type="" tmx-object-x="688" tmx-object-y="544" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="216" y="-280" rotation="180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="216" tmx-object-name="" tmx-object-type="" tmx-object-x="432" tmx-object-y="560" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="180" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="264" y="-280" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="219" tmx-object-name="" tmx-object-type="" tmx-object-x="528" tmx-object-y="560" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="120" y="-280" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="258" tmx-object-name="" tmx-object-type="" tmx-object-x="240" tmx-object-y="560" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="328" y="-280" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="282" tmx-object-name="" tmx-object-type="" tmx-object-x="656" tmx-object-y="560" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="464" y="-280" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="288" tmx-object-name="" tmx-object-type="" tmx-object-x="928" tmx-object-y="560" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="40" y="-280" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="332" tmx-object-name="" tmx-object-type="" tmx-object-x="80" tmx-object-y="560" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="216" y="-288" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="215" tmx-object-name="" tmx-object-type="" tmx-object-x="432" tmx-object-y="576" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="256" y="-288" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="218" tmx-object-name="" tmx-object-type="" tmx-object-x="512" tmx-object-y="576" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -16,-16 -16,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="448" y="-288" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="289" tmx-object-name="" tmx-object-type="" tmx-object-x="896" tmx-object-y="576" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="464" y="-288" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="291" tmx-object-name="" tmx-object-type="" tmx-object-x="928" tmx-object-y="576" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="24" y="-288" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="333" tmx-object-name="" tmx-object-type="" tmx-object-x="48" tmx-object-y="576" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="40" y="-288" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="335" tmx-object-name="" tmx-object-type="" tmx-object-x="80" tmx-object-y="576" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="448" y="-296" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="290" tmx-object-name="" tmx-object-type="" tmx-object-x="896" tmx-object-y="592" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="24" y="-296" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="334" tmx-object-name="" tmx-object-type="" tmx-object-x="48" tmx-object-y="592" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="RectangleObject" x="116.6665" y="-298.8335" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="208" tmx-object-name="" tmx-object-type="" tmx-object-x="233.333" tmx-object-y="597.667" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="356.1665" y="-303.3335" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="209" tmx-object-name="" tmx-object-type="" tmx-object-x="712.333" tmx-object-y="606.667" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="PolygonObject" x="224" y="-304" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="210" tmx-object-name="" tmx-object-type="" tmx-object-x="448" tmx-object-y="608" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-16 -16,0 -16,-16</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="136" y="-320" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="232" tmx-object-name="" tmx-object-type="" tmx-object-x="272" tmx-object-y="640" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <PolygonCollider2D>
+          <Path>0,-8 -16,0 -16,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="376" y="-320" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="241" tmx-object-name="" tmx-object-type="" tmx-object-x="752" tmx-object-y="640" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <PolygonCollider2D>
+          <Path>0,-8 -16,0 -16,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="144" y="-328" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="229" tmx-object-name="" tmx-object-type="" tmx-object-x="288" tmx-object-y="656" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="RectangleObject" x="104" y="-328" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <RectangleObjectComponent tmx-object-id="231" tmx-object-name="" tmx-object-type="" tmx-object-x="208" tmx-object-y="656" tmx-object-width="64" tmx-object-height="32" tmx-object-rotation="0" />
+        <BoxCollider2D width="32" height="16" />
+      </GameObject>
+      <GameObject name="PolygonObject" x="104" y="-328" rotation="180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="236" tmx-object-name="" tmx-object-type="" tmx-object-x="208" tmx-object-y="656" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="180" />
+        <PolygonCollider2D>
+          <Path>0,0 -16,-8 -16,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="384" y="-328" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="238" tmx-object-name="" tmx-object-type="" tmx-object-x="768" tmx-object-y="656" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="RectangleObject" x="344" y="-328" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <RectangleObjectComponent tmx-object-id="240" tmx-object-name="" tmx-object-type="" tmx-object-x="688" tmx-object-y="656" tmx-object-width="64" tmx-object-height="32" tmx-object-rotation="0" />
+        <BoxCollider2D width="32" height="16" />
+      </GameObject>
+      <GameObject name="PolygonObject" x="344" y="-328" rotation="180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="245" tmx-object-name="" tmx-object-type="" tmx-object-x="688" tmx-object-y="656" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="180" />
+        <PolygonCollider2D>
+          <Path>0,0 -16,-8 -16,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="RectangleObject" x="235.1665" y="-330.8335" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="202" tmx-object-name="" tmx-object-type="" tmx-object-x="470.333" tmx-object-y="661.667" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="PolygonObject" x="144" y="-336" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="230" tmx-object-name="" tmx-object-type="" tmx-object-x="288" tmx-object-y="672" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="96" y="-336" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="234" tmx-object-name="" tmx-object-type="" tmx-object-x="192" tmx-object-y="672" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="384" y="-336" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="239" tmx-object-name="" tmx-object-type="" tmx-object-x="768" tmx-object-y="672" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="336" y="-336" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="243" tmx-object-name="" tmx-object-type="" tmx-object-x="672" tmx-object-y="672" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="288" y="-336" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="304" tmx-object-name="" tmx-object-type="" tmx-object-x="576" tmx-object-y="672" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="200" y="-336" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="316" tmx-object-name="" tmx-object-type="" tmx-object-x="400" tmx-object-y="672" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="136" y="-344" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="233" tmx-object-name="" tmx-object-type="" tmx-object-x="272" tmx-object-y="688" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <PolygonCollider2D>
+          <Path>0,0 -16,-8 -16,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="96" y="-344" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="235" tmx-object-name="" tmx-object-type="" tmx-object-x="192" tmx-object-y="688" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="376" y="-344" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="242" tmx-object-name="" tmx-object-type="" tmx-object-x="752" tmx-object-y="688" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="0" />
+        <PolygonCollider2D>
+          <Path>0,0 -16,-8 -16,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="336" y="-344" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="244" tmx-object-name="" tmx-object-type="" tmx-object-x="672" tmx-object-y="688" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="272" y="-344" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="305" tmx-object-name="" tmx-object-type="" tmx-object-x="544" tmx-object-y="688" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="288" y="-344" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="307" tmx-object-name="" tmx-object-type="" tmx-object-x="576" tmx-object-y="688" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="184" y="-344" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="317" tmx-object-name="" tmx-object-type="" tmx-object-x="368" tmx-object-y="688" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="200" y="-344" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="319" tmx-object-name="" tmx-object-type="" tmx-object-x="400" tmx-object-y="688" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="104" y="-352" rotation="180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="237" tmx-object-name="" tmx-object-type="" tmx-object-x="208" tmx-object-y="704" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -16,0 -16,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="344" y="-352" rotation="180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="246" tmx-object-name="" tmx-object-type="" tmx-object-x="688" tmx-object-y="704" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -16,0 -16,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="272" y="-352" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="306" tmx-object-name="" tmx-object-type="" tmx-object-x="544" tmx-object-y="704" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="184" y="-352" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="318" tmx-object-name="" tmx-object-type="" tmx-object-x="368" tmx-object-y="704" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="RectangleObject" x="387.6665" y="-360.8335" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="207" tmx-object-name="" tmx-object-type="" tmx-object-x="775.333" tmx-object-y="721.667" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="68.6665" y="-361.8335" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="203" tmx-object-name="" tmx-object-type="" tmx-object-x="137.333" tmx-object-y="723.667" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="147.6665" y="-378.3335" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="204" tmx-object-name="" tmx-object-type="" tmx-object-x="295.333" tmx-object-y="756.667" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="315.6665" y="-378.8335" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="206" tmx-object-name="" tmx-object-type="" tmx-object-x="631.333" tmx-object-y="757.667" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="PolygonObject" x="400" y="-384" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="292" tmx-object-name="" tmx-object-type="" tmx-object-x="800" tmx-object-y="768" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="80" y="-384" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="328" tmx-object-name="" tmx-object-type="" tmx-object-x="160" tmx-object-y="768" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="384" y="-392" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="293" tmx-object-name="" tmx-object-type="" tmx-object-x="768" tmx-object-y="784" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="400" y="-392" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="295" tmx-object-name="" tmx-object-type="" tmx-object-x="800" tmx-object-y="784" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="64" y="-392" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="329" tmx-object-name="" tmx-object-type="" tmx-object-x="128" tmx-object-y="784" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="80" y="-392" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="331" tmx-object-name="" tmx-object-type="" tmx-object-x="160" tmx-object-y="784" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="384" y="-400" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="294" tmx-object-name="" tmx-object-type="" tmx-object-x="768" tmx-object-y="800" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="328" y="-400" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="300" tmx-object-name="" tmx-object-type="" tmx-object-x="656" tmx-object-y="800" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="160" y="-400" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="324" tmx-object-name="" tmx-object-type="" tmx-object-x="320" tmx-object-y="800" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="64" y="-400" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="330" tmx-object-name="" tmx-object-type="" tmx-object-x="128" tmx-object-y="800" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="312" y="-408" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="301" tmx-object-name="" tmx-object-type="" tmx-object-x="624" tmx-object-y="816" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="328" y="-408" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="303" tmx-object-name="" tmx-object-type="" tmx-object-x="656" tmx-object-y="816" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="144" y="-408" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="325" tmx-object-name="" tmx-object-type="" tmx-object-x="288" tmx-object-y="816" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="160" y="-408" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="327" tmx-object-name="" tmx-object-type="" tmx-object-x="320" tmx-object-y="816" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="RectangleObject" x="235.6665" y="-409.8335" rotation="0" layer="">
+        <Property name="coin" value="true" />
+        <RectangleObjectComponent tmx-object-id="205" tmx-object-name="" tmx-object-type="" tmx-object-x="471.333" tmx-object-y="819.667" tmx-object-width="16" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="8" />
+      </GameObject>
+      <GameObject name="PolygonObject" x="312" y="-416" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="302" tmx-object-name="" tmx-object-type="" tmx-object-x="624" tmx-object-y="832" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="144" y="-416" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="326" tmx-object-name="" tmx-object-type="" tmx-object-x="288" tmx-object-y="832" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="248" y="-432" rotation="-360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="308" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="864" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-360" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="232" y="-440" rotation="540" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="309" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="880" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="540" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="248" y="-440" rotation="360" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="311" tmx-object-name="" tmx-object-type="" tmx-object-x="496" tmx-object-y="880" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="360" />
+        <PolygonCollider2D>
+          <Path>0,0 -8,-8 -8,0</Path>
+        </PolygonCollider2D>
+      </GameObject>
+      <GameObject name="PolygonObject" x="232" y="-448" rotation="-180" layer="">
+        <Property name="Solid" value="true" />
+        <PolygonObjectComponent tmx-object-id="310" tmx-object-name="" tmx-object-type="" tmx-object-x="464" tmx-object-y="896" tmx-object-width="0" tmx-object-height="0" tmx-object-rotation="-180" />
+        <PolygonCollider2D>
+          <Path>0,-8 -8,0 -8,-8</Path>
+        </PolygonCollider2D>
+      </GameObject>
+    </GameObject>
+    <GameObject name="Solid" x="0" y="0" z="0">
+      <TileLayer offsetX="0" offsetY="0" />
+      <GameObject name="tileset_revamp_pear8" x="0" y="0" mesh="1_3_23_mesh_0002" sortingLayerName="" sortingOrder="1" opacity="1" />
+    </GameObject>
+    <GameObject name="Solid" x="0" y="0" z="0">
+      <ObjectLayer offsetX="0" offsetY="0" color="#ff808080" />
+      <GameObject name="RectangleObject" x="0" y="0" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <RectangleObjectComponent tmx-object-id="64" tmx-object-name="" tmx-object-type="" tmx-object-x="0" tmx-object-y="0" tmx-object-width="976" tmx-object-height="16" tmx-object-rotation="0" />
+        <BoxCollider2D width="488" height="8" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="480" y="-8" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <RectangleObjectComponent tmx-object-id="184" tmx-object-name="" tmx-object-type="" tmx-object-x="960" tmx-object-y="16" tmx-object-width="16" tmx-object-height="416" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="208" />
+      </GameObject>
+      <GameObject name="RectangleObject" x="0" y="-8" rotation="0" layer="">
+        <Property name="Solid" value="true" />
+        <RectangleObjectComponent tmx-object-id="185" tmx-object-name="" tmx-object-type="" tmx-object-x="0" tmx-object-y="16" tmx-object-width="16" tmx-object-height="416" tmx-object-rotation="0" />
+        <BoxCollider2D width="8" height="208" />
+      </GameObject>
+    </GameObject>
+  </Prefab>
+  <ImportMesh filename="1_3_23_mesh_0001.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJzFfM18yM19tZXNoXzAwMDEub2JqJw0KDQojIFZlcnRpY2VzIChDb3VudCA9IDY0MCkNCnYgLTIzMiAtMTY4IDANCnYgLTI0MCAtMTY4IDANCnYgLTI0MCAtMTYwIDANCnYgLTIzMiAtMTYwIDANCnYgLTI0MCAtMTY4IDANCnYgLTI0OCAtMTY4IDANCnYgLTI0OCAtMTYwIDANCnYgLTI0MCAtMTYwIDANCnYgLTIzMiAtMTc2IDANCnYgLTI0MCAtMTc2IDANCnYgLTI0MCAtMTY4IDANCnYgLTIzMiAtMTY4IDANCnYgLTI0MCAtMTc2IDANCnYgLTI0OCAtMTc2IDANCnYgLTI0OCAtMTY4IDANCnYgLTI0MCAtMTY4IDANCnYgLTE2MCAtMjAwIDANCnYgLTE2OCAtMjAwIDANCnYgLTE2OCAtMTkyIDANCnYgLTE2MCAtMTkyIDANCnYgLTE2OCAtMjAwIDANCnYgLTE3NiAtMjAwIDANCnYgLTE3NiAtMTkyIDANCnYgLTE2OCAtMTkyIDANCnYgLTMxMiAtMjAwIDANCnYgLTMyMCAtMjAwIDANCnYgLTMyMCAtMTkyIDANCnYgLTMxMiAtMTkyIDANCnYgLTMyMCAtMjAwIDANCnYgLTMyOCAtMjAwIDANCnYgLTMyOCAtMTkyIDANCnYgLTMyMCAtMTkyIDANCnYgLTE2MCAtMjA4IDANCnYgLTE2OCAtMjA4IDANCnYgLTE2OCAtMjAwIDANCnYgLTE2MCAtMjAwIDANCnYgLTE2OCAtMjA4IDANCnYgLTE3NiAtMjA4IDANCnYgLTE3NiAtMjAwIDANCnYgLTE2OCAtMjAwIDANCnYgLTMxMiAtMjA4IDANCnYgLTMyMCAtMjA4IDANCnYgLTMyMCAtMjAwIDANCnYgLTMxMiAtMjAwIDANCnYgLTMyMCAtMjA4IDANCnYgLTMyOCAtMjA4IDANCnYgLTMyOCAtMjAwIDANCnYgLTMyMCAtMjAwIDANCnYgLTU2IC0yMjQgMA0KdiAtNjQgLTIyNCAwDQp2IC02NCAtMjE2IDANCnYgLTU2IC0yMTYgMA0KdiAtNjQgLTIyNCAwDQp2IC03MiAtMjI0IDANCnYgLTcyIC0yMTYgMA0KdiAtNjQgLTIxNiAwDQp2IC03MiAtMjI0IDANCnYgLTgwIC0yMjQgMA0KdiAtODAgLTIxNiAwDQp2IC03MiAtMjE2IDANCnYgLTgwIC0yMjQgMA0KdiAtODggLTIyNCAwDQp2IC04OCAtMjE2IDANCnYgLTgwIC0yMTYgMA0KdiAtMzkyIC0yMjQgMA0KdiAtNDAwIC0yMjQgMA0KdiAtNDAwIC0yMTYgMA0KdiAtMzkyIC0yMTYgMA0KdiAtNDAwIC0yMjQgMA0KdiAtNDA4IC0yMjQgMA0KdiAtNDA4IC0yMTYgMA0KdiAtNDAwIC0yMTYgMA0KdiAtNDA4IC0yMjQgMA0KdiAtNDE2IC0yMjQgMA0KdiAtNDE2IC0yMTYgMA0KdiAtNDA4IC0yMTYgMA0KdiAtNDE2IC0yMjQgMA0KdiAtNDI0IC0yMjQgMA0KdiAtNDI0IC0yMTYgMA0KdiAtNDE2IC0yMTYgMA0KdiAtNDggLTIzMiAwDQp2IC01NiAtMjMyIDANCnYgLTU2IC0yMjQgMA0KdiAtNDggLTIyNCAwDQp2IC01NiAtMjMyIDANCnYgLTY0IC0yMzIgMA0KdiAtNjQgLTIyNCAwDQp2IC01NiAtMjI0IDANCnYgLTY0IC0yMzIgMA0KdiAtNzIgLTIzMiAwDQp2IC03MiAtMjI0IDANCnYgLTY0IC0yMjQgMA0KdiAtNzIgLTIzMiAwDQp2IC04MCAtMjMyIDANCnYgLTgwIC0yMjQgMA0KdiAtNzIgLTIyNCAwDQp2IC04MCAtMjMyIDANCnYgLTg4IC0yMzIgMA0KdiAtODggLTIyNCAwDQp2IC04MCAtMjI0IDANCnYgLTg4IC0yMzIgMA0KdiAtOTYgLTIzMiAwDQp2IC05NiAtMjI0IDANCnYgLTg4IC0yMjQgMA0KdiAtMzg0IC0yMzIgMA0KdiAtMzkyIC0yMzIgMA0KdiAtMzkyIC0yMjQgMA0KdiAtMzg0IC0yMjQgMA0KdiAtMzkyIC0yMzIgMA0KdiAtNDAwIC0yMzIgMA0KdiAtNDAwIC0yMjQgMA0KdiAtMzkyIC0yMjQgMA0KdiAtNDAwIC0yMzIgMA0KdiAtNDA4IC0yMzIgMA0KdiAtNDA4IC0yMjQgMA0KdiAtNDAwIC0yMjQgMA0KdiAtNDA4IC0yMzIgMA0KdiAtNDE2IC0yMzIgMA0KdiAtNDE2IC0yMjQgMA0KdiAtNDA4IC0yMjQgMA0KdiAtNDE2IC0yMzIgMA0KdiAtNDI0IC0yMzIgMA0KdiAtNDI0IC0yMjQgMA0KdiAtNDE2IC0yMjQgMA0KdiAtNDI0IC0yMzIgMA0KdiAtNDMyIC0yMzIgMA0KdiAtNDMyIC0yMjQgMA0KdiAtNDI0IC0yMjQgMA0KdiAtNDggLTI0MCAwDQp2IC01NiAtMjQwIDANCnYgLTU2IC0yMzIgMA0KdiAtNDggLTIzMiAwDQp2IC01NiAtMjQwIDANCnYgLTY0IC0yNDAgMA0KdiAtNjQgLTIzMiAwDQp2IC01NiAtMjMyIDANCnYgLTY0IC0yNDAgMA0KdiAtNzIgLTI0MCAwDQp2IC03MiAtMjMyIDANCnYgLTY0IC0yMzIgMA0KdiAtNzIgLTI0MCAwDQp2IC04MCAtMjQwIDANCnYgLTgwIC0yMzIgMA0KdiAtNzIgLTIzMiAwDQp2IC04MCAtMjQwIDANCnYgLTg4IC0yNDAgMA0KdiAtODggLTIzMiAwDQp2IC04MCAtMjMyIDANCnYgLTg4IC0yNDAgMA0KdiAtOTYgLTI0MCAwDQp2IC05NiAtMjMyIDANCnYgLTg4IC0yMzIgMA0KdiAtMzg0IC0yNDAgMA0KdiAtMzkyIC0yNDAgMA0KdiAtMzkyIC0yMzIgMA0KdiAtMzg0IC0yMzIgMA0KdiAtMzkyIC0yNDAgMA0KdiAtNDAwIC0yNDAgMA0KdiAtNDAwIC0yMzIgMA0KdiAtMzkyIC0yMzIgMA0KdiAtNDAwIC0yNDAgMA0KdiAtNDA4IC0yNDAgMA0KdiAtNDA4IC0yMzIgMA0KdiAtNDAwIC0yMzIgMA0KdiAtNDA4IC0yNDAgMA0KdiAtNDE2IC0yNDAgMA0KdiAtNDE2IC0yMzIgMA0KdiAtNDA4IC0yMzIgMA0KdiAtNDE2IC0yNDAgMA0KdiAtNDI0IC0yNDAgMA0KdiAtNDI0IC0yMzIgMA0KdiAtNDE2IC0yMzIgMA0KdiAtNDI0IC0yNDAgMA0KdiAtNDMyIC0yNDAgMA0KdiAtNDMyIC0yMzIgMA0KdiAtNDI0IC0yMzIgMA0KdiAtNTYgLTI0OCAwDQp2IC02NCAtMjQ4IDANCnYgLTY0IC0yNDAgMA0KdiAtNTYgLTI0MCAwDQp2IC02NCAtMjQ4IDANCnYgLTcyIC0yNDggMA0KdiAtNzIgLTI0MCAwDQp2IC02NCAtMjQwIDANCnYgLTcyIC0yNDggMA0KdiAtODAgLTI0OCAwDQp2IC04MCAtMjQwIDANCnYgLTcyIC0yNDAgMA0KdiAtODAgLTI0OCAwDQp2IC04OCAtMjQ4IDANCnYgLTg4IC0yNDAgMA0KdiAtODAgLTI0MCAwDQp2IC0zOTIgLTI0OCAwDQp2IC00MDAgLTI0OCAwDQp2IC00MDAgLTI0MCAwDQp2IC0zOTIgLTI0MCAwDQp2IC00MDAgLTI0OCAwDQp2IC00MDggLTI0OCAwDQp2IC00MDggLTI0MCAwDQp2IC00MDAgLTI0MCAwDQp2IC00MDggLTI0OCAwDQp2IC00MTYgLTI0OCAwDQp2IC00MTYgLTI0MCAwDQp2IC00MDggLTI0MCAwDQp2IC00MTYgLTI0OCAwDQp2IC00MjQgLTI0OCAwDQp2IC00MjQgLTI0MCAwDQp2IC00MTYgLTI0MCAwDQp2IC0yMzIgLTI2NCAwDQp2IC0yNDAgLTI2NCAwDQp2IC0yNDAgLTI1NiAwDQp2IC0yMzIgLTI1NiAwDQp2IC0yNDAgLTI2NCAwDQp2IC0yNDggLTI2NCAwDQp2IC0yNDggLTI1NiAwDQp2IC0yNDAgLTI1NiAwDQp2IC0xMjAgLTI3MiAwDQp2IC0xMjggLTI3MiAwDQp2IC0xMjggLTI2NCAwDQp2IC0xMjAgLTI2NCAwDQp2IC0xMjggLTI3MiAwDQp2IC0xMzYgLTI3MiAwDQp2IC0xMzYgLTI2NCAwDQp2IC0xMjggLTI2NCAwDQp2IC0yMjQgLTI3MiAwDQp2IC0yMzIgLTI3MiAwDQp2IC0yMzIgLTI2NCAwDQp2IC0yMjQgLTI2NCAwDQp2IC0yMzIgLTI3MiAwDQp2IC0yNDAgLTI3MiAwDQp2IC0yNDAgLTI2NCAwDQp2IC0yMzIgLTI2NCAwDQp2IC0yNDAgLTI3MiAwDQp2IC0yNDggLTI3MiAwDQp2IC0yNDggLTI2NCAwDQp2IC0yNDAgLTI2NCAwDQp2IC0yNDggLTI3MiAwDQp2IC0yNTYgLTI3MiAwDQp2IC0yNTYgLTI2NCAwDQp2IC0yNDggLTI2NCAwDQp2IC0zMjggLTI3MiAwDQp2IC0zMzYgLTI3MiAwDQp2IC0zMzYgLTI2NCAwDQp2IC0zMjggLTI2NCAwDQp2IC0zMzYgLTI3MiAwDQp2IC0zNDQgLTI3MiAwDQp2IC0zNDQgLTI2NCAwDQp2IC0zMzYgLTI2NCAwDQp2IC0xMjAgLTI4MCAwDQp2IC0xMjggLTI4MCAwDQp2IC0xMjggLTI3MiAwDQp2IC0xMjAgLTI3MiAwDQp2IC0xMjggLTI4MCAwDQp2IC0xMzYgLTI4MCAwDQp2IC0xMzYgLTI3MiAwDQp2IC0xMjggLTI3MiAwDQp2IC0yMTYgLTI4MCAwDQp2IC0yMjQgLTI4MCAwDQp2IC0yMjQgLTI3MiAwDQp2IC0yMTYgLTI3MiAwDQp2IC0yMjQgLTI4MCAwDQp2IC0yMzIgLTI4MCAwDQp2IC0yMzIgLTI3MiAwDQp2IC0yMjQgLTI3MiAwDQp2IC0yMzIgLTI4MCAwDQp2IC0yNDAgLTI4MCAwDQp2IC0yNDAgLTI3MiAwDQp2IC0yMzIgLTI3MiAwDQp2IC0yNDAgLTI4MCAwDQp2IC0yNDggLTI4MCAwDQp2IC0yNDggLTI3MiAwDQp2IC0yNDAgLTI3MiAwDQp2IC0yNDggLTI4MCAwDQp2IC0yNTYgLTI4MCAwDQp2IC0yNTYgLTI3MiAwDQp2IC0yNDggLTI3MiAwDQp2IC0yNTYgLTI4MCAwDQp2IC0yNjQgLTI4MCAwDQp2IC0yNjQgLTI3MiAwDQp2IC0yNTYgLTI3MiAwDQp2IC0zMjggLTI4MCAwDQp2IC0zMzYgLTI4MCAwDQp2IC0zMzYgLTI3MiAwDQp2IC0zMjggLTI3MiAwDQp2IC0zMzYgLTI4MCAwDQp2IC0zNDQgLTI4MCAwDQp2IC0zNDQgLTI3MiAwDQp2IC0zMzYgLTI3MiAwDQp2IC0yNCAtMjg4IDANCnYgLTMyIC0yODggMA0KdiAtMzIgLTI4MCAwDQp2IC0yNCAtMjgwIDANCnYgLTMyIC0yODggMA0KdiAtNDAgLTI4OCAwDQp2IC00MCAtMjgwIDANCnYgLTMyIC0yODAgMA0KdiAtMjE2IC0yODggMA0KdiAtMjI0IC0yODggMA0KdiAtMjI0IC0yODAgMA0KdiAtMjE2IC0yODAgMA0KdiAtMjI0IC0yODggMA0KdiAtMjMyIC0yODggMA0KdiAtMjMyIC0yODAgMA0KdiAtMjI0IC0yODAgMA0KdiAtMjMyIC0yODggMA0KdiAtMjQwIC0yODggMA0KdiAtMjQwIC0yODAgMA0KdiAtMjMyIC0yODAgMA0KdiAtMjQwIC0yODggMA0KdiAtMjQ4IC0yODggMA0KdiAtMjQ4IC0yODAgMA0KdiAtMjQwIC0yODAgMA0KdiAtMjQ4IC0yODggMA0KdiAtMjU2IC0yODggMA0KdiAtMjU2IC0yODAgMA0KdiAtMjQ4IC0yODAgMA0KdiAtMjU2IC0yODggMA0KdiAtMjY0IC0yODggMA0KdiAtMjY0IC0yODAgMA0KdiAtMjU2IC0yODAgMA0KdiAtNDQ4IC0yODggMA0KdiAtNDU2IC0yODggMA0KdiAtNDU2IC0yODAgMA0KdiAtNDQ4IC0yODAgMA0KdiAtNDU2IC0yODggMA0KdiAtNDY0IC0yODggMA0KdiAtNDY0IC0yODAgMA0KdiAtNDU2IC0yODAgMA0KdiAtMjQgLTI5NiAwDQp2IC0zMiAtMjk2IDANCnYgLTMyIC0yODggMA0KdiAtMjQgLTI4OCAwDQp2IC0zMiAtMjk2IDANCnYgLTQwIC0yOTYgMA0KdiAtNDAgLTI4OCAwDQp2IC0zMiAtMjg4IDANCnYgLTIyNCAtMjk2IDANCnYgLTIzMiAtMjk2IDANCnYgLTIzMiAtMjg4IDANCnYgLTIyNCAtMjg4IDANCnYgLTIzMiAtMjk2IDANCnYgLTI0MCAtMjk2IDANCnYgLTI0MCAtMjg4IDANCnYgLTIzMiAtMjg4IDANCnYgLTI0MCAtMjk2IDANCnYgLTI0OCAtMjk2IDANCnYgLTI0OCAtMjg4IDANCnYgLTI0MCAtMjg4IDANCnYgLTI0OCAtMjk2IDANCnYgLTI1NiAtMjk2IDANCnYgLTI1NiAtMjg4IDANCnYgLTI0OCAtMjg4IDANCnYgLTQ0OCAtMjk2IDANCnYgLTQ1NiAtMjk2IDANCnYgLTQ1NiAtMjg4IDANCnYgLTQ0OCAtMjg4IDANCnYgLTQ1NiAtMjk2IDANCnYgLTQ2NCAtMjk2IDANCnYgLTQ2NCAtMjg4IDANCnYgLTQ1NiAtMjg4IDANCnYgLTIzMiAtMzA0IDANCnYgLTI0MCAtMzA0IDANCnYgLTI0MCAtMjk2IDANCnYgLTIzMiAtMjk2IDANCnYgLTI0MCAtMzA0IDANCnYgLTI0OCAtMzA0IDANCnYgLTI0OCAtMjk2IDANCnYgLTI0MCAtMjk2IDANCnYgLTEwNCAtMzI4IDANCnYgLTExMiAtMzI4IDANCnYgLTExMiAtMzIwIDANCnYgLTEwNCAtMzIwIDANCnYgLTExMiAtMzI4IDANCnYgLTEyMCAtMzI4IDANCnYgLTEyMCAtMzIwIDANCnYgLTExMiAtMzIwIDANCnYgLTEyMCAtMzI4IDANCnYgLTEyOCAtMzI4IDANCnYgLTEyOCAtMzIwIDANCnYgLTEyMCAtMzIwIDANCnYgLTEyOCAtMzI4IDANCnYgLTEzNiAtMzI4IDANCnYgLTEzNiAtMzIwIDANCnYgLTEyOCAtMzIwIDANCnYgLTM0NCAtMzI4IDANCnYgLTM1MiAtMzI4IDANCnYgLTM1MiAtMzIwIDANCnYgLTM0NCAtMzIwIDANCnYgLTM1MiAtMzI4IDANCnYgLTM2MCAtMzI4IDANCnYgLTM2MCAtMzIwIDANCnYgLTM1MiAtMzIwIDANCnYgLTM2MCAtMzI4IDANCnYgLTM2OCAtMzI4IDANCnYgLTM2OCAtMzIwIDANCnYgLTM2MCAtMzIwIDANCnYgLTM2OCAtMzI4IDANCnYgLTM3NiAtMzI4IDANCnYgLTM3NiAtMzIwIDANCnYgLTM2OCAtMzIwIDANCnYgLTk2IC0zMzYgMA0KdiAtMTA0IC0zMzYgMA0KdiAtMTA0IC0zMjggMA0KdiAtOTYgLTMyOCAwDQp2IC0xMDQgLTMzNiAwDQp2IC0xMTIgLTMzNiAwDQp2IC0xMTIgLTMyOCAwDQp2IC0xMDQgLTMyOCAwDQp2IC0xMTIgLTMzNiAwDQp2IC0xMjAgLTMzNiAwDQp2IC0xMjAgLTMyOCAwDQp2IC0xMTIgLTMyOCAwDQp2IC0xMjAgLTMzNiAwDQp2IC0xMjggLTMzNiAwDQp2IC0xMjggLTMyOCAwDQp2IC0xMjAgLTMyOCAwDQp2IC0xMjggLTMzNiAwDQp2IC0xMzYgLTMzNiAwDQp2IC0xMzYgLTMyOCAwDQp2IC0xMjggLTMyOCAwDQp2IC0xMzYgLTMzNiAwDQp2IC0xNDQgLTMzNiAwDQp2IC0xNDQgLTMyOCAwDQp2IC0xMzYgLTMyOCAwDQp2IC0zMzYgLTMzNiAwDQp2IC0zNDQgLTMzNiAwDQp2IC0zNDQgLTMyOCAwDQp2IC0zMzYgLTMyOCAwDQp2IC0zNDQgLTMzNiAwDQp2IC0zNTIgLTMzNiAwDQp2IC0zNTIgLTMyOCAwDQp2IC0zNDQgLTMyOCAwDQp2IC0zNTIgLTMzNiAwDQp2IC0zNjAgLTMzNiAwDQp2IC0zNjAgLTMyOCAwDQp2IC0zNTIgLTMyOCAwDQp2IC0zNjAgLTMzNiAwDQp2IC0zNjggLTMzNiAwDQp2IC0zNjggLTMyOCAwDQp2IC0zNjAgLTMyOCAwDQp2IC0zNjggLTMzNiAwDQp2IC0zNzYgLTMzNiAwDQp2IC0zNzYgLTMyOCAwDQp2IC0zNjggLTMyOCAwDQp2IC0zNzYgLTMzNiAwDQp2IC0zODQgLTMzNiAwDQp2IC0zODQgLTMyOCAwDQp2IC0zNzYgLTMyOCAwDQp2IC05NiAtMzQ0IDANCnYgLTEwNCAtMzQ0IDANCnYgLTEwNCAtMzM2IDANCnYgLTk2IC0zMzYgMA0KdiAtMTA0IC0zNDQgMA0KdiAtMTEyIC0zNDQgMA0KdiAtMTEyIC0zMzYgMA0KdiAtMTA0IC0zMzYgMA0KdiAtMTEyIC0zNDQgMA0KdiAtMTIwIC0zNDQgMA0KdiAtMTIwIC0zMzYgMA0KdiAtMTEyIC0zMzYgMA0KdiAtMTIwIC0zNDQgMA0KdiAtMTI4IC0zNDQgMA0KdiAtMTI4IC0zMzYgMA0KdiAtMTIwIC0zMzYgMA0KdiAtMTI4IC0zNDQgMA0KdiAtMTM2IC0zNDQgMA0KdiAtMTM2IC0zMzYgMA0KdiAtMTI4IC0zMzYgMA0KdiAtMTM2IC0zNDQgMA0KdiAtMTQ0IC0zNDQgMA0KdiAtMTQ0IC0zMzYgMA0KdiAtMTM2IC0zMzYgMA0KdiAtMTg0IC0zNDQgMA0KdiAtMTkyIC0zNDQgMA0KdiAtMTkyIC0zMzYgMA0KdiAtMTg0IC0zMzYgMA0KdiAtMTkyIC0zNDQgMA0KdiAtMjAwIC0zNDQgMA0KdiAtMjAwIC0zMzYgMA0KdiAtMTkyIC0zMzYgMA0KdiAtMjcyIC0zNDQgMA0KdiAtMjgwIC0zNDQgMA0KdiAtMjgwIC0zMzYgMA0KdiAtMjcyIC0zMzYgMA0KdiAtMjgwIC0zNDQgMA0KdiAtMjg4IC0zNDQgMA0KdiAtMjg4IC0zMzYgMA0KdiAtMjgwIC0zMzYgMA0KdiAtMzM2IC0zNDQgMA0KdiAtMzQ0IC0zNDQgMA0KdiAtMzQ0IC0zMzYgMA0KdiAtMzM2IC0zMzYgMA0KdiAtMzQ0IC0zNDQgMA0KdiAtMzUyIC0zNDQgMA0KdiAtMzUyIC0zMzYgMA0KdiAtMzQ0IC0zMzYgMA0KdiAtMzUyIC0zNDQgMA0KdiAtMzYwIC0zNDQgMA0KdiAtMzYwIC0zMzYgMA0KdiAtMzUyIC0zMzYgMA0KdiAtMzYwIC0zNDQgMA0KdiAtMzY4IC0zNDQgMA0KdiAtMzY4IC0zMzYgMA0KdiAtMzYwIC0zMzYgMA0KdiAtMzY4IC0zNDQgMA0KdiAtMzc2IC0zNDQgMA0KdiAtMzc2IC0zMzYgMA0KdiAtMzY4IC0zMzYgMA0KdiAtMzc2IC0zNDQgMA0KdiAtMzg0IC0zNDQgMA0KdiAtMzg0IC0zMzYgMA0KdiAtMzc2IC0zMzYgMA0KdiAtMTA0IC0zNTIgMA0KdiAtMTEyIC0zNTIgMA0KdiAtMTEyIC0zNDQgMA0KdiAtMTA0IC0zNDQgMA0KdiAtMTEyIC0zNTIgMA0KdiAtMTIwIC0zNTIgMA0KdiAtMTIwIC0zNDQgMA0KdiAtMTEyIC0zNDQgMA0KdiAtMTIwIC0zNTIgMA0KdiAtMTI4IC0zNTIgMA0KdiAtMTI4IC0zNDQgMA0KdiAtMTIwIC0zNDQgMA0KdiAtMTI4IC0zNTIgMA0KdiAtMTM2IC0zNTIgMA0KdiAtMTM2IC0zNDQgMA0KdiAtMTI4IC0zNDQgMA0KdiAtMTg0IC0zNTIgMA0KdiAtMTkyIC0zNTIgMA0KdiAtMTkyIC0zNDQgMA0KdiAtMTg0IC0zNDQgMA0KdiAtMTkyIC0zNTIgMA0KdiAtMjAwIC0zNTIgMA0KdiAtMjAwIC0zNDQgMA0KdiAtMTkyIC0zNDQgMA0KdiAtMjcyIC0zNTIgMA0KdiAtMjgwIC0zNTIgMA0KdiAtMjgwIC0zNDQgMA0KdiAtMjcyIC0zNDQgMA0KdiAtMjgwIC0zNTIgMA0KdiAtMjg4IC0zNTIgMA0KdiAtMjg4IC0zNDQgMA0KdiAtMjgwIC0zNDQgMA0KdiAtMzQ0IC0zNTIgMA0KdiAtMzUyIC0zNTIgMA0KdiAtMzUyIC0zNDQgMA0KdiAtMzQ0IC0zNDQgMA0KdiAtMzUyIC0zNTIgMA0KdiAtMzYwIC0zNTIgMA0KdiAtMzYwIC0zNDQgMA0KdiAtMzUyIC0zNDQgMA0KdiAtMzYwIC0zNTIgMA0KdiAtMzY4IC0zNTIgMA0KdiAtMzY4IC0zNDQgMA0KdiAtMzYwIC0zNDQgMA0KdiAtMzY4IC0zNTIgMA0KdiAtMzc2IC0zNTIgMA0KdiAtMzc2IC0zNDQgMA0KdiAtMzY4IC0zNDQgMA0KdiAtNjQgLTM5MiAwDQp2IC03MiAtMzkyIDANCnYgLTcyIC0zODQgMA0KdiAtNjQgLTM4NCAwDQp2IC03MiAtMzkyIDANCnYgLTgwIC0zOTIgMA0KdiAtODAgLTM4NCAwDQp2IC03MiAtMzg0IDANCnYgLTM4NCAtMzkyIDANCnYgLTM5MiAtMzkyIDANCnYgLTM5MiAtMzg0IDANCnYgLTM4NCAtMzg0IDANCnYgLTM5MiAtMzkyIDANCnYgLTQwMCAtMzkyIDANCnYgLTQwMCAtMzg0IDANCnYgLTM5MiAtMzg0IDANCnYgLTY0IC00MDAgMA0KdiAtNzIgLTQwMCAwDQp2IC03MiAtMzkyIDANCnYgLTY0IC0zOTIgMA0KdiAtNzIgLTQwMCAwDQp2IC04MCAtNDAwIDANCnYgLTgwIC0zOTIgMA0KdiAtNzIgLTM5MiAwDQp2IC0zODQgLTQwMCAwDQp2IC0zOTIgLTQwMCAwDQp2IC0zOTIgLTM5MiAwDQp2IC0zODQgLTM5MiAwDQp2IC0zOTIgLTQwMCAwDQp2IC00MDAgLTQwMCAwDQp2IC00MDAgLTM5MiAwDQp2IC0zOTIgLTM5MiAwDQp2IC0xNDQgLTQwOCAwDQp2IC0xNTIgLTQwOCAwDQp2IC0xNTIgLTQwMCAwDQp2IC0xNDQgLTQwMCAwDQp2IC0xNTIgLTQwOCAwDQp2IC0xNjAgLTQwOCAwDQp2IC0xNjAgLTQwMCAwDQp2IC0xNTIgLTQwMCAwDQp2IC0zMTIgLTQwOCAwDQp2IC0zMjAgLTQwOCAwDQp2IC0zMjAgLTQwMCAwDQp2IC0zMTIgLTQwMCAwDQp2IC0zMjAgLTQwOCAwDQp2IC0zMjggLTQwOCAwDQp2IC0zMjggLTQwMCAwDQp2IC0zMjAgLTQwMCAwDQp2IC0xNDQgLTQxNiAwDQp2IC0xNTIgLTQxNiAwDQp2IC0xNTIgLTQwOCAwDQp2IC0xNDQgLTQwOCAwDQp2IC0xNTIgLTQxNiAwDQp2IC0xNjAgLTQxNiAwDQp2IC0xNjAgLTQwOCAwDQp2IC0xNTIgLTQwOCAwDQp2IC0zMTIgLTQxNiAwDQp2IC0zMjAgLTQxNiAwDQp2IC0zMjAgLTQwOCAwDQp2IC0zMTIgLTQwOCAwDQp2IC0zMjAgLTQxNiAwDQp2IC0zMjggLTQxNiAwDQp2IC0zMjggLTQwOCAwDQp2IC0zMjAgLTQwOCAwDQp2IC0yMzIgLTQ0MCAwDQp2IC0yNDAgLTQ0MCAwDQp2IC0yNDAgLTQzMiAwDQp2IC0yMzIgLTQzMiAwDQp2IC0yNDAgLTQ0MCAwDQp2IC0yNDggLTQ0MCAwDQp2IC0yNDggLTQzMiAwDQp2IC0yNDAgLTQzMiAwDQp2IC0yMzIgLTQ0OCAwDQp2IC0yNDAgLTQ0OCAwDQp2IC0yNDAgLTQ0MCAwDQp2IC0yMzIgLTQ0MCAwDQp2IC0yNDAgLTQ0OCAwDQp2IC0yNDggLTQ0OCAwDQp2IC0yNDggLTQ0MCAwDQp2IC0yNDAgLTQ0MCAwDQoNCiMgVGV4dHVyZSBjb29yaWRpbmF0ZXMgKENvdW50ID0gNTcpDQp2dCAwLjYyNSAwLjg3NQ0KdnQgMC43NSAwLjg3NQ0KdnQgMC43NSAxDQp2dCAwLjYyNSAxDQp2dCAwLjg3NSAwLjg3NQ0KdnQgMC44NzUgMQ0KdnQgMC41IDAuNQ0KdnQgMC42MjUgMC41DQp2dCAwLjYyNSAwLjYyNQ0KdnQgMC41IDAuNjI1DQp2dCAwLjc1IDAuNQ0KdnQgMC43NSAwLjYyNQ0KdnQgMC43NSAwLjM3NQ0KdnQgMC44NzUgMC4zNzUNCnZ0IDAuODc1IDAuNQ0KdnQgMSAwLjM3NQ0KdnQgMSAwLjUNCnZ0IDAuNSAwLjM3NQ0KdnQgMC42MjUgMC4zNzUNCnZ0IDAuNzUgMC4yNQ0KdnQgMC44NzUgMC4yNQ0KdnQgMC4xMjUgMC43NQ0KdnQgMC4yNSAwLjc1DQp2dCAwLjI1IDAuODc1DQp2dCAwLjEyNSAwLjg3NQ0KdnQgMC42MjUgMC4yNQ0KdnQgMC41IDAuODc1DQp2dCAwLjUgMQ0KdnQgMC41IDAuMTI1DQp2dCAwLjYyNSAwLjEyNQ0KdnQgMC41IDAuMjUNCnZ0IDAuODc1IDAuMTI1DQp2dCAxIDAuMTI1DQp2dCAxIDAuMjUNCnZ0IDEgMC42MjUNCnZ0IDAuODc1IDAuNjI1DQp2dCAwLjUgMA0KdnQgMC42MjUgMA0KdnQgMC43NSAwDQp2dCAwLjc1IDAuMTI1DQp2dCAwLjg3NSAwDQp2dCAxIDANCnZ0IDEgMC44NzUNCnZ0IDEgMQ0KdnQgMC4xMjUgMC4yNQ0KdnQgMC4yNSAwLjI1DQp2dCAwLjI1IDAuMzc1DQp2dCAwLjEyNSAwLjM3NQ0KdnQgMCAwLjI1DQp2dCAwIDAuMzc1DQp2dCAwLjg3NSAwLjc1DQp2dCAxIDAuNzUNCnZ0IDAuNzUgMC43NQ0KdnQgMC42MjUgMC43NQ0KdnQgMC41IDAuNzUNCnZ0IDAuMzc1IDAuNzUNCnZ0IDAuMzc1IDAuODc1DQoNCiMgTm9ybWFsDQp2biAwIDAgLTENCg0KIyBNZXNoIGRlc2NyaXB0aW9uDQpnIDFfM18yM19tZXNoXzAwMDENCg0KIyBGYWNlcw0KZiAxLzEvMSAyLzIvMSAzLzMvMSA0LzQvMQpmIDUvMi8xIDYvNS8xIDcvNi8xIDgvMy8xCmYgOS83LzEgMTAvOC8xIDExLzkvMSAxMi8xMC8xCmYgMTMvOC8xIDE0LzExLzEgMTUvMTIvMSAxNi85LzEKZiAxNy8xLzEgMTgvMi8xIDE5LzMvMSAyMC80LzEKZiAyMS8yLzEgMjIvNS8xIDIzLzYvMSAyNC8zLzEKZiAyNS8xLzEgMjYvMi8xIDI3LzMvMSAyOC80LzEKZiAyOS8yLzEgMzAvNS8xIDMxLzYvMSAzMi8zLzEKZiAzMy83LzEgMzQvOC8xIDM1LzkvMSAzNi8xMC8xCmYgMzcvOC8xIDM4LzExLzEgMzkvMTIvMSA0MC85LzEKZiA0MS83LzEgNDIvOC8xIDQzLzkvMSA0NC8xMC8xCmYgNDUvOC8xIDQ2LzExLzEgNDcvMTIvMSA0OC85LzEKZiA0OS8xMy8xIDUwLzE0LzEgNTEvMTUvMSA1Mi8xMS8xCmYgNTMvMTQvMSA1NC8xNi8xIDU1LzE3LzEgNTYvMTUvMQpmIDU3LzE4LzEgNTgvMTkvMSA1OS84LzEgNjAvNy8xCmYgNjEvMTkvMSA2Mi8xMy8xIDYzLzExLzEgNjQvOC8xCmYgNjUvMTMvMSA2Ni8xNC8xIDY3LzE1LzEgNjgvMTEvMQpmIDY5LzE0LzEgNzAvMTYvMSA3MS8xNy8xIDcyLzE1LzEKZiA3My8xOC8xIDc0LzE5LzEgNzUvOC8xIDc2LzcvMQpmIDc3LzE5LzEgNzgvMTMvMSA3OS8xMS8xIDgwLzgvMQpmIDgxLzEvMSA4Mi8yLzEgODMvMy8xIDg0LzQvMQpmIDg1LzIwLzEgODYvMjEvMSA4Ny8xNC8xIDg4LzEzLzEKZiA4OS8yMi8xIDkwLzIzLzEgOTEvMjQvMSA5Mi8yNS8xCmYgOTMvMjIvMSA5NC8yMy8xIDk1LzI0LzEgOTYvMjUvMQpmIDk3LzI2LzEgOTgvMjAvMSA5OS8xMy8xIDEwMC8xOS8xCmYgMTAxLzI3LzEgMTAyLzEvMSAxMDMvNC8xIDEwNC8yOC8xCmYgMTA1LzEvMSAxMDYvMi8xIDEwNy8zLzEgMTA4LzQvMQpmIDEwOS8yMC8xIDExMC8yMS8xIDExMS8xNC8xIDExMi8xMy8xCmYgMTEzLzIyLzEgMTE0LzIzLzEgMTE1LzI0LzEgMTE2LzI1LzEKZiAxMTcvMjIvMSAxMTgvMjMvMSAxMTkvMjQvMSAxMjAvMjUvMQpmIDEyMS8yNi8xIDEyMi8yMC8xIDEyMy8xMy8xIDEyNC8xOS8xCmYgMTI1LzI3LzEgMTI2LzEvMSAxMjcvNC8xIDEyOC8yOC8xCmYgMTI5LzcvMSAxMzAvOC8xIDEzMS85LzEgMTMyLzEwLzEKZiAxMzMvMjkvMSAxMzQvMzAvMSAxMzUvMjYvMSAxMzYvMzEvMQpmIDEzNy8yMi8xIDEzOC8yMy8xIDEzOS8yNC8xIDE0MC8yNS8xCmYgMTQxLzIyLzEgMTQyLzIzLzEgMTQzLzI0LzEgMTQ0LzI1LzEKZiAxNDUvMzIvMSAxNDYvMzMvMSAxNDcvMzQvMSAxNDgvMjEvMQpmIDE0OS8xNS8xIDE1MC8xNy8xIDE1MS8zNS8xIDE1Mi8zNi8xCmYgMTUzLzcvMSAxNTQvOC8xIDE1NS85LzEgMTU2LzEwLzEKZiAxNTcvMjkvMSAxNTgvMzAvMSAxNTkvMjYvMSAxNjAvMzEvMQpmIDE2MS8yMi8xIDE2Mi8yMy8xIDE2My8yNC8xIDE2NC8yNS8xCmYgMTY1LzIyLzEgMTY2LzIzLzEgMTY3LzI0LzEgMTY4LzI1LzEKZiAxNjkvMzIvMSAxNzAvMzMvMSAxNzEvMzQvMSAxNzIvMjEvMQpmIDE3My8xNS8xIDE3NC8xNy8xIDE3NS8zNS8xIDE3Ni8zNi8xCmYgMTc3LzM3LzEgMTc4LzM4LzEgMTc5LzMwLzEgMTgwLzI5LzEKZiAxODEvMzgvMSAxODIvMzkvMSAxODMvNDAvMSAxODQvMzAvMQpmIDE4NS8zOS8xIDE4Ni80MS8xIDE4Ny8zMi8xIDE4OC80MC8xCmYgMTg5LzQxLzEgMTkwLzQyLzEgMTkxLzMzLzEgMTkyLzMyLzEKZiAxOTMvMzcvMSAxOTQvMzgvMSAxOTUvMzAvMSAxOTYvMjkvMQpmIDE5Ny8zOC8xIDE5OC8zOS8xIDE5OS80MC8xIDIwMC8zMC8xCmYgMjAxLzM5LzEgMjAyLzQxLzEgMjAzLzMyLzEgMjA0LzQwLzEKZiAyMDUvNDEvMSAyMDYvNDIvMSAyMDcvMzMvMSAyMDgvMzIvMQpmIDIwOS81LzEgMjEwLzQzLzEgMjExLzQ0LzEgMjEyLzYvMQpmIDIxMy8yLzEgMjE0LzUvMSAyMTUvNi8xIDIxNi8zLzEKZiAyMTcvMS8xIDIxOC8yLzEgMjE5LzMvMSAyMjAvNC8xCmYgMjIxLzIvMSAyMjIvNS8xIDIyMy82LzEgMjI0LzMvMQpmIDIyNS81LzEgMjI2LzQzLzEgMjI3LzQ0LzEgMjI4LzYvMQpmIDIyOS80NS8xIDIzMC80Ni8xIDIzMS80Ny8xIDIzMi80OC8xCmYgMjMzLzQ5LzEgMjM0LzQ1LzEgMjM1LzQ4LzEgMjM2LzUwLzEKZiAyMzcvMi8xIDIzOC81LzEgMjM5LzYvMSAyNDAvMy8xCmYgMjQxLzEvMSAyNDIvMi8xIDI0My8zLzEgMjQ0LzQvMQpmIDI0NS8yLzEgMjQ2LzUvMSAyNDcvNi8xIDI0OC8zLzEKZiAyNDkvNy8xIDI1MC84LzEgMjUxLzkvMSAyNTIvMTAvMQpmIDI1My84LzEgMjU0LzExLzEgMjU1LzEyLzEgMjU2LzkvMQpmIDI1Ny8xLzEgMjU4LzIvMSAyNTkvMy8xIDI2MC80LzEKZiAyNjEvNTEvMSAyNjIvNTIvMSAyNjMvNDMvMSAyNjQvNS8xCmYgMjY1LzgvMSAyNjYvMTEvMSAyNjcvMTIvMSAyNjgvOS8xCmYgMjY5LzcvMSAyNzAvOC8xIDI3MS85LzEgMjcyLzEwLzEKZiAyNzMvNTMvMSAyNzQvNTEvMSAyNzUvNS8xIDI3Ni8yLzEKZiAyNzcvMi8xIDI3OC81LzEgMjc5LzYvMSAyODAvMy8xCmYgMjgxLzcvMSAyODIvOC8xIDI4My85LzEgMjg0LzEwLzEKZiAyODUvOC8xIDI4Ni8xMS8xIDI4Ny8xMi8xIDI4OC85LzEKZiAyODkvMS8xIDI5MC8yLzEgMjkxLzMvMSAyOTIvNC8xCmYgMjkzLzIvMSAyOTQvNS8xIDI5NS82LzEgMjk2LzMvMQpmIDI5Ny83LzEgMjk4LzgvMSAyOTkvOS8xIDMwMC8xMC8xCmYgMzAxLzEwLzEgMzAyLzkvMSAzMDMvNTQvMSAzMDQvNTUvMQpmIDMwNS8yMi8xIDMwNi8yMy8xIDMwNy8yNC8xIDMwOC8yNS8xCmYgMzA5LzIzLzEgMzEwLzU2LzEgMzExLzU3LzEgMzEyLzI0LzEKZiAzMTMvOS8xIDMxNC8xMi8xIDMxNS81My8xIDMxNi81NC8xCmYgMzE3LzgvMSAzMTgvMTEvMSAzMTkvMTIvMSAzMjAvOS8xCmYgMzIxLzEvMSAzMjIvMi8xIDMyMy8zLzEgMzI0LzQvMQpmIDMyNS8yLzEgMzI2LzUvMSAzMjcvNi8xIDMyOC8zLzEKZiAzMjkvNy8xIDMzMC84LzEgMzMxLzkvMSAzMzIvMTAvMQpmIDMzMy84LzEgMzM0LzExLzEgMzM1LzEyLzEgMzM2LzkvMQpmIDMzNy83LzEgMzM4LzgvMSAzMzkvOS8xIDM0MC8xMC8xCmYgMzQxLzEwLzEgMzQyLzkvMSAzNDMvNTQvMSAzNDQvNTUvMQpmIDM0NS85LzEgMzQ2LzEyLzEgMzQ3LzUzLzEgMzQ4LzU0LzEKZiAzNDkvOC8xIDM1MC8xMS8xIDM1MS8xMi8xIDM1Mi85LzEKZiAzNTMvNy8xIDM1NC84LzEgMzU1LzkvMSAzNTYvMTAvMQpmIDM1Ny84LzEgMzU4LzExLzEgMzU5LzEyLzEgMzYwLzkvMQpmIDM2MS83LzEgMzYyLzgvMSAzNjMvOS8xIDM2NC8xMC8xCmYgMzY1LzgvMSAzNjYvMTEvMSAzNjcvMTIvMSAzNjgvOS8xCmYgMzY5LzEzLzEgMzcwLzE0LzEgMzcxLzE1LzEgMzcyLzExLzEKZiAzNzMvMTQvMSAzNzQvMTYvMSAzNzUvMTcvMSAzNzYvMTUvMQpmIDM3Ny8xOC8xIDM3OC8xOS8xIDM3OS84LzEgMzgwLzcvMQpmIDM4MS8xOS8xIDM4Mi8xMy8xIDM4My8xMS8xIDM4NC84LzEKZiAzODUvMTMvMSAzODYvMTQvMSAzODcvMTUvMSAzODgvMTEvMQpmIDM4OS8xNC8xIDM5MC8xNi8xIDM5MS8xNy8xIDM5Mi8xNS8xCmYgMzkzLzE4LzEgMzk0LzE5LzEgMzk1LzgvMSAzOTYvNy8xCmYgMzk3LzE5LzEgMzk4LzEzLzEgMzk5LzExLzEgNDAwLzgvMQpmIDQwMS8xLzEgNDAyLzIvMSA0MDMvMy8xIDQwNC80LzEKZiA0MDUvMjAvMSA0MDYvMjEvMSA0MDcvMTQvMSA0MDgvMTMvMQpmIDQwOS8yMi8xIDQxMC8yMy8xIDQxMS8yNC8xIDQxMi8yNS8xCmYgNDEzLzIyLzEgNDE0LzIzLzEgNDE1LzI0LzEgNDE2LzI1LzEKZiA0MTcvMjYvMSA0MTgvMjAvMSA0MTkvMTMvMSA0MjAvMTkvMQpmIDQyMS8yNy8xIDQyMi8xLzEgNDIzLzQvMSA0MjQvMjgvMQpmIDQyNS8xLzEgNDI2LzIvMSA0MjcvMy8xIDQyOC80LzEKZiA0MjkvMjAvMSA0MzAvMjEvMSA0MzEvMTQvMSA0MzIvMTMvMQpmIDQzMy8yMi8xIDQzNC8yMy8xIDQzNS8yNC8xIDQzNi8yNS8xCmYgNDM3LzIyLzEgNDM4LzIzLzEgNDM5LzI0LzEgNDQwLzI1LzEKZiA0NDEvMjYvMSA0NDIvMjAvMSA0NDMvMTMvMSA0NDQvMTkvMQpmIDQ0NS8yNy8xIDQ0Ni8xLzEgNDQ3LzQvMSA0NDgvMjgvMQpmIDQ0OS83LzEgNDUwLzgvMSA0NTEvOS8xIDQ1Mi8xMC8xCmYgNDUzLzI5LzEgNDU0LzMwLzEgNDU1LzI2LzEgNDU2LzMxLzEKZiA0NTcvMjIvMSA0NTgvMjMvMSA0NTkvMjQvMSA0NjAvMjUvMQpmIDQ2MS8yMi8xIDQ2Mi8yMy8xIDQ2My8yNC8xIDQ2NC8yNS8xCmYgNDY1LzMyLzEgNDY2LzMzLzEgNDY3LzM0LzEgNDY4LzIxLzEKZiA0NjkvMTUvMSA0NzAvMTcvMSA0NzEvMzUvMSA0NzIvMzYvMQpmIDQ3My8xLzEgNDc0LzIvMSA0NzUvMy8xIDQ3Ni80LzEKZiA0NzcvMi8xIDQ3OC81LzEgNDc5LzYvMSA0ODAvMy8xCmYgNDgxLzEvMSA0ODIvMi8xIDQ4My8zLzEgNDg0LzQvMQpmIDQ4NS8yLzEgNDg2LzUvMSA0ODcvNi8xIDQ4OC8zLzEKZiA0ODkvNy8xIDQ5MC84LzEgNDkxLzkvMSA0OTIvMTAvMQpmIDQ5My8yOS8xIDQ5NC8zMC8xIDQ5NS8yNi8xIDQ5Ni8zMS8xCmYgNDk3LzIyLzEgNDk4LzIzLzEgNDk5LzI0LzEgNTAwLzI1LzEKZiA1MDEvMjIvMSA1MDIvMjMvMSA1MDMvMjQvMSA1MDQvMjUvMQpmIDUwNS8zMi8xIDUwNi8zMy8xIDUwNy8zNC8xIDUwOC8yMS8xCmYgNTA5LzE1LzEgNTEwLzE3LzEgNTExLzM1LzEgNTEyLzM2LzEKZiA1MTMvMzcvMSA1MTQvMzgvMSA1MTUvMzAvMSA1MTYvMjkvMQpmIDUxNy8zOC8xIDUxOC8zOS8xIDUxOS80MC8xIDUyMC8zMC8xCmYgNTIxLzM5LzEgNTIyLzQxLzEgNTIzLzMyLzEgNTI0LzQwLzEKZiA1MjUvNDEvMSA1MjYvNDIvMSA1MjcvMzMvMSA1MjgvMzIvMQpmIDUyOS83LzEgNTMwLzgvMSA1MzEvOS8xIDUzMi8xMC8xCmYgNTMzLzgvMSA1MzQvMTEvMSA1MzUvMTIvMSA1MzYvOS8xCmYgNTM3LzcvMSA1MzgvOC8xIDUzOS85LzEgNTQwLzEwLzEKZiA1NDEvOC8xIDU0Mi8xMS8xIDU0My8xMi8xIDU0NC85LzEKZiA1NDUvMzcvMSA1NDYvMzgvMSA1NDcvMzAvMSA1NDgvMjkvMQpmIDU0OS8zOC8xIDU1MC8zOS8xIDU1MS80MC8xIDU1Mi8zMC8xCmYgNTUzLzM5LzEgNTU0LzQxLzEgNTU1LzMyLzEgNTU2LzQwLzEKZiA1NTcvNDEvMSA1NTgvNDIvMSA1NTkvMzMvMSA1NjAvMzIvMQpmIDU2MS8xLzEgNTYyLzIvMSA1NjMvMy8xIDU2NC80LzEKZiA1NjUvMi8xIDU2Ni81LzEgNTY3LzYvMSA1NjgvMy8xCmYgNTY5LzEvMSA1NzAvMi8xIDU3MS8zLzEgNTcyLzQvMQpmIDU3My8yLzEgNTc0LzUvMSA1NzUvNi8xIDU3Ni8zLzEKZiA1NzcvNy8xIDU3OC84LzEgNTc5LzkvMSA1ODAvMTAvMQpmIDU4MS84LzEgNTgyLzExLzEgNTgzLzEyLzEgNTg0LzkvMQpmIDU4NS83LzEgNTg2LzgvMSA1ODcvOS8xIDU4OC8xMC8xCmYgNTg5LzgvMSA1OTAvMTEvMSA1OTEvMTIvMSA1OTIvOS8xCmYgNTkzLzEvMSA1OTQvMi8xIDU5NS8zLzEgNTk2LzQvMQpmIDU5Ny8yLzEgNTk4LzUvMSA1OTkvNi8xIDYwMC8zLzEKZiA2MDEvMS8xIDYwMi8yLzEgNjAzLzMvMSA2MDQvNC8xCmYgNjA1LzIvMSA2MDYvNS8xIDYwNy82LzEgNjA4LzMvMQpmIDYwOS83LzEgNjEwLzgvMSA2MTEvOS8xIDYxMi8xMC8xCmYgNjEzLzgvMSA2MTQvMTEvMSA2MTUvMTIvMSA2MTYvOS8xCmYgNjE3LzcvMSA2MTgvOC8xIDYxOS85LzEgNjIwLzEwLzEKZiA2MjEvOC8xIDYyMi8xMS8xIDYyMy8xMi8xIDYyNC85LzEKZiA2MjUvMS8xIDYyNi8yLzEgNjI3LzMvMSA2MjgvNC8xCmYgNjI5LzIvMSA2MzAvNS8xIDYzMS82LzEgNjMyLzMvMQpmIDYzMy83LzEgNjM0LzgvMSA2MzUvOS8xIDYzNi8xMC8xCmYgNjM3LzgvMSA2MzgvMTEvMSA2MzkvMTIvMSA2NDAvOS8xCg0K</ImportMesh>
+  <ImportMesh filename="1_3_23_mesh_0002.obj">IyBUaWxlZDJVbml0eSBnZW5lcmF0ZWQgZmlsZS4gRG8gbm90IG1vZGlmeSBieSBoYW5kLg0KIyBXYXZlZnJvbnQgZmlsZSBmb3IgJzFfM18yM19tZXNoXzAwMDIub2JqJw0KDQojIFZlcnRpY2VzIChDb3VudCA9IDQ2MCkNCnYgMCAtOCAwDQp2IC04IC04IDANCnYgLTggMCAwDQp2IDAgMCAwDQp2IC04IC04IDANCnYgLTE2IC04IDANCnYgLTE2IDAgMA0KdiAtOCAwIDANCnYgLTE2IC04IDANCnYgLTI0IC04IDANCnYgLTI0IDAgMA0KdiAtMTYgMCAwDQp2IC0yNCAtOCAwDQp2IC0zMiAtOCAwDQp2IC0zMiAwIDANCnYgLTI0IDAgMA0KdiAtMzIgLTggMA0KdiAtNDAgLTggMA0KdiAtNDAgMCAwDQp2IC0zMiAwIDANCnYgLTQwIC04IDANCnYgLTQ4IC04IDANCnYgLTQ4IDAgMA0KdiAtNDAgMCAwDQp2IC00OCAtOCAwDQp2IC01NiAtOCAwDQp2IC01NiAwIDANCnYgLTQ4IDAgMA0KdiAtNTYgLTggMA0KdiAtNjQgLTggMA0KdiAtNjQgMCAwDQp2IC01NiAwIDANCnYgLTY0IC04IDANCnYgLTcyIC04IDANCnYgLTcyIDAgMA0KdiAtNjQgMCAwDQp2IC03MiAtOCAwDQp2IC04MCAtOCAwDQp2IC04MCAwIDANCnYgLTcyIDAgMA0KdiAtODAgLTggMA0KdiAtODggLTggMA0KdiAtODggMCAwDQp2IC04MCAwIDANCnYgLTg4IC04IDANCnYgLTk2IC04IDANCnYgLTk2IDAgMA0KdiAtODggMCAwDQp2IC05NiAtOCAwDQp2IC0xMDQgLTggMA0KdiAtMTA0IDAgMA0KdiAtOTYgMCAwDQp2IC0xMDQgLTggMA0KdiAtMTEyIC04IDANCnYgLTExMiAwIDANCnYgLTEwNCAwIDANCnYgLTExMiAtOCAwDQp2IC0xMjAgLTggMA0KdiAtMTIwIDAgMA0KdiAtMTEyIDAgMA0KdiAtMTIwIC04IDANCnYgLTEyOCAtOCAwDQp2IC0xMjggMCAwDQp2IC0xMjAgMCAwDQp2IC0xMjggLTggMA0KdiAtMTM2IC04IDANCnYgLTEzNiAwIDANCnYgLTEyOCAwIDANCnYgLTEzNiAtOCAwDQp2IC0xNDQgLTggMA0KdiAtMTQ0IDAgMA0KdiAtMTM2IDAgMA0KdiAtMTQ0IC04IDANCnYgLTE1MiAtOCAwDQp2IC0xNTIgMCAwDQp2IC0xNDQgMCAwDQp2IC0xNTIgLTggMA0KdiAtMTYwIC04IDANCnYgLTE2MCAwIDANCnYgLTE1MiAwIDANCnYgLTE2MCAtOCAwDQp2IC0xNjggLTggMA0KdiAtMTY4IDAgMA0KdiAtMTYwIDAgMA0KdiAtMTY4IC04IDANCnYgLTE3NiAtOCAwDQp2IC0xNzYgMCAwDQp2IC0xNjggMCAwDQp2IC0xNzYgLTggMA0KdiAtMTg0IC04IDANCnYgLTE4NCAwIDANCnYgLTE3NiAwIDANCnYgLTE4NCAtOCAwDQp2IC0xOTIgLTggMA0KdiAtMTkyIDAgMA0KdiAtMTg0IDAgMA0KdiAtMTkyIC04IDANCnYgLTIwMCAtOCAwDQp2IC0yMDAgMCAwDQp2IC0xOTIgMCAwDQp2IC0yMDAgLTggMA0KdiAtMjA4IC04IDANCnYgLTIwOCAwIDANCnYgLTIwMCAwIDANCnYgLTIwOCAtOCAwDQp2IC0yMTYgLTggMA0KdiAtMjE2IDAgMA0KdiAtMjA4IDAgMA0KdiAtMjE2IC04IDANCnYgLTIyNCAtOCAwDQp2IC0yMjQgMCAwDQp2IC0yMTYgMCAwDQp2IC0yMjQgLTggMA0KdiAtMjMyIC04IDANCnYgLTIzMiAwIDANCnYgLTIyNCAwIDANCnYgLTIzMiAtOCAwDQp2IC0yNDAgLTggMA0KdiAtMjQwIDAgMA0KdiAtMjMyIDAgMA0KdiAtMjQwIC04IDANCnYgLTI0OCAtOCAwDQp2IC0yNDggMCAwDQp2IC0yNDAgMCAwDQp2IC0yNDggLTggMA0KdiAtMjU2IC04IDANCnYgLTI1NiAwIDANCnYgLTI0OCAwIDANCnYgLTI1NiAtOCAwDQp2IC0yNjQgLTggMA0KdiAtMjY0IDAgMA0KdiAtMjU2IDAgMA0KdiAtMjY0IC04IDANCnYgLTI3MiAtOCAwDQp2IC0yNzIgMCAwDQp2IC0yNjQgMCAwDQp2IC0yNzIgLTggMA0KdiAtMjgwIC04IDANCnYgLTI4MCAwIDANCnYgLTI3MiAwIDANCnYgLTI4MCAtOCAwDQp2IC0yODggLTggMA0KdiAtMjg4IDAgMA0KdiAtMjgwIDAgMA0KdiAtMjg4IC04IDANCnYgLTI5NiAtOCAwDQp2IC0yOTYgMCAwDQp2IC0yODggMCAwDQp2IC0yOTYgLTggMA0KdiAtMzA0IC04IDANCnYgLTMwNCAwIDANCnYgLTI5NiAwIDANCnYgLTMwNCAtOCAwDQp2IC0zMTIgLTggMA0KdiAtMzEyIDAgMA0KdiAtMzA0IDAgMA0KdiAtMzEyIC04IDANCnYgLTMyMCAtOCAwDQp2IC0zMjAgMCAwDQp2IC0zMTIgMCAwDQp2IC0zMjAgLTggMA0KdiAtMzI4IC04IDANCnYgLTMyOCAwIDANCnYgLTMyMCAwIDANCnYgLTMyOCAtOCAwDQp2IC0zMzYgLTggMA0KdiAtMzM2IDAgMA0KdiAtMzI4IDAgMA0KdiAtMzM2IC04IDANCnYgLTM0NCAtOCAwDQp2IC0zNDQgMCAwDQp2IC0zMzYgMCAwDQp2IC0zNDQgLTggMA0KdiAtMzUyIC04IDANCnYgLTM1MiAwIDANCnYgLTM0NCAwIDANCnYgLTM1MiAtOCAwDQp2IC0zNjAgLTggMA0KdiAtMzYwIDAgMA0KdiAtMzUyIDAgMA0KdiAtMzYwIC04IDANCnYgLTM2OCAtOCAwDQp2IC0zNjggMCAwDQp2IC0zNjAgMCAwDQp2IC0zNjggLTggMA0KdiAtMzc2IC04IDANCnYgLTM3NiAwIDANCnYgLTM2OCAwIDANCnYgLTM3NiAtOCAwDQp2IC0zODQgLTggMA0KdiAtMzg0IDAgMA0KdiAtMzc2IDAgMA0KdiAtMzg0IC04IDANCnYgLTM5MiAtOCAwDQp2IC0zOTIgMCAwDQp2IC0zODQgMCAwDQp2IC0zOTIgLTggMA0KdiAtNDAwIC04IDANCnYgLTQwMCAwIDANCnYgLTM5MiAwIDANCnYgLTQwMCAtOCAwDQp2IC00MDggLTggMA0KdiAtNDA4IDAgMA0KdiAtNDAwIDAgMA0KdiAtNDA4IC04IDANCnYgLTQxNiAtOCAwDQp2IC00MTYgMCAwDQp2IC00MDggMCAwDQp2IC00MTYgLTggMA0KdiAtNDI0IC04IDANCnYgLTQyNCAwIDANCnYgLTQxNiAwIDANCnYgLTQyNCAtOCAwDQp2IC00MzIgLTggMA0KdiAtNDMyIDAgMA0KdiAtNDI0IDAgMA0KdiAtNDMyIC04IDANCnYgLTQ0MCAtOCAwDQp2IC00NDAgMCAwDQp2IC00MzIgMCAwDQp2IC00NDAgLTggMA0KdiAtNDQ4IC04IDANCnYgLTQ0OCAwIDANCnYgLTQ0MCAwIDANCnYgLTQ0OCAtOCAwDQp2IC00NTYgLTggMA0KdiAtNDU2IDAgMA0KdiAtNDQ4IDAgMA0KdiAtNDU2IC04IDANCnYgLTQ2NCAtOCAwDQp2IC00NjQgMCAwDQp2IC00NTYgMCAwDQp2IC00NjQgLTggMA0KdiAtNDcyIC04IDANCnYgLTQ3MiAwIDANCnYgLTQ2NCAwIDANCnYgLTQ3MiAtOCAwDQp2IC00ODAgLTggMA0KdiAtNDgwIDAgMA0KdiAtNDcyIDAgMA0KdiAtNDgwIC04IDANCnYgLTQ4OCAtOCAwDQp2IC00ODggMCAwDQp2IC00ODAgMCAwDQp2IDAgLTE2IDANCnYgLTggLTE2IDANCnYgLTggLTggMA0KdiAwIC04IDANCnYgLTQ4MCAtMTYgMA0KdiAtNDg4IC0xNiAwDQp2IC00ODggLTggMA0KdiAtNDgwIC04IDANCnYgMCAtMjQgMA0KdiAtOCAtMjQgMA0KdiAtOCAtMTYgMA0KdiAwIC0xNiAwDQp2IC00ODAgLTI0IDANCnYgLTQ4OCAtMjQgMA0KdiAtNDg4IC0xNiAwDQp2IC00ODAgLTE2IDANCnYgMCAtMzIgMA0KdiAtOCAtMzIgMA0KdiAtOCAtMjQgMA0KdiAwIC0yNCAwDQp2IC00ODAgLTMyIDANCnYgLTQ4OCAtMzIgMA0KdiAtNDg4IC0yNCAwDQp2IC00ODAgLTI0IDANCnYgMCAtNDAgMA0KdiAtOCAtNDAgMA0KdiAtOCAtMzIgMA0KdiAwIC0zMiAwDQp2IC00ODAgLTQwIDANCnYgLTQ4OCAtNDAgMA0KdiAtNDg4IC0zMiAwDQp2IC00ODAgLTMyIDANCnYgMCAtNDggMA0KdiAtOCAtNDggMA0KdiAtOCAtNDAgMA0KdiAwIC00MCAwDQp2IC00ODAgLTQ4IDANCnYgLTQ4OCAtNDggMA0KdiAtNDg4IC00MCAwDQp2IC00ODAgLTQwIDANCnYgMCAtNTYgMA0KdiAtOCAtNTYgMA0KdiAtOCAtNDggMA0KdiAwIC00OCAwDQp2IC00ODAgLTU2IDANCnYgLTQ4OCAtNTYgMA0KdiAtNDg4IC00OCAwDQp2IC00ODAgLTQ4IDANCnYgMCAtNjQgMA0KdiAtOCAtNjQgMA0KdiAtOCAtNTYgMA0KdiAwIC01NiAwDQp2IC00ODAgLTY0IDANCnYgLTQ4OCAtNjQgMA0KdiAtNDg4IC01NiAwDQp2IC00ODAgLTU2IDANCnYgMCAtNzIgMA0KdiAtOCAtNzIgMA0KdiAtOCAtNjQgMA0KdiAwIC02NCAwDQp2IC00ODAgLTcyIDANCnYgLTQ4OCAtNzIgMA0KdiAtNDg4IC02NCAwDQp2IC00ODAgLTY0IDANCnYgMCAtODAgMA0KdiAtOCAtODAgMA0KdiAtOCAtNzIgMA0KdiAwIC03MiAwDQp2IC00ODAgLTgwIDANCnYgLTQ4OCAtODAgMA0KdiAtNDg4IC03MiAwDQp2IC00ODAgLTcyIDANCnYgMCAtODggMA0KdiAtOCAtODggMA0KdiAtOCAtODAgMA0KdiAwIC04MCAwDQp2IC00ODAgLTg4IDANCnYgLTQ4OCAtODggMA0KdiAtNDg4IC04MCAwDQp2IC00ODAgLTgwIDANCnYgMCAtOTYgMA0KdiAtOCAtOTYgMA0KdiAtOCAtODggMA0KdiAwIC04OCAwDQp2IC00ODAgLTk2IDANCnYgLTQ4OCAtOTYgMA0KdiAtNDg4IC04OCAwDQp2IC00ODAgLTg4IDANCnYgMCAtMTA0IDANCnYgLTggLTEwNCAwDQp2IC04IC05NiAwDQp2IDAgLTk2IDANCnYgLTQ4MCAtMTA0IDANCnYgLTQ4OCAtMTA0IDANCnYgLTQ4OCAtOTYgMA0KdiAtNDgwIC05NiAwDQp2IDAgLTExMiAwDQp2IC04IC0xMTIgMA0KdiAtOCAtMTA0IDANCnYgMCAtMTA0IDANCnYgLTQ4MCAtMTEyIDANCnYgLTQ4OCAtMTEyIDANCnYgLTQ4OCAtMTA0IDANCnYgLTQ4MCAtMTA0IDANCnYgMCAtMTIwIDANCnYgLTggLTEyMCAwDQp2IC04IC0xMTIgMA0KdiAwIC0xMTIgMA0KdiAtNDgwIC0xMjAgMA0KdiAtNDg4IC0xMjAgMA0KdiAtNDg4IC0xMTIgMA0KdiAtNDgwIC0xMTIgMA0KdiAwIC0xMjggMA0KdiAtOCAtMTI4IDANCnYgLTggLTEyMCAwDQp2IDAgLTEyMCAwDQp2IC00ODAgLTEyOCAwDQp2IC00ODggLTEyOCAwDQp2IC00ODggLTEyMCAwDQp2IC00ODAgLTEyMCAwDQp2IDAgLTEzNiAwDQp2IC04IC0xMzYgMA0KdiAtOCAtMTI4IDANCnYgMCAtMTI4IDANCnYgLTQ4MCAtMTM2IDANCnYgLTQ4OCAtMTM2IDANCnYgLTQ4OCAtMTI4IDANCnYgLTQ4MCAtMTI4IDANCnYgMCAtMTQ0IDANCnYgLTggLTE0NCAwDQp2IC04IC0xMzYgMA0KdiAwIC0xMzYgMA0KdiAtNDgwIC0xNDQgMA0KdiAtNDg4IC0xNDQgMA0KdiAtNDg4IC0xMzYgMA0KdiAtNDgwIC0xMzYgMA0KdiAwIC0xNTIgMA0KdiAtOCAtMTUyIDANCnYgLTggLTE0NCAwDQp2IDAgLTE0NCAwDQp2IC00ODAgLTE1MiAwDQp2IC00ODggLTE1MiAwDQp2IC00ODggLTE0NCAwDQp2IC00ODAgLTE0NCAwDQp2IDAgLTE2MCAwDQp2IC04IC0xNjAgMA0KdiAtOCAtMTUyIDANCnYgMCAtMTUyIDANCnYgLTQ4MCAtMTYwIDANCnYgLTQ4OCAtMTYwIDANCnYgLTQ4OCAtMTUyIDANCnYgLTQ4MCAtMTUyIDANCnYgMCAtMTY4IDANCnYgLTggLTE2OCAwDQp2IC04IC0xNjAgMA0KdiAwIC0xNjAgMA0KdiAtNDgwIC0xNjggMA0KdiAtNDg4IC0xNjggMA0KdiAtNDg4IC0xNjAgMA0KdiAtNDgwIC0xNjAgMA0KdiAwIC0xNzYgMA0KdiAtOCAtMTc2IDANCnYgLTggLTE2OCAwDQp2IDAgLTE2OCAwDQp2IC00ODAgLTE3NiAwDQp2IC00ODggLTE3NiAwDQp2IC00ODggLTE2OCAwDQp2IC00ODAgLTE2OCAwDQp2IDAgLTE4NCAwDQp2IC04IC0xODQgMA0KdiAtOCAtMTc2IDANCnYgMCAtMTc2IDANCnYgLTQ4MCAtMTg0IDANCnYgLTQ4OCAtMTg0IDANCnYgLTQ4OCAtMTc2IDANCnYgLTQ4MCAtMTc2IDANCnYgMCAtMTkyIDANCnYgLTggLTE5MiAwDQp2IC04IC0xODQgMA0KdiAwIC0xODQgMA0KdiAtNDgwIC0xOTIgMA0KdiAtNDg4IC0xOTIgMA0KdiAtNDg4IC0xODQgMA0KdiAtNDgwIC0xODQgMA0KdiAwIC0yMDAgMA0KdiAtOCAtMjAwIDANCnYgLTggLTE5MiAwDQp2IDAgLTE5MiAwDQp2IC00ODAgLTIwMCAwDQp2IC00ODggLTIwMCAwDQp2IC00ODggLTE5MiAwDQp2IC00ODAgLTE5MiAwDQp2IDAgLTIwOCAwDQp2IC04IC0yMDggMA0KdiAtOCAtMjAwIDANCnYgMCAtMjAwIDANCnYgLTQ4MCAtMjA4IDANCnYgLTQ4OCAtMjA4IDANCnYgLTQ4OCAtMjAwIDANCnYgLTQ4MCAtMjAwIDANCnYgMCAtMjE2IDANCnYgLTggLTIxNiAwDQp2IC04IC0yMDggMA0KdiAwIC0yMDggMA0KdiAtNDgwIC0yMTYgMA0KdiAtNDg4IC0yMTYgMA0KdiAtNDg4IC0yMDggMA0KdiAtNDgwIC0yMDggMA0KdiAwIC0yMjQgMA0KdiAtOCAtMjI0IDANCnYgLTggLTIxNiAwDQp2IDAgLTIxNiAwDQp2IC00ODAgLTIyNCAwDQp2IC00ODggLTIyNCAwDQp2IC00ODggLTIxNiAwDQp2IC00ODAgLTIxNiAwDQoNCiMgVGV4dHVyZSBjb29yaWRpbmF0ZXMgKENvdW50ID0gNikNCnZ0IDAuMTI1IDAuNzUNCnZ0IDAuMjUgMC43NQ0KdnQgMC4yNSAwLjg3NQ0KdnQgMC4xMjUgMC44NzUNCnZ0IDAuMTI1IDAuNjI1DQp2dCAwLjI1IDAuNjI1DQoNCiMgTm9ybWFsDQp2biAwIDAgLTENCg0KIyBNZXNoIGRlc2NyaXB0aW9uDQpnIDFfM18yM19tZXNoXzAwMDINCg0KIyBGYWNlcw0KZiAxLzEvMSAyLzIvMSAzLzMvMSA0LzQvMQpmIDUvMS8xIDYvMi8xIDcvMy8xIDgvNC8xCmYgOS8xLzEgMTAvMi8xIDExLzMvMSAxMi80LzEKZiAxMy8xLzEgMTQvMi8xIDE1LzMvMSAxNi80LzEKZiAxNy8xLzEgMTgvMi8xIDE5LzMvMSAyMC80LzEKZiAyMS8xLzEgMjIvMi8xIDIzLzMvMSAyNC80LzEKZiAyNS8xLzEgMjYvMi8xIDI3LzMvMSAyOC80LzEKZiAyOS8xLzEgMzAvMi8xIDMxLzMvMSAzMi80LzEKZiAzMy8xLzEgMzQvMi8xIDM1LzMvMSAzNi80LzEKZiAzNy8xLzEgMzgvMi8xIDM5LzMvMSA0MC80LzEKZiA0MS8xLzEgNDIvMi8xIDQzLzMvMSA0NC80LzEKZiA0NS8xLzEgNDYvMi8xIDQ3LzMvMSA0OC80LzEKZiA0OS8xLzEgNTAvMi8xIDUxLzMvMSA1Mi80LzEKZiA1My8xLzEgNTQvMi8xIDU1LzMvMSA1Ni80LzEKZiA1Ny8xLzEgNTgvMi8xIDU5LzMvMSA2MC80LzEKZiA2MS8xLzEgNjIvMi8xIDYzLzMvMSA2NC80LzEKZiA2NS8xLzEgNjYvMi8xIDY3LzMvMSA2OC80LzEKZiA2OS8xLzEgNzAvMi8xIDcxLzMvMSA3Mi80LzEKZiA3My8xLzEgNzQvMi8xIDc1LzMvMSA3Ni80LzEKZiA3Ny8xLzEgNzgvMi8xIDc5LzMvMSA4MC80LzEKZiA4MS8xLzEgODIvMi8xIDgzLzMvMSA4NC80LzEKZiA4NS8xLzEgODYvMi8xIDg3LzMvMSA4OC80LzEKZiA4OS8xLzEgOTAvMi8xIDkxLzMvMSA5Mi80LzEKZiA5My8xLzEgOTQvMi8xIDk1LzMvMSA5Ni80LzEKZiA5Ny8xLzEgOTgvMi8xIDk5LzMvMSAxMDAvNC8xCmYgMTAxLzEvMSAxMDIvMi8xIDEwMy8zLzEgMTA0LzQvMQpmIDEwNS8xLzEgMTA2LzIvMSAxMDcvMy8xIDEwOC80LzEKZiAxMDkvMS8xIDExMC8yLzEgMTExLzMvMSAxMTIvNC8xCmYgMTEzLzEvMSAxMTQvMi8xIDExNS8zLzEgMTE2LzQvMQpmIDExNy8xLzEgMTE4LzIvMSAxMTkvMy8xIDEyMC80LzEKZiAxMjEvMS8xIDEyMi8yLzEgMTIzLzMvMSAxMjQvNC8xCmYgMTI1LzEvMSAxMjYvMi8xIDEyNy8zLzEgMTI4LzQvMQpmIDEyOS8xLzEgMTMwLzIvMSAxMzEvMy8xIDEzMi80LzEKZiAxMzMvMS8xIDEzNC8yLzEgMTM1LzMvMSAxMzYvNC8xCmYgMTM3LzEvMSAxMzgvMi8xIDEzOS8zLzEgMTQwLzQvMQpmIDE0MS8xLzEgMTQyLzIvMSAxNDMvMy8xIDE0NC80LzEKZiAxNDUvMS8xIDE0Ni8yLzEgMTQ3LzMvMSAxNDgvNC8xCmYgMTQ5LzEvMSAxNTAvMi8xIDE1MS8zLzEgMTUyLzQvMQpmIDE1My8xLzEgMTU0LzIvMSAxNTUvMy8xIDE1Ni80LzEKZiAxNTcvMS8xIDE1OC8yLzEgMTU5LzMvMSAxNjAvNC8xCmYgMTYxLzEvMSAxNjIvMi8xIDE2My8zLzEgMTY0LzQvMQpmIDE2NS8xLzEgMTY2LzIvMSAxNjcvMy8xIDE2OC80LzEKZiAxNjkvMS8xIDE3MC8yLzEgMTcxLzMvMSAxNzIvNC8xCmYgMTczLzEvMSAxNzQvMi8xIDE3NS8zLzEgMTc2LzQvMQpmIDE3Ny8xLzEgMTc4LzIvMSAxNzkvMy8xIDE4MC80LzEKZiAxODEvMS8xIDE4Mi8yLzEgMTgzLzMvMSAxODQvNC8xCmYgMTg1LzEvMSAxODYvMi8xIDE4Ny8zLzEgMTg4LzQvMQpmIDE4OS8xLzEgMTkwLzIvMSAxOTEvMy8xIDE5Mi80LzEKZiAxOTMvMS8xIDE5NC8yLzEgMTk1LzMvMSAxOTYvNC8xCmYgMTk3LzEvMSAxOTgvMi8xIDE5OS8zLzEgMjAwLzQvMQpmIDIwMS8xLzEgMjAyLzIvMSAyMDMvMy8xIDIwNC80LzEKZiAyMDUvMS8xIDIwNi8yLzEgMjA3LzMvMSAyMDgvNC8xCmYgMjA5LzEvMSAyMTAvMi8xIDIxMS8zLzEgMjEyLzQvMQpmIDIxMy8xLzEgMjE0LzIvMSAyMTUvMy8xIDIxNi80LzEKZiAyMTcvMS8xIDIxOC8yLzEgMjE5LzMvMSAyMjAvNC8xCmYgMjIxLzEvMSAyMjIvMi8xIDIyMy8zLzEgMjI0LzQvMQpmIDIyNS8xLzEgMjI2LzIvMSAyMjcvMy8xIDIyOC80LzEKZiAyMjkvMS8xIDIzMC8yLzEgMjMxLzMvMSAyMzIvNC8xCmYgMjMzLzEvMSAyMzQvMi8xIDIzNS8zLzEgMjM2LzQvMQpmIDIzNy8xLzEgMjM4LzIvMSAyMzkvMy8xIDI0MC80LzEKZiAyNDEvMS8xIDI0Mi8yLzEgMjQzLzMvMSAyNDQvNC8xCmYgMjQ1LzEvMSAyNDYvMi8xIDI0Ny8zLzEgMjQ4LzQvMQpmIDI0OS8xLzEgMjUwLzIvMSAyNTEvMy8xIDI1Mi80LzEKZiAyNTMvMS8xIDI1NC8yLzEgMjU1LzMvMSAyNTYvNC8xCmYgMjU3LzEvMSAyNTgvMi8xIDI1OS8zLzEgMjYwLzQvMQpmIDI2MS8xLzEgMjYyLzIvMSAyNjMvMy8xIDI2NC80LzEKZiAyNjUvMS8xIDI2Ni8yLzEgMjY3LzMvMSAyNjgvNC8xCmYgMjY5LzEvMSAyNzAvMi8xIDI3MS8zLzEgMjcyLzQvMQpmIDI3My8xLzEgMjc0LzIvMSAyNzUvMy8xIDI3Ni80LzEKZiAyNzcvMS8xIDI3OC8yLzEgMjc5LzMvMSAyODAvNC8xCmYgMjgxLzEvMSAyODIvMi8xIDI4My8zLzEgMjg0LzQvMQpmIDI4NS8xLzEgMjg2LzIvMSAyODcvMy8xIDI4OC80LzEKZiAyODkvMS8xIDI5MC8yLzEgMjkxLzMvMSAyOTIvNC8xCmYgMjkzLzEvMSAyOTQvMi8xIDI5NS8zLzEgMjk2LzQvMQpmIDI5Ny8xLzEgMjk4LzIvMSAyOTkvMy8xIDMwMC80LzEKZiAzMDEvMS8xIDMwMi8yLzEgMzAzLzMvMSAzMDQvNC8xCmYgMzA1LzEvMSAzMDYvMi8xIDMwNy8zLzEgMzA4LzQvMQpmIDMwOS8xLzEgMzEwLzIvMSAzMTEvMy8xIDMxMi80LzEKZiAzMTMvMS8xIDMxNC8yLzEgMzE1LzMvMSAzMTYvNC8xCmYgMzE3LzEvMSAzMTgvMi8xIDMxOS8zLzEgMzIwLzQvMQpmIDMyMS8xLzEgMzIyLzIvMSAzMjMvMy8xIDMyNC80LzEKZiAzMjUvMS8xIDMyNi8yLzEgMzI3LzMvMSAzMjgvNC8xCmYgMzI5LzEvMSAzMzAvMi8xIDMzMS8zLzEgMzMyLzQvMQpmIDMzMy8xLzEgMzM0LzIvMSAzMzUvMy8xIDMzNi80LzEKZiAzMzcvMS8xIDMzOC8yLzEgMzM5LzMvMSAzNDAvNC8xCmYgMzQxLzEvMSAzNDIvMi8xIDM0My8zLzEgMzQ0LzQvMQpmIDM0NS8xLzEgMzQ2LzIvMSAzNDcvMy8xIDM0OC80LzEKZiAzNDkvMS8xIDM1MC8yLzEgMzUxLzMvMSAzNTIvNC8xCmYgMzUzLzEvMSAzNTQvMi8xIDM1NS8zLzEgMzU2LzQvMQpmIDM1Ny8xLzEgMzU4LzIvMSAzNTkvMy8xIDM2MC80LzEKZiAzNjEvMS8xIDM2Mi8yLzEgMzYzLzMvMSAzNjQvNC8xCmYgMzY1LzEvMSAzNjYvMi8xIDM2Ny8zLzEgMzY4LzQvMQpmIDM2OS8xLzEgMzcwLzIvMSAzNzEvMy8xIDM3Mi80LzEKZiAzNzMvMS8xIDM3NC8yLzEgMzc1LzMvMSAzNzYvNC8xCmYgMzc3LzEvMSAzNzgvMi8xIDM3OS8zLzEgMzgwLzQvMQpmIDM4MS8xLzEgMzgyLzIvMSAzODMvMy8xIDM4NC80LzEKZiAzODUvMS8xIDM4Ni8yLzEgMzg3LzMvMSAzODgvNC8xCmYgMzg5LzEvMSAzOTAvMi8xIDM5MS8zLzEgMzkyLzQvMQpmIDM5My8xLzEgMzk0LzIvMSAzOTUvMy8xIDM5Ni80LzEKZiAzOTcvMS8xIDM5OC8yLzEgMzk5LzMvMSA0MDAvNC8xCmYgNDAxLzEvMSA0MDIvMi8xIDQwMy8zLzEgNDA0LzQvMQpmIDQwNS8xLzEgNDA2LzIvMSA0MDcvMy8xIDQwOC80LzEKZiA0MDkvMS8xIDQxMC8yLzEgNDExLzMvMSA0MTIvNC8xCmYgNDEzLzEvMSA0MTQvMi8xIDQxNS8zLzEgNDE2LzQvMQpmIDQxNy8xLzEgNDE4LzIvMSA0MTkvMy8xIDQyMC80LzEKZiA0MjEvMS8xIDQyMi8yLzEgNDIzLzMvMSA0MjQvNC8xCmYgNDI1LzEvMSA0MjYvMi8xIDQyNy8zLzEgNDI4LzQvMQpmIDQyOS8xLzEgNDMwLzIvMSA0MzEvMy8xIDQzMi80LzEKZiA0MzMvMS8xIDQzNC8yLzEgNDM1LzMvMSA0MzYvNC8xCmYgNDM3LzEvMSA0MzgvMi8xIDQzOS8zLzEgNDQwLzQvMQpmIDQ0MS8xLzEgNDQyLzIvMSA0NDMvMy8xIDQ0NC80LzEKZiA0NDUvMS8xIDQ0Ni8yLzEgNDQ3LzMvMSA0NDgvNC8xCmYgNDQ5LzEvMSA0NTAvMi8xIDQ1MS8zLzEgNDUyLzQvMQpmIDQ1My81LzEgNDU0LzYvMSA0NTUvMi8xIDQ1Ni8xLzEKZiA0NTcvNS8xIDQ1OC82LzEgNDU5LzIvMSA0NjAvMS8xCg0K</ImportMesh>
+  <ImportTexture filename="tileset_revamp_pear8.png">iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAD3UlEQVR42u2dO1LDQBAFNyYnJuQGzrgSxf0Tk1AExjZa7Xze7LSrJuXJ6i6jlVT7xsfn17X7jKSPQv5AgBwIKvkIkABBKR8BgiGo5SNAIATFfAQIgqCajwABEJTzx/v75dp9PCE8+9sK+QjgCOEI/Ox8BHCCMAM/Mx8BHCCcgZ+VjwDGEFbgZ+QjgCEEC/jR+QhgBMESfmQ+AhhA8IAflY8AixA84UfkI4AThCr5COAAoVI+AhhDqJaPAIYQKuYjgBGEqvkIYAChcj4CNB8EQABOAgIwCMAgAIMADAIwCMAgAIMADAIwCMAgAIMADAIwCMAgAIMADAIwCMAgALODAK8vb9fOgwDNBciUQCEfAZIgqOQjQAIEpfz2O4VGQ8iW8DZvsB3sGFEQ/pz8n09qPgLEQHgEPz0fAfwh/Ac/NR8BfCEchZ+WjwB+EGbhp+QjgA+Es/DD89vfCnWAsAo/NB8BbCFYwQ/LRwA7CNbwQ/IRwAaCF3z3fARYh+AN3zW/+wOgVQhR8N3yEcAOQlT1q2k+AthAiC5/NstHgHUIWfXvJvkK261aHX+V6niVj0Rz6CqImd20EeFOfbzi1utWv2CIcKA9XFGAGRCrGR1EkC6PXgVhnbWTCIe+WwUBnoHwzqwowtR3qiTAPRDR2coinPouSs0bZ0BkZSuJsNIrKPUwqGI5Y6YIFoWSkk8DKxU0Zohg2SQq/Ti4QkljpAgeFbIl3gdQLmqMEIHu4Ccw1C9UV0SIKK0u+UaQUmGjhwiRbeWlXwlTKG20FCGjpp49ggREyAA/LYBbf73oxVGkCJnH7/IwxeutXEXwkSJIbBNn3l+/CXhPEeT2CTS9Ct0MvKUI0htFmvXXbwpe6fa22yrAZBmyOXilu5qSy8Au4JVuZskJ0Ak8m0ULvQPAFBMAYE0FAFRTAQDUVADABPcFZO5XD3iRwois/eoBL9QYkrFfPRCKXAOwVuciEPisAi7AZxl4AT73AS4y8LmQLP4+ACuK5ncCPVq4ANtcAERoJMCRzS4BvbkAR3c9BfjmAiACAiACAiDCzAX0UDgIbwEQ4fHKaSgdjLcA3UW4u11+9Rs5nvUrO4OXEYD7CDngf4smEGC/X4SplhQE2Odfw6l6HASof42w1ItU/eKm830Ek0Ks6hc3EQKoiWDahNb92X+l5aNLBV73Z/4V7iO41tVWX85kCuAtQkhPcfXljIIA1iKEFlRXX8cqCbAqQkozefV1rKIAsyKkVtJLP6gIOP6IipeMYuupg1ODHyVwdPO3FPjbg5J4Nh30C5Z2sv8RYWQfTBb8qH9hMif95txnHsM3wEBeSGnuvM8AAAAASUVORK5CYII=</ImportTexture>
+</Tiled2Unity>

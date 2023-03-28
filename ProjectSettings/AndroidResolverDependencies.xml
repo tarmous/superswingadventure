@@ -1,0 +1,16 @@
+<dependencies>
+  <packages>
+    <package>com.android.support:appcompat-v7:27.1.1</package>
+    <package>com.android.support:recyclerview-v7:26.1.0</package>
+    <package>com.android.support:support-v4:26.1.0</package>
+    <package>com.google.android.exoplayer:exoplayer:2.8.4</package>
+    <package>com.google.android.gms:play-services-ads:15.0.1</package>
+    <package>com.google.android.gms:play-services-ads-identifier:15.0.1</package>
+    <package>com.google.android.gms:play-services-basement:15.0.1</package>
+    <package>com.google.android.gms:play-services-location:15.0.1</package>
+    <package>com.google.games:gpgs-plugin-support:0.9.64</package>
+  </packages>
+  <files>
+    <file>Assets/GooglePlayGames/Editor/m2repository/com/google/games/gpgs-plugin-support/0.9.64/gpgs-plugin-support-0.9.64.aar</file>
+  </files>
+</dependencies>
